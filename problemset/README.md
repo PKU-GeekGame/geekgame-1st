@@ -123,7 +123,7 @@
 
 麻里奈小姐不负众望，通过量子波动算法截获了一段 <span class="you-name">You</span> 酱访问境外服务器的流量记录。现在她想让你来帮忙分析其中的端倪。
 
-<b>点击 “打开/下载题目” 下载题目附件</b> <a href="/faq" target="_blank">（FAQ: 常用工具）</a>
+<b>点击 “打开/下载题目” 下载题目附件</b> <a href="FAQ.md" target="_blank">（FAQ: 常用工具）</a>
 
 <i>提示：You酱具体干了什么？</i>
 
@@ -147,7 +147,7 @@
 
 小雨决定找出歌里藏着的三个Flag。
 
-<b>点击 “打开/下载题目” 下载题目附件</b> <a href="/faq" target="_blank">（FAQ: 常用工具）</a>
+<b>点击 “打开/下载题目” 下载题目附件</b> <a href="FAQ.md" target="_blank">（FAQ: 常用工具）</a>
 
 <i>补充说明：得到的每个密码或提示最多只会用到一次</i>
 
@@ -155,7 +155,7 @@
 >
 > 1. 使用某些软件可以查看 MP3 的 metadata
 >
-> 2. <a href="https://geekgame.pku.edu.cn/faq/" target="_blank">【FAQ：常用工具】</a>里的虚拟化软件在这道题里真的有用
+> 2. <a href="FAQ.md" target="_blank">【FAQ：常用工具】</a>里的虚拟化软件在这道题里真的有用
 >
 > 3. 解题过程中得到的文本中可能包含提示
 
@@ -175,7 +175,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <b>你可以 <a href="attachment/prob02_dbkw1hg2nj6qraif.zip">下载本题的程序</a></b>
 
-<b>点击 “打开/下载题目” 进入题目网页</b> <a href="/faq" target="_blank">（FAQ: 关于 Web 题目环境）</a>
+<b>点击 “打开/下载题目” 进入题目网页</b> <a href="FAQ.md" target="_blank">（FAQ: 关于 Web 题目环境）</a>
 
 > <b>第二阶段提示</b>
 >
@@ -191,7 +191,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <span class="you-name">You</span> 酱记得很清楚，系统上线之前应该关闭调试开关，设置正确的权限，并且用 uwsgi 代替 Flask 的自带服务器。Flag 文件位于磁盘的根目录，即 <code>/flag</code>。
 
-<b>点击 “打开/下载题目” 进入题目网页</b> <a href="/faq" target="_blank">（FAQ: 关于 Web 题目环境）</a>
+<b>点击 “打开/下载题目” 进入题目网页</b> <a href="FAQ.md" target="_blank">（FAQ: 关于 Web 题目环境）</a>
 
 <i>补充说明：初次访问时可能遇到 502 错误，这是因为后端尚未启动完成，等几秒后刷新即可</i>
 
@@ -239,7 +239,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 她在自己保存 Flag 的服务器上部署了这个服务，并发给你了一个链接，想请你体验一下。
 
-<b>点击 “打开/下载题目” 进入题目网页</b> <a href="/faq" target="_blank">（FAQ: 关于 Web 题目环境）</a>
+<b>点击 “打开/下载题目” 进入题目网页</b> <a href="FAQ.md" target="_blank">（FAQ: 关于 Web 题目环境）</a>
 
 > <b>第二阶段提示</b>
 >
@@ -295,7 +295,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <b>你可以 <a href="attachment/prob14_1inc1ou701mua7t5.zip">下载本题的程序</a></b>
 
-<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob14.geekgame.pku.edu.cn 10014</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
+<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob14.geekgame.pku.edu.cn 10014</code> 手动连接到题目</b> <a href="FAQ.md" target="_blank">（FAQ: 关于终端交互）</a>
 
 > <b>第二阶段提示</b>
 >
@@ -311,7 +311,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <b>你可以 <a href="attachment/prob12_fqqec58x9mp3fb8n.zip">下载本题的程序</a></b>
 
-<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob12.geekgame.pku.edu.cn 10012</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
+<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob12.geekgame.pku.edu.cn 10012</code> 手动连接到题目</b> <a href="FAQ.md" target="_blank">（FAQ: 关于终端交互）</a>
 
 > <b>第二阶段提示</b>
 >
@@ -342,7 +342,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <b>你可以 <a href="attachment/prob13_weqjjyql4vstxmzn.zip">下载本题的程序</a></b>
 
-<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob13.geekgame.pku.edu.cn 10013</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
+<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob13.geekgame.pku.edu.cn 10013</code> 手动连接到题目</b> <a href="FAQ.md" target="_blank">（FAQ: 关于终端交互）</a>
 
 > <b>第二阶段提示</b>
 >
@@ -394,7 +394,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <b>你可以 <a href="attachment/prob08_jd7sj1fvdmofhhvx.zip">下载本题的程序</a></b>
 
-<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob08.geekgame.pku.edu.cn 10008</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
+<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob08.geekgame.pku.edu.cn 10008</code> 手动连接到题目</b> <a href="FAQ.md" target="_blank">（FAQ: 关于终端交互）</a>
 
 > <b>第二阶段提示</b>
 >
@@ -419,7 +419,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <b>你可以 <a href="attachment/prob09_3fqg6drlsjniou2w.zip">下载本题的程序</a></b>
 
-<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob09.geekgame.pku.edu.cn 10009</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
+<b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob09.geekgame.pku.edu.cn 10009</code> 手动连接到题目</b> <a href="FAQ.md" target="_blank">（FAQ: 关于终端交互）</a>
 
 <i>提示：困难模式对应 Flag 1，简单模式对应 Flag 2。</i>
 
