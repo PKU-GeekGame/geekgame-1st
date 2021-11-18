@@ -1,0 +1,13 @@
+{
+  "name": "demo-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node --max-http-header-size=32768 start.js"
+  },
+  "author": "You",
+  "license": "WTFPL",
+  "dependencies": {
+    "jsonaas-backend": "https://geekgame.pku.edu.cn/static/super-secret-jsonaas-backend-1.0.1.tgz"
+  }
+}

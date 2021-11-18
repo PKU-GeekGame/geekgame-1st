@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "question_html": "北京大学燕园校区有理科 1 号楼到理科 X 号楼，但没有理科 (X+1) 号及之后的楼。X 是？",
+    "answer_validator": "^\\d+$",
+    "answer": ["5"]
+  },
+  {
+    "id": "2",
+    "question_html": "上一届（第零届）比赛的总注册人数有多少？",
+    "answer_validator": "^\\d+$",
+    "answer": ["407"]
+  },
+  {
+    "id": "3",
+    "question_html": "geekgame.pku.edu.cn 的 HTTPS 证书曾有一次忘记续期了，发生过期的时间是？",
+    "answer_validator": "^2021-\\d\\d-\\d\\dT\\d\\d:\\d\\d:\\d3\\+08:00$",
+    "answer": ["2021-07-11T08:49:53+08:00"]
+  },
+  {
+    "id": "4",
+    "question_html": "2020 年 DEFCON CTF 资格赛签到题的 flag 是？",
+    "answer_validator": "^.+{.+}$",
+    "answer": ["OOO{this_is_the_welcome_flag}"]
+  },
+  {
+    "id": "5",
+    "question_html": "在大小为 672328094 * 386900246 的方形棋盘上放 3 枚（相同的）皇后且它们互不攻击，有几种方法？",
+    "answer_validator": "^\\d+$",
+    "answer": ["2933523260166137923998409309647057493882806525577536"]
+  },
+  {
+    "id": "6",
+    "question_html": "上一届（第零届）比赛的“小北问答1202”题目会把所有选手提交的答案存到 SQLite 数据库的一个表中，这个表名叫？",
+    "answer_validator": "^[a-z]+$",
+    "answer": ["submits"]
+  },
+  {
+    "id": "7",
+    "question_html": "国际互联网由许多个自治系统（AS）组成。北京大学有一个自己的自治系统，它的编号是？",
+    "answer_validator": "^AS\\d+$",
+    "answer": ["AS59201"]
+  },
+  {
+    "id": "8",
+    "question_html": "截止到 2021 年 6 月 1 日，完全由北京大学信息科学技术学院下属的中文名称最长的实验室叫？",
+    "answer_validator": "^.{15,30}(实验室|中心)$",
+    "answer": ["区域光纤通信网与新型光通信系统国家重点实验室"]
+  }
+]

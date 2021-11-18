@@ -1,0 +1,19 @@
+.captcha-self {
+    position: fixed;
+    text-align: center;
+    z-index: 1919810;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    pointer-events: none;
+}
+.captcha-self>.box {
+    width: 16em;
+    margin: auto;
+    pointer-events: initial;
+}
+.grecaptcha-badge {
+    visibility: hidden;
+    pointer-events: none;
+}

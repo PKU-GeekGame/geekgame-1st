@@ -1,0 +1,60 @@
+.clickable {
+    cursor: pointer;
+}
+
+.bg-img {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.root-dark-mode .bg-img {
+    opacity: .65;
+}
+
+.black-outline {
+    text-shadow: /* also change .flow-item-row-with-prompt:hover::before */
+        -1px -1px 0 rgba(0,0,0,.6),
+        0 -1px 0 rgba(0,0,0,.6),
+        1px -1px 0 rgba(0,0,0,.6),
+        -1px 1px 0 rgba(0,0,0,.6),
+        0 1px 0 rgba(0,0,0,.6),
+        1px 1px 0 rgba(0,0,0,.6);
+}
+
+.search-query-highlight {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.root-dark-mode .search-query-highlight {
+    border-bottom: 1px solid white;
+}
+
+.url-pid-link {
+    opacity: .6;
+}
+
+:root {
+    --coloredspan-bgcolor-light: white;
+    --coloredspan-bgcolor-dark: black;
+}
+
+.colored-span {
+    background-color: var(--coloredspan-bgcolor-light);
+}
+
+.root-dark-mode .colored-span {
+    background-color: var(--coloredspan-bgcolor-dark);
+}
+
+.icon+label {
+    font-size: .9em;
+    vertical-align: .05em;
+    cursor: inherit;
+    padding: 0 .1rem;
+    margin-left: .15rem;
+}

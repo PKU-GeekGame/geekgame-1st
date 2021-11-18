@@ -1,0 +1,27 @@
+http://192.168.17.128:28888/?token=9ecb7eb1f32b98121b4396d898cf38c5cb87236607b22d45
+https://github.com/ragibson/Steganography#WavSteg
+
+open live.bilibili.com/3
+
+start pcap
+
+create notebook
+in notebook:
+    run everything
+    close notebook
+in web:
+    open flag1.txt
+    open terminal
+in terminal:
+    ll
+    pip3 install stego-lsb
+    stegolsb wavsteg -h -i ki-ringtrain.wav -s flag2.txt -o flag2.wav -n 1
+    7za a flag2.7z flag2.wav -p"Wakarimasu! `date` `uname -nom` `nproc`"
+in web:
+    download flag2.7z
+    delete flag2.wav , .txt
+    open notebook
+
+stop pcap
+
+print flag1 and flag2

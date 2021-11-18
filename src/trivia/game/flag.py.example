@@ -1,0 +1,5 @@
+def checktoken(token):
+    return '1'
+    
+def getflag(token, idx) -> str:
+    return 'example{flag %d}'%(idx+1)

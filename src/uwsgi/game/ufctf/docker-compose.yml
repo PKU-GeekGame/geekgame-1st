@@ -1,0 +1,20 @@
+version: '3'
+services:
+ web:
+   build: .
+   volumes:
+    - ./files/static:/usr/src/ufctf/static
+    - ./files/media:/usr/src/ufctf/media
+   environment:
+    - SECRET_KEY=89687e6cff6b69ce05f363d197b41bf6
+    - LOG_PATH=/tmp/error.log
+
+ nginx:
+   image: nginx:1-alpine
+   volumes:
+    - ./files/config/nginx-ctf.conf:/etc/nginx/conf.d/nginx-ctf.conf
+    - ./files:/data
+   ports:
+    - "8080:8080"
+   depends_on:
+    - web

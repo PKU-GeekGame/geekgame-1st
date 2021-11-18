@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>小北问答</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>小北问答 <small>Remake</small></h1>
+        </div>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-info">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        {% if correct_count>0 %}
+            <div class="alert alert-success">
+                <p>您已经解出 <b>{{ correct_count }}</b> 题</p>
+                {% if flags %}
+                    <br>
+                    <ul>
+                        {% for flag in flags %}
+                            <li>{{ flag }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        <div class="well">
+            <p><b>说明：</b></p>
+            <p>
+                每次提交答案后，都需要冷却 1 小时才能进行下一次提交。
+                <br>
+                可以在页面底部看到每次回答的正确答案数量。
+            </p>
+        </div>
+
+        <form action="?" method="post" onsubmit="return confirm_submit()">
+            {% for p in problemset %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        #{{ p.id }}
+                    </div>
+                    <div class="panel-body">
+                        <blockquote>
+                            {{ p.question_html | safe }}
+                        </blockquote>
+
+                        <p>
+                            <a href="https://regexper.com/#{{ p.answer_validator|urlencode|replace("/", "%2F") }}" target="_blank" rel="noopener" tabindex="-1">
+                                答案格式：
+                                <code>{{ p.answer_validator }}</code>
+                            </a>
+                            <span id="status-badge-{{ loop.index0 }}" class="badge"></span>
+                        </p>
+                        <div class="input-group">
+                            <div class="input-group-addon">答案</div>
+                            <input type="text" class="form-control ggg-answer" placeholder="" name="{{ p.id }}" id="ggg-answer-{{ loop.index0 }}" maxlength="{{ max_length }}" onblur="check_answer({{ loop.index0 }})" {{ 'disabled' if remaining_waiting_s else '' }}>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            <button class="btn btn-primary btn-block btn-lg" type="submit" {{ 'disabled' if remaining_waiting_s else '' }}>
+                {% if remaining_waiting_s is not none %}
+                    {{ remaining_waiting_s }} 秒后可以再次提交
+                {% else %}
+                    提交答案
+                {% endif %}
+            </button>
+            <br>
+
+            {% if history %}
+                {% for submission in history %}
+                    <div class="well">
+                        <p><b>正确答案数量：</b>{{ submission.correct_count }}</p>
+                        <p><b>提交时间：</b>{{ submission.time_ts | time }}</p>
+                        <ul>
+                            {% for q in submission.questions %}
+                                <li>
+                                    &nbsp;<b>#{{ q.pid }}：</b>
+                                    <code>{{ q.answer }}</code>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+            <br>
+            <br>
+        </form>
+
+    </div>
+
+    <script>
+        function confirm_submit() {
+            if(!confirm("确定要提交吗？"))
+                return false;
+                
+            let empty_qs = Array.from(document.querySelectorAll(".ggg-answer")).filter((elem)=>elem.value==="");
+            if(empty_qs.length>0) {
+                if(!confirm("还有 "+empty_qs.length+" 题未做，仍要提交吗？继续提交将视为本次放弃这些题目。"))
+                    return false;
+            }
+                
+            return true;
+        }
+
+        function logger(event) {
+            return function() {
+                fetch('/log/'+event);
+            };
+        }
+
+        function check_answer(idx) {
+            var ans = document.querySelector(`#ggg-answer-${idx}`).value;
+            var container = document.querySelector(`#status-badge-${idx}`);
+
+            console.log('check answer', idx, ans);
+
+            fetch('/check_answer/'+idx+'?ans='+encodeURIComponent(ans))
+                .then(function(response) {
+                    return response.text();
+                })
+                .then(function(data) {
+                    if(data==='OK') {
+                        container.textContent = ans ? '（格式正确）' : '';
+                    } else {
+                        container.textContent = data+'！';
+                    }
+                });
+        }
+
+        window.addEventListener('focus', logger('focus'));
+        window.addEventListener('blur', logger('blur'));
+    </script>
+</body>
+</html>

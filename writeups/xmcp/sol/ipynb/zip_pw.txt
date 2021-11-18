@@ -1,0 +1,5 @@
+Wakarimasu! Sat 06 Nov 2021 03:44:15 PM CST you-kali-vm x86_64 GNU/Linux 8
+
+pcap time 4.1s is 15:43:12
+so that
+pcap time 67.1s is 15:44:15

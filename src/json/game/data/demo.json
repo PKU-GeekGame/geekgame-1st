@@ -1,0 +1,4 @@
+[
+    {"name": "Foo", "age": 24, "type": "student"},
+    {"name": "Bar", "age": 17, "type": "monster"}
+]

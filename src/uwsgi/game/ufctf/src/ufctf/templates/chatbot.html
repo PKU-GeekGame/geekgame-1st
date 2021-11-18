@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Chat Bot!</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<section class="content">
+    <form method="post">
+        <label for="server">Chatbot Address</label>
+        <input name="server" type="text" id="server" value="{{ data.server_addr }}" required>
+        <label for="content">Chat window (base64 encoded)</label>
+        <textarea name="content" rows="22" cols="80" id="content">{{ data.content }}</textarea>
+        <br />
+        <label for="response">Chatbot response (base64 encoded)</label>
+        <textarea name="response" rows="22" cols="80" id="response" readonly>{{ data.response }}</textarea>
+        <input type="submit" value="submit">
+    </form>
+    <p><a href="/module?name=chatlog&log=chat_log_{{ data.day }}">Click to view chat log</a></p>
+    <p><a href="/src">Open source</a></p>
+</section>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSONaaS</title>
+    <meta charset="utf-8">
+    <style>
+        .show-link::after {
+            content: attr(href);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to JSON-as-a-Service</h1>
+    <p><i>JSON file serving for Humans™</i></p>
+    <hr>
+
+    <h2>Feature</h2>
+    <p>Many people use JSON for configuration files, and serve them using a static HTTP server like nginx.</p>
+    <p>But sometimes the file format needs minor tweaks, e.g. the file says <code>{"data": ...}</code> but the client wants <code>{"response": ...}</code>.</p>
+    <p>Because this process is boring, we made JSONaaS to help you out :)</p>
+    <p>We also have premium features that can be unlocked upon purchase.</p>
+    <hr>
+
+    <h2>Demo</h2>
+    <p>We have made a public API demo for you.</p>
+    <p><a href="/api/demo.json" class="show-link"></a>: Serves the whole file <code>demo.json</code> on the server.</p>
+    <p><a href="/api/demo.json?in_path=1" class="show-link"></a>: Only serves the <code>[1]</code> part.</p>
+    <p><a href="/api/demo.json?in_path=1/name" class="show-link"></a>: Only serves the <code>[1].name</code> part.</p>
+    <p><a href="/api/demo.json?in_path=not/found" class="show-link"></a>: Silently deals with non-existent <code>in_path</code>.</p>
+    <p><a href="/api/demo.json?out_path=response/data" class="show-link"></a>: Serves the data in <code>{"response": {"data": ...}}</code> format.</p>
+    <p><a href="/api/demo.json?in_path=1&out_path=response/data" class="show-link"></a>: A combination of <code>in_path</code> and <code>out_path</code>.</p>
+    <p>If you have the premium license, you can set a global prefix:</p>
+    <p><a href="/prefix_settings?prefix=foo/bar" class="show-link"></a>.</p>
+    <p>This will automatically prepends <code>foo/bar/</code> to <code>in_path</code> and <code>out_path</code> in subsequent requests.</p>
+    <p>In the premium version, it is also possible to use numeric expressions in <code>in_path</code>.</p>
+    <p>To turn on this feature, visit <a href="/eval_settings?eval=on" class="show-link"></a>.</p>
+    <p>After eval is enabled, you can use <code>in_path</code> like <a href="/api/demo.json?in_path=(2-1)/name" class="show-link"></a>.</p>
+    <hr>
+
+    <h2>Installation</h2>
+    <p>JSONaaS is written in Node.js, and it serves JSON files in the <code>data</code> directory (and subdirectories).</p>
+    <p>The demo API is deployed in Docker like this:</p>
+    <pre><code>FROM node:14
+WORKDIR /usr/src/app
+COPY path/to/server_source_code .
+COPY path/to/demo.json data/
+RUN npm install
+EXPOSE 3001
+CMD [ "npm", "start" ]</code></pre>
+    <hr>
+
+    <h2>How to Get Premium</h2>
+    <p>We are sorry, but premium features are currently under development.</p>
+    <p>After our programmers finish their work, you can use Flag 1 as the activation code to unlock premium version.</p>
+    <p>The URL to redeem the activation code is: <a href="/activate?code=..." class="show-link"></a></p>
+    <hr>
+
+    <h2>Source Code</h2>
+    <p>Source code is our top secret, so we didn't publish it. Contact sales department for an installable package.</p>
+    <p>License: WTFPL</p>
+</body>
+</html>
