@@ -173,7 +173,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 你十分生气，铁了心地要吃上这顿免费的火锅。
 
-<b>你可以 <a href="/media/prob02_dbkw1hg2nj6qraif.zip?token={token}">下载本题的程序</a></b>
+<b>你可以 <a href="attachment/prob02_dbkw1hg2nj6qraif.zip">下载本题的程序</a></b>
 
 <b>点击 “打开/下载题目” 进入题目网页</b> <a href="/faq" target="_blank">（FAQ: 关于 Web 题目环境）</a>
 
@@ -209,7 +209,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 投资人「公子」打开企划书上写的网址 <a href="https://prob15-qkuhole.geekgame.pku.edu.cn/hole/" target="_blank">https://prob15-qkuhole.geekgame.pku.edu.cn/hole/</a>，发现几乎所有功能都无法使用。「公子」觉得自己受到了欺骗，果断地拒绝了这笔投资，并放出狠话：“这机会还挺难得的。就算是一个连数据库都没有的网站，我也能黑给你看！”
 
-<b>你可以 <a href="/media/prob15_alpidc3ch3v6xzij.zip?token={token}">下载本题的 XSS Bot 程序</a></b>
+<b>你可以 <a href="attachment/prob15_alpidc3ch3v6xzij.zip">下载本题的 XSS Bot 程序</a></b>
 
 <b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 nc prob15.geekgame.pku.edu.cn 10015 手动连接到 XSS Bot</b>
 
@@ -293,13 +293,13 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 <i>补充说明：Flag 文件位于磁盘的根目录，即 <code>/flag</code></i>
 
-<b>你可以 <a href="/media/prob14_1inc1ou701mua7t5.zip?token={token}">下载本题的程序</a></b>
+<b>你可以 <a href="attachment/prob14_1inc1ou701mua7t5.zip">下载本题的程序</a></b>
 
 <b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob14.geekgame.pku.edu.cn 10014</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
 
 > <b>第二阶段提示</b>
 >
-> <b>你可以 <a href="/media/hint14_n0yvp7z967xeaft8.zip?token={token}">下载新增的附件</a></b>
+> <b>你可以 <a href="attachment/hint14_n0yvp7z967xeaft8.zip">下载新增的附件</a></b>
 
 
 
@@ -309,7 +309,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 请利用这段处理字符串中转义字符的程序，找出保存在服务器文件系统中的 Flag。
 
-<b>你可以 <a href="/media/prob12_fqqec58x9mp3fb8n.zip?token={token}">下载本题的程序</a></b>
+<b>你可以 <a href="attachment/prob12_fqqec58x9mp3fb8n.zip">下载本题的程序</a></b>
 
 <b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob12.geekgame.pku.edu.cn 10012</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
 
@@ -340,13 +340,13 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 选手：“不如试试 Brainfuck？我这有台能执行 Brainfuck 代码的服务器，你设法读取上面的 Flag 文件，一定能得到锻炼。”
 
-<b>你可以 <a href="/media/prob13_weqjjyql4vstxmzn.zip?token={token}">下载本题的程序</a></b>
+<b>你可以 <a href="attachment/prob13_weqjjyql4vstxmzn.zip">下载本题的程序</a></b>
 
 <b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob13.geekgame.pku.edu.cn 10013</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
 
 > <b>第二阶段提示</b>
 >
-> <b>你可以 <a href="/media/hint13_ayrd2gvuzxuoo6p1.zip?token={token}">下载新增的附件</a></b>
+> <b>你可以 <a href="attachment/hint13_ayrd2gvuzxuoo6p1.zip">下载新增的附件</a></b>
 
 
 
@@ -370,7 +370,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 > <b>第二阶段提示</b>
 >
-> <b>你可以下载 <a href="/media/hint10_b4vzqwhc8yjbbzv7.zip?token={token}">新增的附件</a></b>
+> <b>你可以下载 <a href="attachment/hint10_b4vzqwhc8yjbbzv7.zip">新增的附件</a></b>
 >
 > 此题的环境是 Python 3.8.6。
 >
@@ -392,7 +392,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 
 这是他构建的密码学世界，他希望在这个世界内只有对的人才能拥有旗帜。
 
-<b>你可以 <a href="/media/prob08_jd7sj1fvdmofhhvx.zip?token={token}">下载本题的程序</a></b>
+<b>你可以 <a href="attachment/prob08_jd7sj1fvdmofhhvx.zip">下载本题的程序</a></b>
 
 <b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob08.geekgame.pku.edu.cn 10008</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
 
@@ -417,7 +417,7 @@ Q 小网盘可以在线预览多种文件，但是唯独压缩文件不能在线
 于是，小咕决定自学编程，实现自己心中完美的扫雷游戏。
 鉴于玩家水平各异，小咕还实现了 Easy 模式，以纪念首次上阵就踩雷的同志们。
 
-<b>你可以 <a href="/media/prob09_3fqg6drlsjniou2w.zip?token={token}">下载本题的程序</a></b>
+<b>你可以 <a href="attachment/prob09_3fqg6drlsjniou2w.zip">下载本题的程序</a></b>
 
 <b>点击 “打开/下载题目” 将打开网页终端，你也可以通过命令 <code>nc prob09.geekgame.pku.edu.cn 10009</code> 手动连接到题目</b> <a href="/faq" target="_blank">（FAQ: 关于终端交互）</a>
 
