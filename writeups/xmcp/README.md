@@ -128,7 +128,7 @@ HTTPS 证书有 Certificate Transparency 机制，比如 LetsEncrypt 产生的�
 
 答案是 `OOO{this_is_the_welcome_flag}`。
 
-此比赛的组织者 OOO 为很多题目都创建了可以玩的快照，网址是 https://archive.ooo/。里面第一题就是这道题。
+此比赛的组织者 OOO 为很多题目都创建了可以玩的快照，网址是 https://archive.ooo/。里面第一题就是这道题（事实上解出人数最多的也是这道题，所以不管怎么想它都是签到题）。
 
 可以在这里看到当年的所有题目和排行榜：https://scoreboard2020.oooverflow.io/
 
@@ -178,7 +178,7 @@ ans = n**3/6*(m**3 - 3*m**2 + 2*m) - n**2/2*(3*m**3 - 9*m**2 + 6*m) + n/6*(2*m**
 
 ![image-20211115131200950](assets/image-20211115131200950.png)
 
-注意 AS24349 是不对的，虽然在物理上这个 IX 处于北京大学，但里面包括了其他学校的路由前缀，不是北京大学 “自己的” 自治系统。
+注意 AS24349 是不对的，虽然在物理上这个 IX 处于北京大学，但里面包括了其他学校的路由前缀，不是北京大学 “自己的” 自治系统。AS59201 则完全是北大 “自己的”（此说法得到了计算中心的承认）。
 
 > #8
 > 截止到 2021 年 6 月 1 日，完全由北京大学信息科学技术学院下属的中文名称最长的实验室叫？
@@ -223,9 +223,9 @@ ans = n**3/6*(m**3 - 3*m**2 + 2*m) - n**2/2*(3*m**3 - 9*m**2 + 6*m) + n/6*(2*m**
 
 ![image-20211120164818366](assets/image-20211120164818366.png)
 
-这里面超长的那个名字大概是把微纳底下的所有实验室名字都给黏合到一起去了：
+这里面超长的那个名字大概是找到了 [这个网页](https://eecs.pku.edu.cn/info/1060/10794.htm)，这个网页排版有问题，它把回车都丢了，相当于微纳底下的所有实验室名字都给黏合到一起去了：
 
-![image-20211120165026865](assets/image-20211120165026865.png)
+![image-20211120200459281](assets/image-20211120200459281.png)
 
 然后 “帝国理工学院郭毅可教授**访问**机器感知与智能教育部重点实验室” 这个名字……就挺新颖的。
 
@@ -276,6 +276,8 @@ with open('flag1.txt', 'wb') as f:
 with open('flag2.txt', 'wb') as f:
     f.write(binascii.hexlify(encoded_flag2))
 ```
+
+（其实 `import zwsp_steg` 这个库完全没用到，我本来在这里多套了一层隐写，但感觉很无聊就给去掉了，import 忘了删）
 
 另一段流量 `http://192.168.17.128:28888/api/contents/flag1.txt?type=file&format=text&_=1636184605693` 暴露了 flag1.txt 的内容，这样就可以直接解出 Flag 1 了。解码过程如下：
 
@@ -380,7 +382,7 @@ Flag 2 一方面需要分析 WebSocket 流量得到命令行，另一方面需�
 
 首先通过命令 `echo ... | base64 -d > /tmp/uwsgi-ctf.ini` 修改配置文件，比如说预期解法是往配置文件里加一行 `file-write= /tmp/f=@(/flag)`。
 
-然后运行命令 `uwsgi --reload /tmp/uwsgi.pid`。此时 uwsgi 会因为读不到 /flag 而崩溃，然后被 supervisord 重启。
+然后运行命令 `uwsgi --reload /tmp/uwsgi.pid`。此时 uwsgi 会因为读不到 /flag 而崩溃，然后被 supervisord 重启。有人问为什么要让 uwsgi 崩溃才行，因为如果 uwsgi 不崩溃，它自己（已经降权到 nobody 了）重启自己始终逃不开 nobody，而 supervisord 是 root，只有叫 root 启动它才能是 root。
 
 这样一来 uwsgi 就完成了提权，可以得到 Flag。
 
@@ -471,6 +473,8 @@ async function exp() {
 exp();
 </script>
 ```
+
+这里注意 `sandbox="allow-scripts allow-same-origin"` 是为了避免树洞弹出 alert 坏了我们的好事（selenium 不支持 alert）。
 
 部署到自己的服务器上之后给 XSS Bot 喂这个网址，在 access log 里找 `pingback.html` 即可看到 Flag：
 
@@ -820,3 +824,4 @@ def get_platform_name():
     return name
 ```
 
+对着服务器上的日志目测了一下，纯手玩好像最多有人能过 11 关，真是 nb 啊
