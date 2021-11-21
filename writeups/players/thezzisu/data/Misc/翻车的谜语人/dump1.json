@@ -1,0 +1,105 @@
+{
+  "name": "Untitled.ipynb",
+  "path": "Untitled.ipynb",
+  "last_modified": "2021-11-06T07:42:40.600988Z",
+  "created": "2021-11-06T07:42:40.600988Z",
+  "content": {
+    "cells": [
+      {
+        "cell_type": "code",
+        "execution_count": 13,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "import zwsp_steg\nfrom Crypto.Random import get_random_bytes"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 14,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "import binascii"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 15,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "def genflag():\n    return 'flag{%s}'%binascii.hexlify(get_random_bytes(16)).decode()"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 16,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "flag1 = genflag()\nflag2 = genflag()"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 17,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "key = get_random_bytes(len(flag1))"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 18,
+        "metadata": { "trusted": true },
+        "outputs": [
+          {
+            "data": {
+              "text/plain": "b'\\xc4\\x07[\\xe5zy}b3\\x1aM\\xed\\t\\x14\\x1c\\xea\\x8f\\xfb\\xe52\\\\\\x80\\xb1\\x98\\x8a\\xb4\\xa6\\xdd;\\x92X\\x81\\xcd\\x86\\x86\\xc4\\xe0v'"
+            },
+            "execution_count": 18,
+            "metadata": {},
+            "output_type": "execute_result"
+          }
+        ],
+        "source": "key"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 19,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "def xor_each(k, b):\n    assert len(k)==len(b)\n    out = []\n    for i in range(len(b)):\n        out.append(b[i]^k[i])\n    return bytes(out)"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 20,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "encoded_flag1 = xor_each(key, flag1.encode())\nencoded_flag2 = xor_each(key, flag2.encode())"
+      },
+      {
+        "cell_type": "code",
+        "execution_count": 22,
+        "metadata": { "trusted": true },
+        "outputs": [],
+        "source": "with open('flag2.txt', 'wb') as f:\n    f.write(binascii.hexlify(encoded_flag2))"
+      }
+    ],
+    "metadata": {
+      "kernelspec": {
+        "display_name": "Python 3 (ipykernel)",
+        "language": "python",
+        "name": "python3"
+      },
+      "language_info": {
+        "codemirror_mode": { "name": "ipython", "version": 3 },
+        "file_extension": ".py",
+        "mimetype": "text/x-python",
+        "name": "python",
+        "nbconvert_exporter": "python",
+        "pygments_lexer": "ipython3",
+        "version": "3.8.3rc1"
+      }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 4
+  },
+  "format": "json",
+  "mimetype": null,
+  "size": 2502,
+  "writable": true,
+  "type": "notebook"
+}
