@@ -1,0 +1,14 @@
+void findZero(int i,int j) {
+
+            zerozones.Add(new Pair(i, j));
+            if (findZeroEnd(i, j)) { return; }
+            for (int k = 0; k < 8; k++)   //directions=[[-1,0],[+1,-1].....]
+            {
+                int di = directions.ElementAt(k).x;
+                int dj = directions.ElementAt(k).y;
+                if (bombs[i + di, j + dj] == 0 & !inDetected(i + di, j + dj)) {
+                    findZero(i + di, j + dj);
+                }
+            }
+
+        }

@@ -1,0 +1,65 @@
+Ed Logg's Minesweeper version 1.2g
+set	wins
+------------
+1	46
+-----------------------
+Starting seed=1
+start=3,3
+gametree<=1000 solutions
+threshold=0.960
+end play<=64
+Using jar method for linked clears
+SuperLoc clear multiplier=1.00
+Using top to bottom then left to right for guesses!
+-----------------------
+Samples: 100
+Won: 46
+Percent: 46.000%
+Margin of error: 9.769%
+Guess0 used: 44
+Guess0 failed: 27 (61.36%)
+Guess1 used: 13
+Guess1 failed: 1 (7.69%)
+Guess2 used: 35
+Guess2 failed: 4 (11.43%)
+GameTree used: 29
+GameTree failed: 8 (27.59%)
+Super Location used: 118
+Super Location failed: 14 (11.86%)
+Average guesses per win: 1.67
+Average guesses per loss: 2.98
+Average win prob: 63.93%
+Average loss prob: 45.29%
+Average Guess0 prob: 52.88%
+Average Guess1 prob: 81.36%
+Average Guess2 prob: 91.50%
+Average GameTree prob: 73.71%
+Average Super Location prob: 89.03%
+Wins with guesses:
+     0     1     2     3     4     5     6     7     8     9    10+
+    18     9     6     5     5     1     1     0     0     0     1
+ 18.0%  9.0%  6.0%  5.0%  5.0%  1.0%  1.0%  0.0%  0.0%  0.0%  1.0%
+
+maxCounts=6 (allocated=16)
+maxLists=6 (allocated=20)
+maxPerimeter=64 (allocated=192)
+maxSinglePerimeter=55
+maxNeighbors=49 (allocated=192)
+max number of perimeter solutions=4920 (660 computed)
+number of end plays=61
+largest end play=31 (64 allocated) (0 missed)
+number of end plays with > 1000 solutions=35 (57.38%)
+number of end plays with <= 400 solutions=24 (39.34%)
+game tree code used=29
+game tree code used early=3
+game tree code helped=8 (27.59%)
+game tree hash table used=8498 (500000 allocated)
+game tree hash table hits=24872
+game tree solution entries used=14415 (256100 allocated)
+game tree solutions saved=660 (4000 allocated)
+game tree max search depth=6 (24 allocated)
+super locations max candidates=14 (48 allocated)
+super location multiplier method used=0 (improved=0 failed=0)
+super location multiply used=0
+
+time=0.340 seconds

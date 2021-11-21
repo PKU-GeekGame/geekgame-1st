@@ -1,0 +1,2275 @@
+avoid diagonals.txt
+8,0=1	progress=17.571% clears=5 solutions=12 conflicts=18
+0,3=1	solutions=0 conflicts=2
+0,3=2	progress=39.109% clears=2 solutions=24 conflicts=62
+8,7=2	progress=32.772% clears=4 solutions=24 conflicts=28
+8,7=3	clears=0 solutions=80 conflicts=99
+6,8=0	progress= 7.128% clears=13 solutions=8 conflicts=15
+6,8=1	clears=0 solutions=40 conflicts=55
+7,8=1	progress=43.818% clears=3 solutions=56 conflicts=48
+7,8=2	clears=0 solutions=112 conflicts=96
+8,8=0	progress=17.124% clears=7 solutions=24 conflicts=42
+8,8=1	clears=0 solutions=80 conflicts=68
+2,7=1	progress=25.655% clears=6 solutions=12 conflicts=28
+2,7=2	clears=0 solutions=52 conflicts=91
+2,8=0	progress=17.124% clears=7 solutions=24 conflicts=27
+2,8=1	clears=0 solutions=80 conflicts=79
+3,8=1	progress=43.818% clears=3 solutions=56 conflicts=52
+3,8=2	clears=0 solutions=112 conflicts=120
+4,8=0	progress= 7.128% clears=13 solutions=8 conflicts=26
+4,8=1	clears=0 solutions=40 conflicts=68
+7,0=1	progress=33.326% clears=4 solutions=12 conflicts=13
+7,0=2	clears=0 solutions=42 conflicts=43
+0,4	prob=80.73%  progress=52.521% clears= 1.858 time=0.446ms Adjacent 
+0,5	prob=80.73%  progress=52.521% clears= 1.858 time=0.302ms Adjacent 
+7,8	prob=83.46%  progress=43.818% clears= 2.149 time=0.509ms 
+3,8	prob=83.46%  progress=43.818% clears= 2.149 time=0.514ms 
+0,3	prob=80.73%  progress=39.109% clears= 1.589 time=0.150ms Adjacent 
+7,0	prob=80.99%  progress=33.326% clears= 2.143 time=0.214ms 
+8,7	prob=83.46%  progress=32.772% clears= 2.145 time=0.483ms 
+2,7	prob=83.46%  progress=25.655% clears= 2.374 time=0.330ms 
+8,0	prob=80.73%  progress=17.571% clears= 1.686 time=0.133ms Adjacent 
+8,8	prob=83.46%  progress=17.124% clears= 2.033 time=0.370ms 
+2,8	prob=83.46%  progress=17.124% clears= 2.033 time=0.395ms 
+6,8	prob=83.46%  progress= 7.128% clears= 1.761 time=0.210ms 
+4,8	prob=83.46%  progress= 7.128% clears= 1.761 time=0.255ms 
+
+(jar missed 0,4 and 0,5 and 0,3)
+(3,8) Fixed clears is 0 expected clears is 2.14908503439830341624, progress probability is 0.43817791559709293708
+(7,8) Fixed clears is 0 expected clears is 2.14908503439830341624, progress probability is 0.43817791559709293708
+(7,0) Fixed clears is 0 expected clears is 2.14296253548696679711, progress probability is 0.33325987557629988522
+(8,7) Fixed clears is 0 expected clears is 2.14544248345703126376, progress probability is 0.32772279896250166469
+(2,7) Fixed clears is 0 expected clears is 2.37383440859987753518, progress probability is 0.25654718683214215503
+(2,8) Fixed clears is 0 expected clears is 2.03325715268718776052, progress probability is 0.17124369501145187936
+(8,8) Fixed clears is 0 expected clears is 2.03325715268718776052, progress probability is 0.17124369501145187936
+(4,8) Fixed clears is 0 expected clears is 1.76124268383526885004, progress probability is 0.07128395355601878808
+(6,8) Fixed clears is 0 expected clears is 1.76124268383526885004, progress probability is 0.07128395355601878808
+
+
+super prune1.txt
+13,0=0	progress= 4.396% clears=5 solutions=1 conflicts=1
+27,0=0	progress=14.654% clears=5 solutions=1 conflicts=1
+9,2=0	solutions=0 conflicts=2
+9,2=1	progress=13.361% clears=5 solutions=24 conflicts=34
+29,2=0	progress=14.654% clears=5 solutions=1 conflicts=1
+0,7=0	progress=19.218% clears=5 solutions=16 conflicts=1
+29,8=0	progress=14.654% clears=5 solutions=1 conflicts=1
+27,11=2	progress=19.412% clears=6 solutions=6 conflicts=3
+0,13=0	solutions=0 conflicts=2
+0,13=1	progress=29.307% clears=3 solutions=2 conflicts=2
+25,13=0	progress= 6.710% clears=8 solutions=3 conflicts=2
+2,15=0	solutions=0 conflicts=2
+2,15=1	progress=29.307% clears=3 solutions=2 conflicts=2
+24,15=0	progress=15.212% clears=5 solutions=3 conflicts=1
+26,12=0	progress=18.332% clears=7 solutions=3 conflicts=4
+26,12=1	clears=0 solutions=12 conflicts=15
+27,12=2	progress= 8.556% clears=8 solutions=1 conflicts=2
+27,12=3	clears=0 solutions=8 conflicts=7
+26,13=1	progress=21.044% clears=4 solutions=4 conflicts=6
+26,13=2	clears=0 solutions=17 conflicts=9
+0,13	prob=81.50%  progress=29.307% clears= 1.694 time=0.014ms Adjacent 
+2,15	prob=81.50%  progress=29.307% clears= 1.694 time=0.015ms Adjacent 
+14,0	prob=81.50%  progress=29.042% clears= 2.267 time=0.000ms Open 
+26,13	prob=82.58%  progress=21.044% clears= 1.668 time=0.058ms 
+27,11	prob=81.50%  progress=19.412% clears= 1.980 time=0.028ms Adjacent 
+0,7	prob=81.50%  progress=19.218% clears= 1.776 time=0.057ms Adjacent 
+26,12	prob=82.58%  progress=18.332% clears= 2.109 time=0.051ms 
+24,15	prob=81.50%  progress=15.212% clears= 1.576 time=0.018ms Adjacent 
+27,0	prob=81.50%  progress=14.654% clears= 1.548 time=0.013ms Adjacent 
+29,2	prob=81.50%  progress=14.654% clears= 1.548 time=0.012ms Adjacent 
+29,8	prob=81.50%  progress=14.654% clears= 1.548 time=0.012ms Adjacent 
+9,2	prob=81.50%  progress=13.361% clears= 1.483 time=0.124ms Adjacent 
+27,12	prob=82.58%  progress= 8.556% clears= 1.510 time=0.033ms 
+25,13	prob=81.50%  progress= 6.710% clears= 1.352 time=0.024ms Adjacent 
+13,0	prob=81.50%  progress= 4.396% clears= 1.035 time=0.024ms Adjacent 
+
+(0,13) Fixed clears is 0 expected clears is 1.69421226411200585344, progress probability is 0.29307177713034775671
+(2,15) Fixed clears is 0 expected clears is 1.69421226411200585344, progress probability is 0.29307177713034775671
+(4,7) Fixed clears is 0 expected clears is 2.26708805144752657531, progress probability is 0.29041822374531279840
+(26,13) Fixed clears is 0 expected clears is 1.66762678756854955238, progress probability is 0.21044444043753006922
+(27,11) Fixed clears is 0 expected clears is 1.97970050064780969091, progress probability is 0.19411726132114118460
+(26,12) Fixed clears is 0 expected clears is 2.10910613548833423971, progress probability is 0.18332244423855785203
+(24,15) Fixed clears is 0 expected clears is 1.57559104657564865101, progress probability is 0.15211882277093721354
+(27,0) Fixed clears is 0 expected clears is 1.54767637554683197511, progress probability is 0.14653588856517387836
+(29,2) Fixed clears is 0 expected clears is 1.54767637554683197511, progress probability is 0.14653588856517387836
+(29,8) Fixed clears is 0 expected clears is 1.54767637554683197511, progress probability is 0.14653588856517387836
+(9,2) Fixed clears is 0 expected clears is 1.48302945018945641336, progress probability is 0.13360650349369876601
+(27,10) Fixed clears is 0 expected clears is 1.49263945479335911291, progress probability is 0.09680607458177093280
+(11,2) Fixed clears is 0 expected clears is 1.25062426833893178091, progress probability is 0.08712546712359383952
+(27,12) Fixed clears is 0 expected clears is 1.51032364862573987222, progress probability is 0.08555932785091382459
+(1,7) Fixed clears is 0 expected clears is 1.36586848319457099675, progress probability is 0.06885894380920105168
+(25,13) Fixed clears is 0 expected clears is 1.35182054096744098331, progress probability is 0.06710295103080980000
+(9,5) Fixed clears is 0 expected clears is 1.28596209114919184107, progress probability is 0.05887064480352865722
+(7,7) Fixed clears is 0 expected clears is 1.28596209114919184107, progress probability is 0.05887064480352865722
+(13,0) Fixed clears is 0 expected clears is 1.03480076556872340086, progress probability is 0.04396076656955216351
+
+
+super prune2.txt
+(be sure 9,3 9,4 9,5 and 9,6 have the right progress)
+7,0=0	solutions=0 conflicts=2
+7,0=1	progress=25.845% clears=6 solutions=1 conflicts=3
+8,0=0	progress=17.500% clears=8 solutions=1 conflicts=1
+9,0=0	progress=25.411% clears=5 solutions=4 conflicts=5
+21,0=0	progress=26.410% clears=5 solutions=128 conflicts=128
+22,0=0	solutions=0 conflicts=2
+22,0=1	progress=38.965% clears=3 solutions=128 conflicts=2
+25,3=1	solutions=0 conflicts=2
+25,3=2	solutions=0 conflicts=6
+25,3=3	progress=36.226% clears=3 solutions=128 conflicts=10
+24,4=0	progress= 9.371% clears=8 solutions=104 conflicts=1
+24,6=0	progress=11.123% clears=8 solutions=56 conflicts=2
+8,9=0	progress= 6.712% clears=8 solutions=24 conflicts=5
+0,13=0	solutions=0 conflicts=2
+0,13=1	progress= 9.177% clears=3 solutions=10 conflicts=7
+2,14=0	solutions=0 conflicts=3
+2,14=1	solutions=0 conflicts=19
+2,14=2	progress=15.440% clears=5 solutions=30 conflicts=73
+2,15=0	progress=15.440% clears=5 solutions=1 conflicts=1
+23,15=0	progress=19.998% clears=7 solutions=32 conflicts=96
+24,15=1	progress=14.773% clears=7 solutions=16 conflicts=49
+24,7=0	progress= 7.757% clears=10 solutions=16 conflicts=2
+24,7=1	clears=0 solutions=128 conflicts=6
+25,7=2	progress=13.914% clears=7 solutions=16 conflicts=33
+25,7=3	clears=0 solutions=128 conflicts=106
+7,12=1	progress=19.101% clears=5 solutions=3 conflicts=12
+7,12=2	clears=0 solutions=12 conflicts=20
+7,13=0	progress=15.074% clears=7 solutions=3 conflicts=4
+7,13=1	clears=0 solutions=11 conflicts=5
+22,0	prob=82.60%  progress=38.965% clears= 1.995 time=0.151ms Adjacent 
+25,3	prob=82.60%  progress=36.226% clears= 1.913 time=0.153ms Adjacent 
+10,0	prob=82.60%  progress=31.374% clears= 2.395 time=0.032ms Open 
+9,3	prob=82.60%  progress=31.374% clears= 2.395 time=0.032ms Adjacent 
+9,4	prob=82.60%  progress=31.374% clears= 2.395 time=0.012ms Adjacent 
+9,5	prob=82.60%  progress=31.374% clears= 2.395 time=0.010ms Adjacent 
+9,6	prob=82.60%  progress=31.374% clears= 2.395 time=0.058ms Adjacent 
+23,9	prob=82.60%  progress=31.374% clears= 2.395 time=0.033ms Adjacent 
+23,10	prob=82.60%  progress=31.374% clears= 2.395 time=0.000ms Adjacent 
+23,12	prob=82.60%  progress=31.374% clears= 2.395 time=0.000ms Adjacent 
+21,0	prob=82.60%  progress=26.410% clears= 2.146 time=0.213ms Adjacent 
+7,0	prob=82.60%  progress=25.845% clears= 2.377 time=0.215ms Adjacent 
+9,0	prob=82.60%  progress=25.411% clears= 2.097 time=0.040ms Adjacent 
+23,15	prob=82.60%  progress=19.998% clears= 2.226 time=0.100ms Adjacent 
+7,12	prob=84.40%  progress=19.101% clears= 1.799 time=0.041ms 
+8,0	prob=82.60%  progress=17.500% clears= 2.226 time=0.027ms Adjacent 
+2,14	prob=82.60%  progress=15.440% clears= 1.598 time=0.079ms Adjacent 
+2,15	prob=82.60%  progress=15.440% clears= 1.598 time=0.012ms Adjacent 
+7,13	prob=84.40%  progress=15.074% clears= 1.899 time=0.031ms 
+24,15	prob=82.60%  progress=14.773% clears= 1.860 time=0.055ms Adjacent 
+25,7	prob=82.24%  progress=13.914% clears= 1.796 time=0.188ms 
+24,6	prob=82.60%  progress=11.123% clears= 1.716 time=0.068ms Adjacent 
+24,4	prob=82.60%  progress= 9.371% clears= 1.576 time=0.131ms Adjacent 
+0,13	prob=82.60%  progress= 9.177% clears= 1.101 time=0.030ms Adjacent 
+24,7	prob=82.24%  progress= 7.757% clears= 1.598 time=0.145ms 
+8,9	prob=82.60%  progress= 6.712% clears= 1.363 time=0.045ms Adjacent 
+
+(22,0) Fixed clears is 0 expected clears is 1.99490554841803275183, progress probability is 0.38964712338735988462
+(25,3) Fixed clears is 0 expected clears is 1.91274475049109046302, progress probability is 0.36226019074504578835
+(8,10) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(9,3) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(9,5) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(9,4) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(9,6) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(5,14) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(23,10) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(23,9) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(23,12) Fixed clears is 0 expected clears is 2.39468514300238531422, progress probability is 0.31374419294928644325
+(7,0) Fixed clears is 0 expected clears is 2.37664731531309639993, progress probability is 0.25844718950952388366
+(7,12) Fixed clears is 0 expected clears is 1.79907951055650666080, progress probability is 0.19101457025084881693
+(23,8) Fixed clears is 0 expected clears is 1.90411237214772850887, progress probability is 0.17969136564862923515
+(2,15) Fixed clears is 0 expected clears is 1.59798419963327239307, progress probability is 0.15440400427546385902
+(9,7) Fixed clears is 0 expected clears is 1.73170618485665155665, progress probability is 0.15095700110011640978
+(7,13) Fixed clears is 0 expected clears is 1.89918355015715142232, progress probability is 0.15073955583641269231
+(24,15) Fixed clears is 0 expected clears is 1.86009140004280504835, progress probability is 0.14773246025526456434
+(25,7) Fixed clears is 0 expected clears is 1.79642236581500560426, progress probability is 0.13913915280423115228
+(8,12) Fixed clears is 0 expected clears is 2.31186265602912500445, progress probability is 0.12382487314776432554
+(24,5) Fixed clears is 0 expected clears is 2.09052784345702698661, progress probability is 0.11496033320009762624
+(0,13) Fixed clears is 0 expected clears is 1.10128557100793746395, progress probability is 0.09177379758399478866
+(21,2) Fixed clears is 0 expected clears is 1.44777828348135573661, progress probability is 0.07772676315317532983
+(23,4) Fixed clears is 0 expected clears is 1.44777828348135573661, progress probability is 0.07772676315317532983
+(24,7) Fixed clears is 0 expected clears is 1.59811056197291809230, progress probability is 0.07756622657875305540
+(9,2) Fixed clears is 0 expected clears is 1.28157265661750448039, progress probability is 0.06508692548022162606
+(6,14) Fixed clears is 0 expected clears is 1.23510202068337194965, progress probability is 0.05114223030342735646
+(2,14) Fixed clears is 0 expected clears is 0.82596417825595309797, progress probability is 0
+(23,13) Fixed clears is 0 expected clears is 0.82596417825595309797, progress probability is 0
+
+
+super strange links.txt
+(NOTE: 8,7 is really dead - it only has value 3)
+(NOTE: 7,10 is also linked to 8,7 but we do not use that info)
+Current perimeter mask=0x0000000000000003 0xFFFFFFFFFFFFFFFF
+7,10=1	progress=29.130% clears=6 solutions=72 conflicts=120 0x0000000000000000 0x0000401084009000
+7,10=2	progress=44.942% clears=2 solutions=168 conflicts=282 0x0000000000000000 0x0000001004000000
+7,10=3	progress=16.928% clears=9 solutions=192 conflicts=336 0x0000000000000000 0x0000001C0C016800
+10,6=1	progress=22.113% clears=7 solutions=36 conflicts=51 0x0000000000000000 0x0000002802080000
+10,6=2	clears=0 solutions=148 conflicts=249
+10,7=2	progress=49.758% clears=3 solutions=72 conflicts=122 0x0000000000000000 0x0000002400000000
+10,7=3	clears=0 solutions=224 conflicts=422
+10,8=1	progress= 2.515% clears=10 solutions=24 conflicts=32 0x0000000000000000 0x0078092904000000
+10,8=2	progress=60.086% clears=2 solutions=104 conflicts=244 0x0000000000000000 0x0000000104000000
+10,8=3	progress=28.398% clears=5 solutions=176 conflicts=417 0x0000000000000000 0x000002C104000000
+11,10=1	progress=54.032% clears=3 solutions=80 conflicts=158 0x0000000000000000 0x0030020000000000
+11,10=2	clears=0 solutions=208 conflicts=410
+12,10=1	progress=32.068% clears=5 solutions=120 conflicts=239 0x0000000000000000 0x0020020000000000
+12,10=2	clears=0 solutions=368 conflicts=659
+12,11=1	progress=47.920% clears=3 solutions=160 conflicts=316 0x0000000000000000 0x0000000000000000
+12,11=2	clears=0 solutions=320 conflicts=632
+12,12=0	progress= 1.782% clears=9 solutions=40 conflicts=159 0x0000000000000000 0x0228240000000000
+12,12=1	clears=0 solutions=240 conflicts=475
+// new method
+7,10	prob=91.000%  progress=91.000% clears= 7.039 time=0.219ms Linked to 10,8 
+10,8	prob=91.000%  progress=91.000% clears= 7.039 time=0.231ms Linked to 7,10 
+11,10	prob=91.642%  progress=54.032% clears= 2.537 time=0.238ms 
+10,7	prob=89.129%  progress=49.758% clears= 2.384 time=0.316ms 
+12,11	prob=88.067%  progress=47.920% clears= 2.318 time=0.369ms 
+12,10	prob=88.067%  progress=32.068% clears= 2.484 time=0.457ms 
+10,6	prob=91.097%  progress=22.113% clears= 2.459 time=0.240ms 
+12,12	prob=88.067%  progress= 1.782% clears= 1.041 time=0.307ms 
+// jar method
+7,10	prob=91.000%  progress=91.000% clears= 7.043 time=0.535ms Linked to 10,8 
+10,8	prob=91.000%  progress=91.000% clears= 7.043 time=0.521ms Linked to 7,10 
+11,10	prob=91.642%  progress=54.032% clears= 2.537 time=0.594ms 
+10,7	prob=89.129%  progress=49.758% clears= 2.384 time=0.568ms 
+12,11	prob=88.067%  progress=47.920% clears= 2.318 time=0.921ms 
+12,10	prob=88.067%  progress=32.068% clears= 2.484 time=1.077ms 
+10,6	prob=91.097%  progress=22.113% clears= 2.459 time=0.400ms 
+12,12	prob=88.067%  progress= 1.782% clears= 1.041 time=0.749ms 
+// old method
+7,10	prob=91.000%  progress=91.000% clears= 7.039 time=0.554ms Linked to 10,8 
+10,8	prob=91.000%  progress=91.000% clears= 7.039 time=0.590ms Linked to 7,10 
+11,10	prob=91.642%  progress=54.032% clears= 2.537 time=0.668ms 
+10,7	prob=89.129%  progress=49.758% clears= 2.384 time=0.661ms 
+12,11	prob=88.067%  progress=47.920% clears= 2.318 time=1.049ms 
+12,10	prob=88.067%  progress=32.068% clears= 2.484 time=1.282ms 
+10,6	prob=91.097%  progress=22.113% clears= 2.459 time=0.479ms 
+12,12	prob=88.067%  progress= 1.782% clears= 1.041 time=0.881ms 
+
+jar should not use dead entry 8,7 although it is linked to 10,8 and 7,10
+(8,7) Fixed clears is 2 expected clears is 4.09643119431246967289, progress probability is 0.91000000371201885711
+(11,10) Fixed clears is 0 expected clears is 2.53739708382550296040, progress probability is 0.54032479777372950184
+(10,7) Fixed clears is 0 expected clears is 2.38402376123056933465, progress probability is 0.49757909784125178185
+(12,11) Fixed clears is 0 expected clears is 2.31825971301806658403, progress probability is 0.47919695036908248534
+(12,10) Fixed clears is 0 expected clears is 2.48406631576599032726, progress probability is 0.32067949077103423985
+(10,6) Fixed clears is 0 expected clears is 2.45887779930986674076, progress probability is 0.22112994706678783354
+(12,12) Fixed clears is 0 expected clears is 1.04100649970495810176, progress probability is 0.01781529308823766375
+
+
+super1.txt:
+15,7=1	progress=40.270% clears=7 solutions=4 conflicts=5
+15,7=2	clears=0 solutions=20 conflicts=11
+14,8=1	progress=48.324% clears=5 solutions=12 conflicts=2
+14,8=2	clears=0 solutions=32 conflicts=3
+15,8=0	progress=25.682% clears=8 solutions=8 conflicts=9
+15,8=1	clears=0 solutions=26 conflicts=16
+14,8	prob=90.74%  progress=48.324% clears= 3.324 time=0.052ms 
+15,7	prob=93.79%  progress=40.270% clears= 3.757 time=0.073ms 
+15,8	prob=90.74%  progress=25.682% clears= 2.962 time=0.060ms 
+
+(14,8) Fixed clears is 0 expected clears is 3.32360986698259504338, progress probability is 0.48323556891187717321
+(15,7) Fixed clears is 0 expected clears is 3.75674799253843955783, progress probability is 0.40269630742656431101
+(15,8) Fixed clears is 0 expected clears is 2.96199420168523796429, progress probability is 0.25682027240775359837
+
+
+super2.txt: 
+Perimeter mask=0x0000000000000000 0x0000001FFFFFFFFF
+0,5=0	progress=36.061% clears=6 solutions=2 conflicts=7 0x0000000000000000 0x000000000000E812
+0,5=1	progress=54.646% clears=6 solutions=8 conflicts=10 0x0000000000000000 0x0000000000011544
+2,6=1	progress=34.555% clears=8 solutions=3 conflicts=8 0x0000000000000000 0x000000000003C540
+2,6=2	clears=0 solutions=11 conflicts=26
+0,6=0	progress=45.499% clears=4 solutions=4 conflicts=9 0x0000000000000000 0x0000000000004020
+0,6=1	clears=0 solutions=12 conflicts=24
+1,6=0	progress=18.050% clears=14 solutions=1 conflicts=4 0x0000000000000000 0x000000000003B56D
+1,6=1	clears=0 solutions=7 conflicts=14
+11,0=1	progress=40.184% clears=4 solutions=6 conflicts=1 0x0000000000000000 0x0000000086200000
+11,0=2	progress=49.477% clears=2 solutions=16 conflicts=2 0x0000000000000000 0x0000000082000000
+13,1=2	progress=45.499% clears=3 solutions=15 conflicts=6 0x0000000000000000 0x0000000000000000
+13,1=3	clears=0 solutions=30 conflicts=12
+11,3=2	progress=45.354% clears=3 solutions=8 conflicts=4 0x0000000000000000 0x0000000080880000
+11,3=3	progress=44.307% clears=3 solutions=14 conflicts=8 0x0000000000000000 0x00000000C0080000
+13,3=2	progress=40.800% clears=4 solutions=9 conflicts=9 0x0000000000000000 0x0000000040000000
+13,3=3	clears=0 solutions=20 conflicts=21
+11,5=2	progress=25.701% clears=4 solutions=6 conflicts=10 0x0000000000000000 0x0000000010800000
+11,5=3	clears=0 solutions=21 conflicts=11
+11,6=1	progress=20.133% clears=7 solutions=3 conflicts=4 0x0000000000000000 0x0000000142080000
+11,6=2	progress=38.183% clears=2 solutions=11 conflicts=8 0x0000000000000000 0x0000000002080000
+11,6=3	progress=23.869% clears=2 solutions=21 conflicts=10 0x0000000000000000 0x0000000002080000
+11,6=4	progress= 6.610% clears=2 solutions=31 conflicts=12 0x0000000000000000 0x0000000002080000
+11,6=5	progress= 0.828% clears=2 solutions=38 conflicts=17 0x0000000000000000 0x0000000002080000
+11,6=6	progress= 0.037% clears=5 solutions=40 conflicts=22 0x0000000000000000 0x000000020A880000
+// new method
+5,9	prob=80.000%  progress=80.000% clears= 6.000 time=0.065ms Linked to 6,10 
+6,10	prob=80.000%  progress=80.000% clears= 6.000 time=0.068ms Linked to 5,9 
+0,14	prob=80.000%  progress=80.000% clears= 3.709 time=0.168ms Linked to 3,14 
+3,14	prob=80.000%  progress=80.000% clears= 3.709 time=0.205ms Linked to 0,14 
+5,10	prob=80.000%  progress=80.000% clears= 2.149 time=0.067ms 
+11,12	prob=77.143%  progress=77.143% clears= 6.086 time=0.058ms Linked to 12,11 
+12,11	prob=77.143%  progress=77.143% clears= 6.086 time=0.052ms Linked to 11,12 
+5,11	prob=80.000%  progress=12.052% clears= 1.764 time=0.084ms 
+4,14	prob=80.000%  progress= 3.013% clears= 1.041 time=0.110ms 
+// jar method
+5,9	prob=80.000%  progress=80.000% clears= 6.000 time=0.087ms Linked to 6,10 
+6,10	prob=80.000%  progress=80.000% clears= 6.000 time=0.064ms Linked to 5,9 
+3,14	prob=80.000%  progress=80.000% clears= 2.914 time=0.190ms Linked to 0,14 
+0,14	prob=80.000%  progress=80.000% clears= 2.914 time=0.126ms Linked to 3,14 
+5,10	prob=80.000%  progress=80.000% clears= 2.149 time=0.062ms 
+11,12	prob=77.143%  progress=77.143% clears= 6.686 time=0.057ms Linked to 12,11 
+12,11	prob=77.143%  progress=77.143% clears= 6.686 time=0.052ms Linked to 11,12 
+5,11	prob=80.000%  progress=12.052% clears= 1.764 time=0.072ms 
+4,14	prob=80.000%  progress= 3.013% clears= 1.041 time=0.137ms 
+// old method
+5,9	prob=80.000%  progress=80.000% clears= 6.000 time=0.097ms Linked to 6,10 
+6,10	prob=80.000%  progress=80.000% clears= 6.000 time=0.074ms Linked to 5,9 
+3,14	prob=80.000%  progress=80.000% clears= 3.647 time=0.191ms Linked to 0,14 
+0,14	prob=80.000%  progress=80.000% clears= 3.647 time=0.126ms Linked to 3,14 
+5,10	prob=80.000%  progress=80.000% clears= 2.149 time=0.063ms 
+11,12	prob=77.143%  progress=77.143% clears= 6.086 time=0.066ms Linked to 12,11 
+12,11	prob=77.143%  progress=77.143% clears= 6.086 time=0.057ms Linked to 11,12 
+5,11	prob=80.000%  progress=12.052% clears= 1.764 time=0.074ms 
+4,14	prob=80.000%  progress= 3.013% clears= 1.041 time=0.140ms 
+
+(5,9) Fixed clears is 1 expected clears is 6.00000000000000000000, progress probability is 0.80000000000000000000
+(0,14) Fixed clears is 1 expected clears is 2.78857142857142857141, progress probability is 0.80000000000000000000
+(5,10) Fixed clears is 0 expected clears is 2.14857142857142857143, progress probability is 0.80000000000000000000
+(12,11) Fixed clears is 1 expected clears is 6.68571428571428571428, progress probability is 0.77142857142857142857
+(5,11) Fixed clears is 0 expected clears is 1.76415584415584415584, progress probability is 0.12051948051948051948
+(4,14) Fixed clears is 0 expected clears is 1.04103896103896103896, progress probability is 0.03012987012987012987
+
+
+super3.txt:
+0,1=0	progress=47.803% clears=4 solutions=9 conflicts=10
+0,1=1	clears=0 solutions=22 conflicts=23
+1,1=0	progress=18.867% clears=12 solutions=4 conflicts=5
+1,1=1	clears=0 solutions=17 conflicts=17
+0,2=0	progress=38.069% clears=6 solutions=5 conflicts=6
+0,2=1	progress=53.989% clears=7 solutions=13 conflicts=17
+0,3=1	progress=66.662% clears=2 solutions=11 conflicts=14
+0,3=2	clears=0 solutions=24 conflicts=28
+5,1=0	progress=14.888% clears=9 solutions=4 conflicts=7
+5,1=1	clears=0 solutions=13 conflicts=18
+5,2=0	progress=11.876% clears=12 solutions=2 conflicts=9
+5,2=1	clears=0 solutions=12 conflicts=16
+3,6=1	progress=33.064% clears=5 solutions=11 conflicts=12
+3,6=2	clears=0 solutions=24 conflicts=31
+4,6=1	progress=34.701% clears=7 solutions=8 conflicts=20
+4,6=2	clears=0 solutions=21 conflicts=39
+5,6=0	progress=19.105% clears=9 solutions=5 conflicts=17
+5,6=1	clears=0 solutions=17 conflicts=28
+0,2	prob=92.06%  progress=92.058% clears= 6.984 time=0.086ms 
+0,3	prob=92.06%  progress=66.662% clears= 2.254 time=0.078ms 
+0,1	prob=92.06%  progress=47.803% clears= 2.833 time=0.087ms 
+4,6	prob=92.06%  progress=34.701% clears= 3.350 time=0.074ms 
+3,6	prob=92.06%  progress=33.064% clears= 2.574 time=0.072ms 
+5,6	prob=92.06%  progress=19.105% clears= 2.640 time=0.053ms 
+1,1	prob=92.06%  progress=18.867% clears= 3.185 time=0.061ms 
+5,1	prob=92.06%  progress=14.888% clears= 2.260 time=0.048ms 
+5,2	prob=93.70%  progress=11.876% clears= 2.362 time=0.045ms 
+
+0,2=1 missed
+(0,3) Fixed clears is 0 expected clears is 2.25381982190656798815, progress probability is 0.66662016690137339566
+(0,1) Fixed clears is 0 expected clears is 2.83271593813577556791, progress probability is 0.47803411250798859277
+(0,2) Fixed clears is 0 expected clears is 3.20471341023792357607, progress probability is 0.38068898702235039654
+(4,6) Fixed clears is 0 expected clears is 3.34964807915491125840, progress probability is 0.34700979872158429451
+(3,6) Fixed clears is 0 expected clears is 2.57379241170034385198, progress probability is 0.33064258471930453103
+(5,6) Fixed clears is 0 expected clears is 2.64005647727969400511, progress probability is 0.19105299879731920092
+(1,1) Fixed clears is 0 expected clears is 3.18456574772425465231, progress probability is 0.18866552163503612129
+(5,1) Fixed clears is 0 expected clears is 2.26047744744113042878, progress probability is 0.14887755103747880355
+(5,2) Fixed clears is 0 expected clears is 2.36209155434129837519, progress probability is 0.11875820781491112992
+
+
+super4.txt:
+0,2=1	progress=65.844% clears=2 solutions=18 conflicts=17
+0,2=2	clears=0 solutions=36 conflicts=30
+0,3=0	progress=51.821% clears=7 solutions=6 conflicts=6
+0,3=1	progress=39.058% clears=2 solutions=26 conflicts=54
+0,4=0	progress=53.376% clears=4 solutions=16 conflicts=16
+0,4=1	clears=0 solutions=42 conflicts=47
+1,4=0	progress=13.631% clears=7 solutions=10 conflicts=11
+1,4=1	clears=0 solutions=38 conflicts=36
+7,1=1	progress=42.139% clears=5 solutions=8 conflicts=5
+7,1=2	clears=0 solutions=24 conflicts=5
+0,3	prob=90.88%  progress=90.879% clears= 5.317 time=0.029ms 
+0,2	prob=90.88%  progress=65.844% clears= 2.226 time=0.054ms 
+0,4	prob=90.88%  progress=53.376% clears= 3.044 time=0.033ms 
+7,1	prob=89.71%  progress=42.139% clears= 3.004 time=0.025ms 
+1,4	prob=92.04%  progress=13.631% clears= 1.875 time=0.030ms 
+
+0,3=1 missed
+(0,2) Fixed clears is 0 expected clears is 2.22566591160860435510, progress probability is 0.65843818719928572610
+(0,4) Fixed clears is 0 expected clears is 3.04384021428217126042, progress probability is 0.53376266926803458938
+(0,3) Fixed clears is 0 expected clears is 4.53627585522726145405, progress probability is 0.51821233114531836445
+(7,1) Fixed clears is 0 expected clears is 3.00409390319560071124, progress probability is 0.42138887703302897312
+(1,4) Fixed clears is 0 expected clears is 1.87457058453710479857, progress probability is 0.13630586116392783406
+
+
+super5.txt 
+Perimeter mask=0x0000000000000000 0x0000001FFFFFFFFF
+0,5=0	progress=36.061% clears=6 solutions=2 conflicts=7 0x0000000000000000 0x000000000000E812
+0,5=1	progress=54.646% clears=6 solutions=8 conflicts=10 0x0000000000000000 0x0000000000011544
+2,6=1	progress=34.555% clears=8 solutions=3 conflicts=8 0x0000000000000000 0x000000000003C540
+2,6=2	clears=0 solutions=11 conflicts=26
+0,6=0	progress=45.499% clears=4 solutions=4 conflicts=9 0x0000000000000000 0x0000000000004020
+0,6=1	clears=0 solutions=12 conflicts=24
+1,6=0	progress=18.050% clears=14 solutions=1 conflicts=4 0x0000000000000000 0x000000000003B56D
+1,6=1	clears=0 solutions=7 conflicts=14
+11,0=1	progress=40.184% clears=4 solutions=6 conflicts=1 0x0000000000000000 0x0000000086200000
+11,0=2	progress=49.477% clears=2 solutions=16 conflicts=2 0x0000000000000000 0x0000000082000000
+13,1=2	progress=45.499% clears=3 solutions=15 conflicts=6 0x0000000000000000 0x0000000000000000
+13,1=3	clears=0 solutions=30 conflicts=12
+11,3=2	progress=45.354% clears=3 solutions=8 conflicts=4 0x0000000000000000 0x0000000080880000
+11,3=3	progress=44.307% clears=3 solutions=14 conflicts=8 0x0000000000000000 0x00000000C0080000
+13,3=2	progress=40.800% clears=4 solutions=9 conflicts=9 0x0000000000000000 0x0000000040000000
+13,3=3	clears=0 solutions=20 conflicts=21
+11,5=2	progress=25.701% clears=4 solutions=6 conflicts=10 0x0000000000000000 0x0000000010800000
+11,5=3	clears=0 solutions=21 conflicts=11
+11,6=1	progress=20.133% clears=7 solutions=3 conflicts=4 0x0000000000000000 0x0000000142080000
+11,6=2	progress=38.183% clears=2 solutions=11 conflicts=8 0x0000000000000000 0x0000000002080000
+11,6=3	progress=23.869% clears=2 solutions=21 conflicts=10 0x0000000000000000 0x0000000002080000
+11,6=4	progress= 6.610% clears=2 solutions=31 conflicts=12 0x0000000000000000 0x0000000002080000
+11,6=5	progress= 0.828% clears=2 solutions=38 conflicts=17 0x0000000000000000 0x0000000002080000
+11,6=6	progress= 0.037% clears=5 solutions=40 conflicts=22 0x0000000000000000 0x000000020A880000
+// new method
+0,5	prob=90.707%  progress=90.707% clears= 6.350 time=0.085ms 
+11,6	prob=89.660%  progress=89.660% clears= 6.195 time=0.047ms Linked to 11,0 11,3 
+11,0	prob=89.660%  progress=89.660% clears= 6.195 time=0.077ms Linked to 11,6 11,3 
+11,3	prob=89.660%  progress=89.660% clears= 6.195 time=0.014ms Linked to 11,6 11,0 
+0,6	prob=90.707%  progress=45.499% clears= 2.727 time=0.023ms 
+13,1	prob=90.707%  progress=45.499% clears= 2.272 time=0.020ms 
+13,3	prob=89.660%  progress=40.800% clears= 2.529 time=0.019ms 
+2,6	prob=92.591%  progress=34.555% clears= 3.690 time=0.026ms 
+11,5	prob=90.707%  progress=25.701% clears= 1.935 time=0.014ms 
+1,6	prob=90.707%  progress=18.050% clears= 3.434 time=0.017ms 
+// jar method
+0,5	prob=90.707%  progress=90.707% clears= 6.350 time=0.072ms 
+11,0	prob=89.660%  progress=89.660% clears= 5.398 time=0.051ms Linked to 11,3 11,6 
+11,3	prob=89.660%  progress=89.660% clears= 5.398 time=0.053ms Linked to 11,0 11,6 
+11,6	prob=89.660%  progress=89.660% clears= 5.398 time=0.138ms Linked to 11,0 11,3 
+0,6	prob=90.707%  progress=45.499% clears= 2.727 time=0.067ms 
+13,1	prob=90.707%  progress=45.499% clears= 2.272 time=0.060ms 
+13,3	prob=89.660%  progress=40.800% clears= 2.529 time=0.054ms 
+2,6	prob=92.591%  progress=34.555% clears= 3.690 time=0.075ms 
+11,5	prob=90.707%  progress=25.701% clears= 1.935 time=0.047ms 
+1,6	prob=90.707%  progress=18.050% clears= 3.434 time=0.051ms 
+// old method
+0,5	prob=90.707%  progress=90.707% clears= 6.350 time=0.068ms 
+11,0	prob=89.660%  progress=89.660% clears= 6.195 time=0.049ms Linked to 11,3 11,6 
+11,3	prob=89.660%  progress=89.660% clears= 6.195 time=0.046ms Linked to 11,0 11,6 
+11,6	prob=89.660%  progress=89.660% clears= 6.195 time=0.103ms Linked to 11,0 11,3 
+0,6	prob=90.707%  progress=45.499% clears= 2.727 time=0.064ms 
+13,1	prob=90.707%  progress=45.499% clears= 2.272 time=0.056ms 
+13,3	prob=89.660%  progress=40.800% clears= 2.529 time=0.055ms 
+2,6	prob=92.591%  progress=34.555% clears= 3.690 time=0.074ms 
+11,5	prob=90.707%  progress=25.701% clears= 1.935 time=0.044ms 
+1,6	prob=90.707%  progress=18.050% clears= 3.434 time=0.048ms 
+
+0,5=1 missed
+11,3=3 missed
+11,6=2-6 missed
+13,1=2 missed
+13,3=2 missed
+(11,3) Fixed clears is 2 expected clears is 4.95365497227321694854, progress probability is 0.89660268805704873963
+(0,6) Fixed clears is 0 expected clears is 2.72703238166827963915, progress probability is 0.45499012898358243860
+(0,5) Fixed clears is 0 expected clears is 3.07071865733949884747, progress probability is 0.36060779860092482712
+(2,6) Fixed clears is 0 expected clears is 3.69028158797420887724, progress probability is 0.34554610050932212879
+(11,5) Fixed clears is 0 expected clears is 1.93510315971864567143, progress probability is 0.25700782349617394667
+(1,6) Fixed clears is 0 expected clears is 3.43409803723659648693, progress probability is 0.18050186939304618587
+(13,1) Fixed clears is 0 expected clears is 0.90707186573394988475, progress probability is 0
+(13,3) Fixed clears is 0 expected clears is 0.89660268805704873963, progress probability is 0
+
+
+super6.txt (merged two lists at 6,6 6,5 and 7,5)
+(tests how we count off edge maxValue case)
+8,0=0	solutions=0 conflicts=2
+8,0=1	progress=37.202% clears=3 solutions=4 conflicts=2
+7,4=2	progress=38.055% clears=3 solutions=6 conflicts=0
+7,4=3	clears=0 solutions=17 conflicts=0
+6,5=3	progress=26.286% clears=4 solutions=12 conflicts=10
+6,5=4	clears=0 solutions=60 conflicts=14
+7,5=0	progress=13.791% clears=7 solutions=12 conflicts=10
+7,5=1	clears=0 solutions=60 conflicts=14
+6,6=2	progress=12.112% clears=6 solutions=8 conflicts=9
+6,6=3	clears=0 solutions=40 conflicts=41
+0,10=1	progress=54.224% clears=2 solutions=6 conflicts=0
+0,10=2	clears=0 solutions=12 conflicts=0
+0,10	prob=82.96%  progress=54.224% clears= 1.914 time=0.021ms 
+0,11	prob=80.91%  progress=42.711% clears= 2.090 time=0.020ms Adjacent 
+29,0	prob=80.91%  progress=42.711% clears= 2.090 time=0.021ms Open 
+0,15	prob=80.91%  progress=42.711% clears= 2.090 time=0.056ms Open 
+29,15	prob=80.91%  progress=42.711% clears= 2.090 time=0.030ms Open 
+7,4	prob=79.76%  progress=38.055% clears= 1.939 time=0.021ms 
+8,0	prob=80.91%  progress=37.202% clears= 1.925 time=0.032ms Adjacent 
+6,5	prob=79.76%  progress=26.286% clears= 1.849 time=0.050ms 
+7,5	prob=79.76%  progress=13.791% clears= 1.763 time=0.045ms 
+6,6	prob=82.96%  progress=12.112% clears= 1.556 time=0.035ms 
+
+(0,10) Fixed clears is 0 expected clears is 1.91411857310999397881, progress probability is 0.54223704224791854902
+(0,11) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(0,15) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(29,0) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(29,15) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(7,4) Fixed clears is 0 expected clears is 1.93928375580111121192, progress probability is 0.38054907025130536396
+(8,0) Fixed clears is 0 expected clears is 1.92518694678609280068, progress probability is 0.37201688786719547008
+(1,11) Fixed clears is 0 expected clears is 2.19982326732639629789, progress probability is 0.27813739682837798149
+(6,5) Fixed clears is 0 expected clears is 1.84907684210827650616, progress probability is 0.26286007426527034653
+(5,10) Fixed clears is 0 expected clears is 2.18893143107844833484, progress probability is 0.22996585798232365740
+(7,7) Fixed clears is 0 expected clears is 1.97077824811492513488, progress probability is 0.19360699415506979074
+(7,5) Fixed clears is 0 expected clears is 1.76299064658373626521, progress probability is 0.13790772879093444931
+(6,6) Fixed clears is 0 expected clears is 1.55635104900897737029, progress probability is 0.12111776006580341492
+(9,2) Fixed clears is 0 expected clears is 1.56087045203913602436, progress probability is 0.06264451407121913616
+(8,4) Fixed clears is 0 expected clears is 1.14701202103575330212, progress probability is 0.04223446723140586396
+(2,11) Fixed clears is 0 expected clears is 0.91869182386043477892, progress probability is 0.01369444258449104856
+(7,8) Fixed clears is 0 expected clears is 0.87148424421572307132, progress probability is 0.00692755122569074232
+
+
+super7.txt
+(make sure we use 6,1=7 for correct progress)
+Perimeter mask=0x0000000000000000 0x00000000003FFFFF
+0,0=0	solutions=0 conflicts=2
+0,0=1	progress=53.016% clears=1 solutions=2 conflicts=4 0x0000000000000000 0x0000000000000001
+4,0=1	solutions=0 conflicts=2
+4,0=2	progress=42.134% clears=2 solutions=2 conflicts=2 0x0000000000000000 0x0000000000000006
+3,1=1	progress=21.067% clears=5 solutions=1 conflicts=1 0x0000000000000000 0x00000000000000C7
+3,1=2	progress=47.575% clears=2 solutions=4 conflicts=1 0x0000000000000000 0x00000000000000C0
+3,1=3	progress=10.882% clears=3 solutions=6 conflicts=1 0x0000000000000000 0x00000000000000C1
+6,1=2	progress=23.706% clears=8 solutions=2 conflicts=2 0x0000000000000000 0x000000000000009F
+6,1=3	progress=32.614% clears=2 solutions=5 conflicts=4 0x0000000000000000 0x0000000000000090
+6,1=4	progress=17.756% clears=2 solutions=8 conflicts=6 0x0000000000000000 0x0000000000000090
+6,1=5	progress= 4.779% clears=2 solutions=11 conflicts=8 0x0000000000000000 0x0000000000000090
+6,1=6	progress= 0.635% clears=2 solutions=14 conflicts=10 0x0000000000000000 0x0000000000000090
+6,1=7	progress= 0.033% clears=7 solutions=15 conflicts=13 0x0000000000000000 0x00000000000000F6
+0,1=2	progress=42.134% clears=4 solutions=1 conflicts=1 0x0000000000000000 0x0000000000000051
+0,1=3	progress=31.949% clears=2 solutions=3 conflicts=1 0x0000000000000000 0x0000000000000050
+0,1=4	progress= 5.441% clears=4 solutions=4 conflicts=2 0x0000000000000000 0x0000000000000056
+// new method
+0,1	prob=79.524%  progress=79.524% clears= 6.211 time=0.048ms Linked to 3,1 6,1 
+3,1	prob=79.524%  progress=79.524% clears= 6.211 time=0.043ms Linked to 0,1 6,1 
+6,1	prob=79.524%  progress=79.524% clears= 6.211 time=0.105ms merges Linked to 0,1 3,1 
+0,0	prob=79.524%  progress=53.016% clears= 1.325 time=0.036ms Adjacent 
+5,0	prob=79.524%  progress=50.198% clears= 1.799 time=0.077ms Adjacent 
+4,0	prob=79.524%  progress=42.134% clears= 1.638 time=0.029ms Adjacent 
+// jar method
+3,1	prob=79.524%  progress=79.524% clears= 5.502 time=0.057ms Linked to 6,1 0,1 
+6,1	prob=79.524%  progress=79.524% clears= 5.502 time=0.097ms merges Linked to 3,1 0,1 
+0,1	prob=79.524%  progress=79.524% clears= 5.502 time=0.043ms Linked to 3,1 6,1 
+0,0	prob=79.524%  progress=53.016% clears= 1.325 time=0.034ms Adjacent 
+5,0	prob=79.524%  progress=50.198% clears= 1.799 time=0.053ms Adjacent 
+4,0	prob=79.524%  progress=42.134% clears= 1.638 time=0.033ms Adjacent 
+// old method
+3,1	prob=79.524%  progress=79.524% clears= 4.883 time=0.063ms Linked to 6,1 0,1 
+6,1	prob=79.524%  progress=79.524% clears= 4.883 time=0.100ms merges Linked to 3,1 0,1 
+0,1	prob=79.524%  progress=79.524% clears= 4.883 time=0.046ms Linked to 3,1 6,1 
+0,0	prob=79.524%  progress=53.016% clears= 1.325 time=0.034ms Adjacent 
+5,0	prob=79.524%  progress=50.198% clears= 1.799 time=0.043ms Adjacent 
+4,0	prob=79.524%  progress=42.134% clears= 1.638 time=0.026ms Adjacent 
+
+(6,1) Fixed clears is 2 expected clears is 5.28279141579737944754, progress probability is 0.79523809523809523810
+(0,0) Fixed clears is 0 expected clears is 1.32539682539682539683, progress probability is 0.53015873015873015873
+(5,0) Fixed clears is 0 expected clears is 1.79920450942935555422, progress probability is 0.50198320709563015806
+(4,0) Fixed clears is 0 expected clears is 1.63792476417774747130, progress probability is 0.42134333446982611660
+(0,15) Fixed clears is 0 expected clears is 1.99060817832193395980, progress probability is 0.39845669436127957390
+(29,0) Fixed clears is 0 expected clears is 1.99060817832193395980, progress probability is 0.39845669436127957390
+(29,15) Fixed clears is 0 expected clears is 1.99060817832193395980, progress probability is 0.39845669436127957390
+(0,8) Fixed clears is 0 expected clears is 1.79920450942935555422, progress probability is 0.33465547139708677204
+(8,3) Fixed clears is 0 expected clears is 2.04814713447593476945, progress probability is 0.25058180784756790627
+(8,5) Fixed clears is 0 expected clears is 2.04814713447593476945, progress probability is 0.25058180784756790627
+(8,4) Fixed clears is 0 expected clears is 2.04814713447593476945, progress probability is 0.25058180784756790627
+(2,9) Fixed clears is 0 expected clears is 2.04814713447593476945, progress probability is 0.25058180784756790627
+(4,8) Fixed clears is 0 expected clears is 1.84884954667417103450, progress probability is 0.21072229028721515928
+(6,8) Fixed clears is 0 expected clears is 1.79756532662836686322, progress probability is 0.12529090392378395314
+(8,6) Fixed clears is 0 expected clears is 1.42169261485701500380, progress probability is 0.06264545196189197657
+
+
+super8.txt
+Perimeter mask=0x0000000000000000 0x000000000003FFFF
+1,1=0	progress= 9.977% clears=15 solutions=2 conflicts=3 0x0000000000000000 0x0000000000032DCA
+1,1=1	clears=0 solutions=10 conflicts=5
+2,1=0	progress=12.670% clears=16 solutions=1 conflicts=2 0x0000000000000000 0x0000000000036DED
+2,1=1	progress=43.359% clears=1 solutions=9 conflicts=5 0x0000000000000000 0x0000000000002000
+2,1=2	progress=29.244% clears=1 solutions=17 conflicts=8 0x0000000000000000 0x0000000000002000
+2,1=3	progress= 7.223% clears=1 solutions=25 conflicts=11 0x0000000000000000 0x0000000000002000
+2,1=4	progress= 0.605% clears=2 solutions=32 conflicts=12 0x0000000000000000 0x0000000000002010
+3,1=1	progress=45.800% clears=3 solutions=8 conflicts=7 0x0000000000000000 0x0000000000000000
+3,1=2	clears=0 solutions=16 conflicts=14
+1,5=0	progress=19.955% clears=12 solutions=4 conflicts=4 0x0000000000000000 0x00000000000024A7
+1,5=1	clears=0 solutions=12 conflicts=8
+2,5=0	progress=12.670% clears=16 solutions=1 conflicts=6 0x0000000000000000 0x0000000000036D6F
+2,5=1	progress=43.359% clears=1 solutions=9 conflicts=8 0x0000000000000000 0x0000000000000400
+2,5=2	progress=29.244% clears=1 solutions=17 conflicts=10 0x0000000000000000 0x0000000000000400
+2,5=3	progress= 7.223% clears=1 solutions=25 conflicts=12 0x0000000000000000 0x0000000000000400
+2,5=4	progress= 0.605% clears=2 solutions=32 conflicts=15 0x0000000000000000 0x0000000000000410
+5,5=0	progress=12.670% clears=16 solutions=1 conflicts=6 0x0000000000000000 0x000000000003E2F7
+5,5=1	progress=43.359% clears=1 solutions=9 conflicts=9 0x0000000000000000 0x0000000000000080
+5,5=2	progress=29.244% clears=1 solutions=17 conflicts=12 0x0000000000000000 0x0000000000000080
+5,5=3	progress= 7.223% clears=1 solutions=25 conflicts=15 0x0000000000000000 0x0000000000000080
+5,5=4	progress= 0.605% clears=2 solutions=32 conflicts=19 0x0000000000000000 0x0000000000000880
+5,1=1	progress=12.670% clears=16 solutions=1 conflicts=3 0x0000000000000000 0x000000000003C6F7
+5,1=2	progress=43.359% clears=1 solutions=9 conflicts=9 0x0000000000000000 0x0000000000000002
+5,1=3	progress=29.244% clears=1 solutions=17 conflicts=15 0x0000000000000000 0x0000000000000002
+5,1=4	progress= 7.223% clears=1 solutions=25 conflicts=21 0x0000000000000000 0x0000000000000002
+5,1=5	progress= 0.605% clears=2 solutions=32 conflicts=23 0x0000000000000000 0x0000000000000802
+6,4=0	progress=26.310% clears=8 solutions=5 conflicts=5 0x0000000000000000 0x0000000000020D80
+6,4=1	clears=0 solutions=13 conflicts=13
+6,5=0	progress=24.205% clears=8 solutions=6 conflicts=3 0x0000000000000000 0x0000000000010480
+6,5=1	clears=0 solutions=14 conflicts=5
+// new method
+2,1	prob=93.101%  progress=93.101% clears= 6.449 time=0.126ms Linked to 5,1 
+2,5	prob=93.101%  progress=93.101% clears= 6.449 time=0.112ms Linked to 5,5 
+5,5	prob=93.101%  progress=93.101% clears= 6.449 time=0.130ms Linked to 2,5 
+5,1	prob=93.101%  progress=93.101% clears= 6.449 time=0.113ms Linked to 2,1 
+3,1	prob=93.101%  progress=45.800% clears= 2.305 time=0.048ms 
+6,4	prob=93.101%  progress=26.310% clears= 3.036 time=0.041ms 
+6,5	prob=93.101%  progress=24.205% clears= 2.867 time=0.040ms 
+1,5	prob=93.101%  progress=19.955% clears= 3.326 time=0.045ms 
+1,1	prob=93.101%  progress= 9.977% clears= 2.428 time=0.055ms 
+// jar method
+2,1	prob=93.101%  progress=93.101% clears= 5.675 time=0.118ms Linked to 5,1 
+2,5	prob=93.101%  progress=93.101% clears= 5.675 time=0.111ms Linked to 5,5 
+5,5	prob=93.101%  progress=93.101% clears= 5.675 time=0.127ms Linked to 2,5 
+5,1	prob=93.101%  progress=93.101% clears= 5.675 time=0.125ms Linked to 2,1 
+3,1	prob=93.101%  progress=45.800% clears= 2.305 time=0.051ms 
+6,4	prob=93.101%  progress=26.310% clears= 3.036 time=0.041ms 
+6,5	prob=93.101%  progress=24.205% clears= 2.867 time=0.040ms 
+1,5	prob=93.101%  progress=19.955% clears= 3.326 time=0.045ms 
+1,1	prob=93.101%  progress= 9.977% clears= 2.428 time=0.063ms 
+// old method
+2,1	prob=93.101%  progress=93.101% clears= 6.035 time=0.036ms Linked to 5,1 
+2,5	prob=93.101%  progress=93.101% clears= 6.035 time=0.030ms Linked to 5,5 
+5,5	prob=93.101%  progress=93.101% clears= 6.035 time=0.034ms Linked to 2,5 
+5,1	prob=93.101%  progress=93.101% clears= 6.035 time=0.038ms Linked to 2,1 
+3,1	prob=93.101%  progress=45.800% clears= 2.305 time=0.014ms 
+6,4	prob=93.101%  progress=26.310% clears= 3.036 time=0.017ms 
+6,5	prob=93.101%  progress=24.205% clears= 2.867 time=0.016ms 
+1,5	prob=93.101%  progress=19.955% clears= 3.326 time=0.013ms 
+1,1	prob=93.101%  progress= 9.977% clears= 2.428 time=0.022ms 
+
+missing clears for 2,1 5,1 5,5 2,5
+(2,1) Fixed clears is 1 expected clears is 5.66309672842163343928, progress probability is 0.93100944081336238199
+(2,5) Fixed clears is 1 expected clears is 5.66309672842163343928, progress probability is 0.93100944081336238199
+(3,1) Fixed clears is 0 expected clears is 2.30499678713356166519, progress probability is 0.45799578210673309440
+(6,4) Fixed clears is 0 expected clears is 3.03578002566750255879, progress probability is 0.26309632310676752210
+(6,5) Fixed clears is 0 expected clears is 2.86744495415652185767, progress probability is 0.24205443916789493446
+(1,5) Fixed clears is 0 expected clears is 3.32560344899556883163, progress probability is 0.19954950068185053747
+(1,1) Fixed clears is 0 expected clears is 2.42763069592724141294, progress probability is 0.09977475034092526873
+
+
+super9.txt (23,8 merges two of the four lists)
+22,10=0	progress=24.471% clears=6 solutions=2 conflicts=1
+22,10=1	clears=0 solutions=7 conflicts=3
+23,8=1	progress=16.314% clears=7 solutions=4 conflicts=5
+23,8=2	clears=0 solutions=25 conflicts=13
+23,9=0	progress=20.187% clears=9 solutions=1 conflicts=3
+23,9=1	clears=0 solutions=6 conflicts=5
+23,10=0	progress=30.207% clears=7 solutions=3 conflicts=2
+23,10=1	clears=0 solutions=8 conflicts=3
+23,10	prob=92.82%  progress=30.207% clears= 3.043 time=0.027ms 
+22,10	prob=92.82%  progress=24.471% clears= 2.396 time=0.052ms 
+23,9	prob=92.82%  progress=20.187% clears= 2.745 time=0.027ms 
+23,8	prob=92.82%  progress=16.314% clears= 2.070 time=0.062ms 
+
+(22,10) with value 0 has 6 clears with probability 0.24470823798627002288
+(23,8) with value 1 has 7 clears with probability 0.16313882532418001526
+(23,8) with value 2 only has linked clears
+(23,9) with value 0 has 9 clears with probability 0.20186715990744123736
+(23,10) with value 0 has 7 clears with probability 0.30207180211474596328
+(23,10) Fixed clears is 0 expected clears is 3.04268243936462525173, progress probability is 0.30207180211474596328
+(22,10) Fixed clears is 0 expected clears is 2.39642925247902364605, progress probability is 0.24470823798627002288
+(23,9) Fixed clears is 0 expected clears is 2.74498426372837464501, progress probability is 0.20186715990744123736
+(23,8) Fixed clears is 0 expected clears is 2.07015160183066361559, progress probability is 0.16313882532418001526
+
+
+super10.txt
+Perimeter mask=0x0000000000000000 0x0000007FFFFFFFFF
+27,3=0	progress=18.780% clears=11 solutions=2 conflicts=2 0x0000000000000000 0x0000000000005B58
+27,3=1	clears=0 solutions=16 conflicts=14
+27,4=0	progress=33.611% clears=7 solutions=5 conflicts=7 0x0000000000000000 0x0000000000005440
+27,4=1	progress=37.904% clears=1 solutions=20 conflicts=9 0x0000000000000000 0x0000000000004000
+27,4=2	progress=14.172% clears=1 solutions=35 conflicts=11 0x0000000000000000 0x0000000000004000
+27,4=3	progress= 2.122% clears=1 solutions=50 conflicts=13 0x0000000000000000 0x0000000000004000
+27,4=4	progress= 0.108% clears=2 solutions=60 conflicts=20 0x0000000000000000 0x0000000000004080
+27,7=1	progress= 6.632% clears=9 solutions=5 conflicts=19 0x0000000000000000 0x0000000000002C80
+27,7=2	progress=34.518% clears=1 solutions=20 conflicts=28 0x0000000000000000 0x0000000000000800
+27,7=3	progress=32.090% clears=1 solutions=35 conflicts=37 0x0000000000000000 0x0000000000000800
+27,7=4	progress=12.239% clears=1 solutions=50 conflicts=46 0x0000000000000000 0x0000000000000800
+27,7=5	progress= 2.239% clears=1 solutions=65 conflicts=55 0x0000000000000000 0x0000000000000800
+27,7=6	progress= 0.193% clears=1 solutions=80 conflicts=64 0x0000000000000000 0x0000000000000800
+27,7=7	progress= 0.006% clears=2 solutions=90 conflicts=78 0x0000000000000000 0x0000000000001800
+14,10=3	progress=49.398% clears=3 solutions=6 conflicts=5 0x0000000000000000 0x0000000A40000000
+14,10=4	progress=33.077% clears=1 solutions=15 conflicts=7 0x0000000000000000 0x0000000800000000
+14,10=5	progress= 4.189% clears=5 solutions=18 conflicts=12 0x0000000000000000 0x0000004D80000000
+15,10=1	progress=21.896% clears=7 solutions=4 conflicts=4 0x0000000000000000 0x0000000AC1280000
+15,10=2	progress=51.964% clears=1 solutions=18 conflicts=10 0x0000000000000000 0x0000000001000000
+15,10=3	progress=16.344% clears=3 solutions=30 conflicts=16 0x0000000000000000 0x0000000501000000
+18,10=2	progress=44.886% clears=4 solutions=10 conflicts=12 0x0000000000000000 0x0000000118400000
+18,10=3	progress=37.693% clears=1 solutions=30 conflicts=33 0x0000000000000000 0x0000000000400000
+18,10=4	progress= 7.625% clears=5 solutions=40 conflicts=45 0x0000000000000000 0x00000000E2400000
+18,11=1	progress=29.338% clears=5 solutions=13 conflicts=11 0x0000000000000000 0x0000000110000000
+18,11=2	clears=0 solutions=44 conflicts=26
+19,11=1	progress=50.689% clears=3 solutions=18 conflicts=30 0x0000000000000000 0x0000000000000000
+19,11=2	clears=0 solutions=36 conflicts=60
+20,11=1	progress=36.367% clears=5 solutions=13 conflicts=2 0x0000000000000000 0x0000000010000000
+20,11=2	clears=0 solutions=31 conflicts=12
+14,11=1	progress= 7.454% clears=6 solutions=4 conflicts=10 0x0000000000000000 0x0000000441500000
+14,11=2	clears=0 solutions=18 conflicts=18
+14,13=2	progress=49.549% clears=4 solutions=9 conflicts=1 0x0000000000000000 0x0000000000200000
+14,13=3	progress=30.774% clears=1 solutions=18 conflicts=2 0x0000000000000000 0x0000000000200000
+14,13=4	progress= 5.980% clears=1 solutions=27 conflicts=3 0x0000000000000000 0x0000000000200000
+14,13=5	progress= 0.363% clears=1 solutions=36 conflicts=4 0x0000000000000000 0x0000000000200000
+// new method
+15,10	prob=90.204%  progress=90.204% clears= 5.880 time=0.070ms Linked to 18,10 
+18,10	prob=90.204%  progress=90.204% clears= 5.880 time=0.081ms Linked to 15,10 
+27,4	prob=87.917%  progress=87.917% clears= 5.160 time=0.110ms Linked to 27,7 
+27,7	prob=87.917%  progress=87.917% clears= 5.160 time=0.200ms Linked to 27,4 
+14,10	prob=86.665%  progress=86.665% clears= 5.242 time=0.076ms Linked to 14,13 
+14,13	prob=86.665%  progress=86.665% clears= 5.242 time=0.079ms Linked to 14,10 
+19,11	prob=88.563%  progress=50.689% clears= 2.406 time=0.068ms 
+20,11	prob=88.563%  progress=36.367% clears= 2.704 time=0.058ms 
+18,11	prob=88.563%  progress=29.338% clears= 2.353 time=0.070ms 
+27,3	prob=87.917%  progress=18.780% clears= 2.945 time=0.038ms 
+14,11	prob=87.433%  progress= 7.454% clears= 1.322 time=0.039ms 
+// jar method
+15,10	prob=90.204%  progress=90.204% clears= 5.096 time=0.024ms Linked to 18,10 
+18,10	prob=90.204%  progress=90.204% clears= 5.096 time=0.028ms Linked to 15,10 
+27,4	prob=87.917%  progress=87.917% clears= 4.307 time=0.051ms Linked to 27,7 
+27,7	prob=87.917%  progress=87.917% clears= 4.307 time=0.079ms Linked to 27,4 
+14,10	prob=86.665%  progress=86.665% clears= 4.375 time=0.021ms Linked to 14,13 
+14,13	prob=86.665%  progress=86.665% clears= 4.375 time=0.028ms Linked to 14,10 
+19,11	prob=88.563%  progress=50.689% clears= 2.406 time=0.024ms 
+20,11	prob=88.563%  progress=36.367% clears= 2.704 time=0.019ms 
+18,11	prob=88.563%  progress=29.338% clears= 2.353 time=0.024ms 
+27,3	prob=87.917%  progress=18.780% clears= 2.945 time=0.024ms 
+14,11	prob=87.433%  progress= 7.454% clears= 1.322 time=0.014ms 
+// old method
+15,10	prob=90.204%  progress=90.204% clears= 5.880 time=0.070ms Linked to 18,10 
+18,10	prob=90.204%  progress=90.204% clears= 5.880 time=0.082ms Linked to 15,10 
+27,4	prob=87.917%  progress=87.917% clears= 5.084 time=0.147ms Linked to 27,7 
+27,7	prob=87.917%  progress=87.917% clears= 5.084 time=0.257ms Linked to 27,4 
+14,10	prob=86.665%  progress=86.665% clears= 5.218 time=0.058ms Linked to 14,13 
+14,13	prob=86.665%  progress=86.665% clears= 5.218 time=0.080ms Linked to 14,10 
+19,11	prob=88.563%  progress=50.689% clears= 2.406 time=0.069ms 
+20,11	prob=88.563%  progress=36.367% clears= 2.704 time=0.058ms 
+18,11	prob=88.563%  progress=29.338% clears= 2.353 time=0.070ms 
+27,3	prob=87.917%  progress=18.780% clears= 2.945 time=0.062ms 
+14,11	prob=87.433%  progress= 7.454% clears= 1.322 time=0.042ms 
+
+15,10=2,3 missed
+18,10=4 missed
+(15,10) Fixed clears is 1 expected clears is 4.46443553209073935778, progress probability is 0.90204358706153911453
+(27,7) Fixed clears is 1 expected clears is 4.30556276420348053620, progress probability is 0.87917148920245074146
+(14,10) Fixed clears is 1 expected clears is 4.20773410556049266008, progress probability is 0.86664849118651299947
+(19,11) Fixed clears is 0 expected clears is 2.40628439634291159193, progress probability is 0.50688609265281776732
+(20,11) Fixed clears is 0 expected clears is 2.70399310081190379722, progress probability is 0.36367339648548910145
+(18,11) Fixed clears is 0 expected clears is 2.35253114564233562732, progress probability is 0.29338100545157546747
+(27,3) Fixed clears is 0 expected clears is 2.94492448320040308670, progress probability is 0.18779572672708657684
+(14,11) Fixed clears is 0 expected clears is 1.32158385912781537365, progress probability is 0.07454248206311816273
+
+
+super11.txt:
+(NOTE rare case of clears with higher values!!!!!)
+18,11=1	solutions=0 conflicts=2
+18,11=2	solutions=0 conflicts=4
+18,11=3	progress= 7.421% clears=7 solutions=1 conflicts=6
+12,11=4	progress=42.857% clears=1 solutions=4 conflicts=5
+12,11=5	clears=0 solutions=8 conflicts=10
+12,11	prob=71.43%  progress=42.857% clears= 1.143 time=0.029ms 
+13,15	prob=72.73%  progress=24.880% clears= 1.474 time=0.075ms Adjacent 
+20,15	prob=72.73%  progress=24.880% clears= 1.474 time=0.104ms Adjacent 
+18,11	prob=72.73%  progress= 7.421% clears= 1.247 time=0.042ms Adjacent 
+ERROR 18,11=6 missed
+
+(18,11) with value 3 has 7 clears with probability 0.07421150278293135436
+(18,11) with value 6 has 2 clears with probability 0.07915893630179344465 
+(12,11) Fixed clears is 0 expected clears is 1.14285714285714285714, progress probability is 0.42857142857142857143
+(20,15) Fixed clears is 0 expected clears is 1.47368421052631578948, progress probability is 0.24880382775119617225
+(13,15) Fixed clears is 0 expected clears is 1.47368421052631578948, progress probability is 0.24880382775119617225
+(20,14) Fixed clears is 0 expected clears is 1.55661881977671451358, progress probability is 0.16586921850079744817
+(18,11) Fixed clears is 0 expected clears is 1.40507111935683364255, progress probability is 0.15337043908472479901
+(15,13) Fixed clears is 0 expected clears is 1.26042378673957621328, progress probability is 0.10663021189336978811
+(18,12) Fixed clears is 0 expected clears is 1.04716336295283663709, progress probability is 0.03554340396445659604
+(13,14) Fixed clears is 0 expected clears is 0.94053315105946684897, progress probability is 0.03554340396445659604
+(16,13) Fixed clears is 0 expected clears is 0.72727272727272727273, progress probability is 0
+
+
+super12 at 0,0 better with less progress.txt
+Perimeter mask=0x0000000000000000 0x000000000001FFFF
+0,5=0	progress=42.451% clears=6 solutions=8 conflicts=8 0x0000000000000000 0x0000000000004068
+0,0=0	progress=71.004% clears=5 solutions=3 conflicts=2 0x0000000000000000 0x000000000000026A
+0,0=1	progress=19.977% clears=1 solutions=10 conflicts=3 0x0000000000000000 0x0000000000000200
+0,0=2	progress= 0.991% clears=4 solutions=13 conflicts=6 0x0000000000000000 0x0000000000001214
+1,0=1	progress=77.984% clears=3 solutions=6 conflicts=3 0x0000000000000000 0x0000000000000068
+1,0=2	progress=14.526% clears=1 solutions=16 conflicts=5 0x0000000000000000 0x0000000000000010
+0,4=0	progress=51.347% clears=4 solutions=8 conflicts=9 0x0000000000000000 0x0000000000004048
+0,4=1	clears=0 solutions=29 conflicts=16
+1,4=0	progress=25.674% clears=5 solutions=8 conflicts=13 0x0000000000000000 0x000000000000C028
+1,4=1	clears=0 solutions=40 conflicts=14
+3,0=1	progress=77.984% clears=3 solutions=6 conflicts=3 0x0000000000000000 0x0000000000001801
+3,0=2	progress=13.988% clears=2 solutions=13 conflicts=6 0x0000000000000000 0x0000000000000101
+4,1=1	progress=58.541% clears=6 solutions=6 conflicts=2 0x0000000000000000 0x0000000000000203
+4,1=2	clears=0 solutions=21 conflicts=3
+4,3=2	progress=70.070% clears=3 solutions=15 conflicts=6 0x0000000000000000 0x0000000000000000
+4,3=3	clears=0 solutions=30 conflicts=12
+// new method
+1,0	prob=92.510%  progress=92.510% clears= 3.410 time=0.020ms 
+0,0	prob=91.972%  progress=91.972% clears= 7.320 time=0.027ms Linked to 3,0 
+3,0	prob=91.972%  progress=91.972% clears= 7.320 time=0.022ms Linked to 0,0 
+4,3	prob=92.482%  progress=70.070% clears= 3.027 time=0.026ms 
+0,8	prob=91.435%  progress=69.190% clears= 2.990 time=0.027ms Open 
+8,0	prob=91.435%  progress=69.190% clears= 2.990 time=0.020ms Open 
+8,8	prob=91.435%  progress=69.190% clears= 2.990 time=0.027ms Open 
+4,1	prob=92.482%  progress=58.541% clears= 4.437 time=0.020ms 
+0,4	prob=91.972%  progress=51.347% clears= 2.974 time=0.099ms 
+0,5	prob=91.435%  progress=42.451% clears= 3.461 time=0.020ms Adjacent 
+1,4	prob=92.510%  progress=25.674% clears= 2.209 time=0.033ms 
+0,0	prob=91.972%  progress=91.972% clears= 7.320 diff=0.538%,0.538%,3.910 Threshold selection
+// jar method
+1,0	prob=92.510%  progress=92.510% clears= 3.410 time=0.036ms 
+0,0	prob=91.972%  progress=91.972% clears= 6.409 time=0.051ms Linked to 3,0 
+3,0	prob=91.972%  progress=91.972% clears= 6.409 time=0.036ms Linked to 0,0 
+4,3	prob=92.482%  progress=70.070% clears= 3.027 time=0.058ms 
+8,0	prob=91.435%  progress=69.190% clears= 2.990 time=0.024ms Open 
+0,8	prob=91.435%  progress=69.190% clears= 2.990 time=0.051ms Open 
+8,8	prob=91.435%  progress=69.190% clears= 2.990 time=0.079ms Open 
+4,1	prob=92.482%  progress=58.541% clears= 4.437 time=0.037ms 
+0,4	prob=91.972%  progress=51.347% clears= 2.974 time=0.043ms 
+0,5	prob=91.435%  progress=42.451% clears= 3.461 time=0.039ms Adjacent 
+1,4	prob=92.510%  progress=25.674% clears= 2.209 time=0.057ms 
+// old method
+1,0	prob=92.510%  progress=92.510% clears= 3.410 time=0.013ms 
+0,0	prob=91.972%  progress=91.972% clears= 7.320 time=0.018ms Linked to 3,0 
+3,0	prob=91.972%  progress=91.972% clears= 7.320 time=0.017ms Linked to 0,0 
+4,3	prob=92.482%  progress=70.070% clears= 3.027 time=0.019ms 
+8,0	prob=91.435%  progress=69.190% clears= 2.990 time=0.070ms Open 
+0,8	prob=91.435%  progress=69.190% clears= 2.990 time=0.147ms Open 
+8,8	prob=91.435%  progress=69.190% clears= 2.990 time=0.257ms Open 
+4,1	prob=92.482%  progress=58.541% clears= 4.437 time=0.013ms 
+0,4	prob=91.972%  progress=51.347% clears= 2.974 time=0.015ms 
+0,5	prob=91.435%  progress=42.451% clears= 3.461 time=0.017ms Adjacent 
+1,4	prob=92.510%  progress=25.674% clears= 2.209 time=0.022ms 
+0,0	prob=91.972%  progress=91.972% clears= 7.320 diff=0.538%,0.538%,3.910 Threshold selection
+
+Jar missed 1,0=2 and 0,0=1 and 0,0=2
+(0,0) Fixed clears is 1 expected clears is 6.23927509556845533060, progress probability is 0.91972249752229930624
+(1,0) Fixed clears is 0 expected clears is 3.26461843409316154608, progress probability is 0.77983859549766388220
+(4,3) Fixed clears is 0 expected clears is 3.02693095748053954386, progress probability is 0.70070382522464726029
+(0,8) Fixed clears is 0 expected clears is 2.99006351092294582018, progress probability is 0.69190349265895762520
+(8,0) Fixed clears is 0 expected clears is 2.99006351092294582018, progress probability is 0.69190349265895762520
+(8,8) Fixed clears is 0 expected clears is 2.99006351092294582018, progress probability is 0.69190349265895762520
+(4,1) Fixed clears is 0 expected clears is 4.43730004498185211389, progress probability is 0.58541342719587572515
+(5,2) Fixed clears is 0 expected clears is 3.76101485140885256823, progress probability is 0.56933236369255592473
+(2,6) Fixed clears is 0 expected clears is 3.76101485140885256823, progress probability is 0.56933236369255592473
+(5,1) Fixed clears is 0 expected clears is 4.04912412792435979972, progress probability is 0.52246184916304780919
+(5,3) Fixed clears is 0 expected clears is 4.04912412792435979972, progress probability is 0.52246184916304780919
+(0,4) Fixed clears is 0 expected clears is 2.97361838689886261740, progress probability is 0.51347397234414082779
+(0,5) Fixed clears is 0 expected clears is 3.46141496179830416980, progress probability is 0.42451032147537187087
+(1,4) Fixed clears is 0 expected clears is 2.20878757846052196893, progress probability is 0.25673698617207041389
+
+
+super13 at 4,1 better with less progress.txt
+Perimeter mask=0x0000000000000000 0x000000000003FFFF
+0,0=0	progress=75.692% clears=3 solutions=9 conflicts=8 0x0000000000000000 0x000000000000004A
+0,0=1	progress=15.998% clears=2 solutions=18 conflicts=18 0x0000000000000000 0x0000000000000014
+1,0=0	progress= 7.689% clears=6 solutions=4 conflicts=3 0x0000000000000000 0x000000000000046D
+1,0=1	progress=84.622% clears=1 solutions=19 conflicts=8 0x0000000000000000 0x0000000000000010
+0,1=0	progress=68.003% clears=5 solutions=5 conflicts=11 0x0000000000000000 0x0000000000002053
+0,1=1	progress=23.687% clears=2 solutions=18 conflicts=19 0x0000000000000000 0x0000000000000044
+0,4=1	progress=62.174% clears=7 solutions=4 conflicts=4 0x0000000000000000 0x0000000000031D08
+0,4=2	progress=29.516% clears=2 solutions=18 conflicts=12 0x0000000000000000 0x0000000000000208
+3,5=0	progress= 5.697% clears=9 solutions=4 conflicts=7 0x0000000000000000 0x0000000000039202
+3,5=1	clears=0 solutions=23 conflicts=9
+4,3=1	progress=65.503% clears=3 solutions=19 conflicts=0 0x0000000000000000 0x0000000000000000
+4,3=2	clears=0 solutions=38 conflicts=0
+4,1=1	progress=43.197% clears=10 solutions=4 conflicts=4 0x0000000000000000 0x000000000001205B
+4,1=2	progress=38.915% clears=1 solutions=22 conflicts=7 0x0000000000000000 0x0000000000010000
+4,1=3	progress= 8.916% clears=1 solutions=40 conflicts=10 0x0000000000000000 0x0000000000010000
+4,1=4	progress= 0.650% clears=1 solutions=58 conflicts=13 0x0000000000000000 0x0000000000010000
+4,1=5	progress= 0.012% clears=2 solutions=72 conflicts=14 0x0000000000000000 0x0000000000010004
+4,4=0	progress=47.445% clears=8 solutions=5 conflicts=12 0x0000000000000000 0x0000000000021D00
+4,4=1	progress=36.115% clears=1 solutions=23 conflicts=23 0x0000000000000000 0x0000000000001000
+4,4=2	progress= 7.596% clears=1 solutions=41 conflicts=34 0x0000000000000000 0x0000000000001000
+4,4=3	progress= 0.524% clears=1 solutions=59 conflicts=45 0x0000000000000000 0x0000000000001000
+4,4=4	progress= 0.010% clears=2 solutions=72 conflicts=60 0x0000000000000000 0x0000000000001200
+4,5=0	progress=41.464% clears=8 solutions=9 conflicts=7 0x0000000000000000 0x0000000000011400
+4,5=1	clears=0 solutions=27 conflicts=16
+// new method
+1,0	prob=92.311%  progress=92.311% clears= 2.231 time=0.024ms 
+4,1	prob=91.691%  progress=91.691% clears= 9.960 time=0.138ms Linked to 4,4 
+4,4	prob=91.691%  progress=91.691% clears= 9.960 time=0.084ms Linked to 4,1 
+0,1	prob=91.691%  progress=91.691% clears= 9.733 time=0.028ms Linked to 0,4 
+0,4	prob=91.691%  progress=91.691% clears= 9.733 time=0.023ms Linked to 0,1 
+0,0	prob=91.691%  progress=91.691% clears= 3.508 time=0.036ms 
+4,3	prob=92.311%  progress=65.503% clears= 2.888 time=0.027ms 
+0,8	prob=89.490%  progress=63.290% clears= 2.794 time=0.020ms Open 
+8,0	prob=89.490%  progress=63.290% clears= 2.794 time=0.027ms Open 
+8,8	prob=89.490%  progress=63.290% clears= 2.794 time=0.022ms Open 
+4,5	prob=91.691%  progress=41.464% clears= 4.234 time=0.038ms 
+3,5	prob=92.311%  progress= 5.697% clears= 1.436 time=0.095ms 
+4,1	prob=91.691%  progress=91.691% clears= 9.960 diff=0.620%,0.620%,7.729 Threshold selection
+// jar method
+1,0	prob=92.311%  progress=92.311% clears= 2.231 time=0.055ms 
+4,1	prob=91.691%  progress=91.691% clears= 9.043 time=0.147ms Linked to 4,4 
+4,4	prob=91.691%  progress=91.691% clears= 9.043 time=0.157ms Linked to 4,1 
+0,1	prob=91.691%  progress=91.691% clears= 8.816 time=0.063ms Linked to 0,4 
+0,4	prob=91.691%  progress=91.691% clears= 8.816 time=0.052ms Linked to 0,1 
+0,0	prob=91.691%  progress=91.691% clears= 3.508 time=0.083ms 
+4,3	prob=92.311%  progress=65.503% clears= 2.888 time=0.063ms 
+8,0	prob=89.490%  progress=63.290% clears= 2.794 time=0.036ms Open 
+0,8	prob=89.490%  progress=63.290% clears= 2.794 time=0.051ms Open 
+8,8	prob=89.490%  progress=63.290% clears= 2.794 time=0.036ms Open 
+4,5	prob=91.691%  progress=41.464% clears= 4.234 time=0.058ms 
+3,5	prob=92.311%  progress= 5.697% clears= 1.436 time=0.057ms 
+4,1	prob=91.691%  progress=91.691% clears= 9.043 diff=0.620%,0.620%,6.812 Threshold selection
+// old method
+1,0	prob=92.311%  progress=92.311% clears= 2.231 time=0.047ms 
+0,1	prob=91.691%  progress=91.691% clears= 9.733 time=0.048ms Linked to 0,4 
+0,4	prob=91.691%  progress=91.691% clears= 9.733 time=0.043ms Linked to 0,1 
+4,1	prob=91.691%  progress=91.691% clears= 8.425 time=0.134ms Linked to 4,4 
+4,4	prob=91.691%  progress=91.691% clears= 8.425 time=0.166ms Linked to 4,1 
+0,0	prob=91.691%  progress=91.691% clears= 3.508 time=0.067ms 
+4,3	prob=92.311%  progress=65.503% clears= 2.888 time=0.052ms 
+8,0	prob=89.490%  progress=63.290% clears= 2.794 time=0.055ms Open 
+0,8	prob=89.490%  progress=63.290% clears= 2.794 time=0.165ms Open 
+8,8	prob=89.490%  progress=63.290% clears= 2.794 time=0.166ms Open 
+4,5	prob=91.691%  progress=41.464% clears= 4.234 time=0.058ms 
+3,5	prob=92.311%  progress= 5.697% clears= 1.436 time=0.047ms 
+0,1	prob=91.691%  progress=91.691% clears= 9.733 diff=0.620%,0.620%,7.503 Threshold selection
+
+missed 1,0=1
+missed 0,0=1
+(4,1) Fixed clears is 1 expected clears is 9.04267466391269198870, progress probability is 0.91690781314592806945
+(0,1) Fixed clears is 1 expected clears is 8.28441504754030591150, progress probability is 0.91690781314592806945
+(0,0) Fixed clears is 0 expected clears is 3.18768085985944605208, progress probability is 0.75692434890450599421
+(4,3) Fixed clears is 0 expected clears is 2.88819554278925294796, progress probability is 0.65502894005886769755
+(4,5) Fixed clears is 0 expected clears is 4.23401353927267475817, progress probability is 0.41463821576584333609
+(1,0) Fixed clears is 0 expected clears is 1.38445638693675072345, progress probability is 0.07689127738735014469
+(3,5) Fixed clears is 0 expected clears is 1.43586602065381754190, progress probability is 0.05697303311568529851
+
+
+super15.txt 
+(without forced mines and exposes)
+5,14=1	progress=46.749% clears=3 solutions=60 conflicts=5
+5,14=2	clears=0 solutions=120 conflicts=10
+10,2=3	progress=42.870% clears=4 solutions=72 conflicts=13
+10,2=4	clears=0 solutions=216 conflicts=85
+11,2=0	progress=22.423% clears=7 solutions=72 conflicts=13
+11,2=1	clears=0 solutions=216 conflicts=73
+11,3=1	progress=46.647% clears=3 solutions=144 conflicts=60
+11,3=2	clears=0 solutions=288 conflicts=120
+11,4=1	progress=27.071% clears=5 solutions=72 conflicts=13
+11,4=2	clears=0 solutions=252 conflicts=37
+5,14	prob=88.68%  progress=46.749% clears= 2.289 time=0.111ms 
+11,3	prob=88.60%  progress=46.647% clears= 2.285 time=0.194ms 
+10,2	prob=88.60%  progress=42.870% clears= 2.601 time=0.149ms 
+11,4	prob=88.60%  progress=27.071% clears= 2.240 time=0.178ms 
+11,2	prob=88.60%  progress=22.423% clears= 2.456 time=0.149ms 
+
+(5,14) Fixed clears is 0 expected clears is 2.28927693849825177877, progress probability is 0.46749482147933656826
+(11,3) Fixed clears is 0 expected clears is 2.28540669423363171473, progress probability is 0.46647301103273487697
+(10,2) Fixed clears is 0 expected clears is 2.60076780947644710606, progress probability is 0.42869503708525500556
+(11,4) Fixed clears is 0 expected clears is 2.23954435285807922087, progress probability is 0.27071133834453042741
+(11,2) Fixed clears is 0 expected clears is 2.45562173054306571073, progress probability is 0.22423343848680551813
+
+
+super16.txt: 
+Perimeter mask=0x0000000000000000 0x0000003FFFFFFFFF
+20,0=1	progress=50.932% clears=5 solutions=3 conflicts=1 0x0000000000000000 0x000000000000048C
+20,0=2	progress=35.096% clears=3 solutions=9 conflicts=1 0x0000000000000000 0x0000000000000484
+20,0=3	progress= 4.815% clears=5 solutions=12 conflicts=2 0x0000000000000000 0x00000000000004B4
+20,3=1	progress=25.466% clears=6 solutions=3 conflicts=1 0x0000000000000000 0x00000000000004B1
+20,3=2	progress=55.747% clears=3 solutions=12 conflicts=1 0x0000000000000000 0x0000000000000481
+20,3=3	progress= 9.630% clears=4 solutions=18 conflicts=1 0x0000000000000000 0x0000000000000489
+20,6=2	progress=28.580% clears=10 solutions=1 conflicts=1 0x0000000000000000 0x000000000000CD05
+20,6=3	progress=41.826% clears=3 solutions=4 conflicts=1 0x0000000000000000 0x0000000000000405
+20,6=4	progress=17.468% clears=3 solutions=7 conflicts=1 0x0000000000000000 0x0000000000000405
+20,6=5	progress= 2.815% clears=3 solutions=10 conflicts=1 0x0000000000000000 0x0000000000000405
+20,6=6	progress= 0.154% clears=4 solutions=12 conflicts=2 0x0000000000000000 0x0000000000000605
+20,9=0	progress=14.290% clears=11 solutions=1 conflicts=3 0x0000000000000000 0x000000000000F285
+20,9=1	progress=47.855% clears=3 solutions=5 conflicts=4 0x0000000000000000 0x0000000000000085
+20,9=2	progress=24.194% clears=3 solutions=9 conflicts=5 0x0000000000000000 0x0000000000000085
+20,9=3	progress= 4.258% clears=3 solutions=13 conflicts=6 0x0000000000000000 0x0000000000000085
+20,9=4	progress= 0.246% clears=4 solutions=16 conflicts=8 0x0000000000000000 0x0000000000000885
+19,10=1	progress=28.580% clears=10 solutions=1 conflicts=2 0x0000000000000000 0x0000000000008D85
+19,10=2	clears=0 solutions=5 conflicts=2
+20,10=0	progress=30.050% clears=10 solutions=2 conflicts=1 0x0000000000000000 0x0000000000004485
+20,10=1	clears=0 solutions=6 conflicts=1
+1,13=1	progress=41.769% clears=5 solutions=6 conflicts=3 0x0000000000000000 0x0000000000400000
+1,13=2	clears=0 solutions=15 conflicts=6
+2,13=2	progress=57.967% clears=3 solutions=9 conflicts=5 0x0000000000000000 0x0000000020000000
+2,13=3	clears=0 solutions=21 conflicts=10
+7,14=2	progress=39.939% clears=7 solutions=3 conflicts=12 0x0000000000000000 0x00000003E0000000
+7,14=3	clears=0 solutions=12 conflicts=19
+3,14=1	progress=36.697% clears=8 solutions=3 conflicts=10 0x0000000000000000 0x00000003C8400000
+3,14=2	clears=0 solutions=13 conflicts=32
+3,15=0	progress=39.939% clears=7 solutions=3 conflicts=7 0x0000000000000000 0x00000003A8000000
+3,15=1	clears=0 solutions=12 conflicts=14
+7,15=0	progress=39.939% clears=7 solutions=3 conflicts=3 0x0000000000000000 0x00000001E8000000
+7,15=1	clears=0 solutions=12 conflicts=3
+9,12=4	progress=32.289% clears=4 solutions=1 conflicts=1 0x0000000000000000 0x0000002800000000
+9,12=5	progress=44.576% clears=1 solutions=3 conflicts=1 0x0000000000000000 0x0000002000000000
+9,12=6	progress=13.413% clears=1 solutions=5 conflicts=1 0x0000000000000000 0x0000002000000000
+9,12=7	progress= 1.127% clears=2 solutions=6 conflicts=2 0x0000000000000000 0x0000003000000000
+12,12=1	progress=19.041% clears=7 solutions=1 conflicts=1 0x0000000000000000 0x0000001400000000
+12,12=2	progress=37.475% clears=1 solutions=3 conflicts=1 0x0000000000000000 0x0000000400000000
+12,12=3	progress=25.314% clears=1 solutions=5 conflicts=1 0x0000000000000000 0x0000000400000000
+12,12=4	progress= 8.117% clears=1 solutions=7 conflicts=1 0x0000000000000000 0x0000000400000000
+12,12=5	progress= 1.343% clears=1 solutions=9 conflicts=1 0x0000000000000000 0x0000000400000000
+12,12=6	progress= 0.110% clears=1 solutions=11 conflicts=1 0x0000000000000000 0x0000000400000000
+12,12=7	progress= 0.004% clears=2 solutions=12 conflicts=2 0x0000000000000000 0x0000000C00000000
+// new method
+9,12	prob=91.404%  progress=91.404% clears= 4.862 time=0.024ms Linked to 12,12 
+12,12	prob=91.404%  progress=91.404% clears= 4.862 time=0.037ms Linked to 9,12 
+20,6	prob=90.843%  progress=90.843% clears= 9.493 time=0.033ms Linked to 20,3 20,0 20,9 
+20,3	prob=90.843%  progress=90.843% clears= 9.493 time=0.027ms Linked to 20,6 20,0 20,9 
+20,0	prob=90.843%  progress=90.843% clears= 9.493 time=0.024ms Linked to 20,6 20,3 20,9 
+20,9	prob=90.843%  progress=90.843% clears= 9.493 time=0.030ms Linked to 20,6 20,3 20,0 
+2,13	prob=92.067%  progress=57.967% clears= 2.660 time=0.025ms 
+1,13	prob=92.067%  progress=41.769% clears= 3.009 time=0.100ms 
+7,14	prob=89.190%  progress=39.939% clears= 3.688 time=0.017ms 
+3,15	prob=89.190%  progress=39.939% clears= 3.688 time=0.018ms 
+7,15	prob=89.190%  progress=39.939% clears= 3.688 time=0.016ms 
+3,14	prob=89.190%  progress=36.697% clears= 3.828 time=0.025ms 
+20,10	prob=90.843%  progress=30.050% clears= 3.913 time=0.013ms 
+19,10	prob=90.843%  progress=28.580% clears= 3.766 time=0.009ms 
+// jar method
+9,12	prob=91.404%  progress=91.404% clears= 3.951 time=0.041ms Linked to 12,12 
+12,12	prob=91.404%  progress=91.404% clears= 3.951 time=0.072ms Linked to 9,12 
+20,0	prob=90.843%  progress=90.843% clears= 8.757 time=0.077ms Linked to 20,3 20,6 20,9 
+20,3	prob=90.843%  progress=90.843% clears= 8.757 time=0.059ms Linked to 20,0 20,6 20,9 
+20,6	prob=90.843%  progress=90.843% clears= 8.757 time=0.074ms Linked to 20,0 20,3 20,9 
+20,9	prob=90.843%  progress=90.843% clears= 8.757 time=0.085ms Linked to 20,0 20,3 20,6 
+2,13	prob=92.067%  progress=57.967% clears= 2.660 time=0.050ms 
+1,13	prob=92.067%  progress=41.769% clears= 3.009 time=0.042ms 
+7,14	prob=89.190%  progress=39.939% clears= 3.688 time=0.045ms 
+3,15	prob=89.190%  progress=39.939% clears= 3.688 time=0.039ms 
+7,15	prob=89.190%  progress=39.939% clears= 3.688 time=0.030ms 
+3,14	prob=89.190%  progress=36.697% clears= 3.828 time=0.057ms 
+20,10	prob=90.843%  progress=30.050% clears= 3.913 time=0.031ms 
+19,10	prob=90.843%  progress=28.580% clears= 3.766 time=0.030ms 
+20,0	prob=90.843%  progress=90.843% clears= 8.757 diff=0.561%,0.561%,4.806 Threshold selection
+// old method
+9,12	prob=91.404%  progress=91.404% clears= 4.728 time=0.039ms Linked to 12,12 
+12,12	prob=91.404%  progress=91.404% clears= 4.728 time=0.070ms Linked to 9,12 
+20,0	prob=90.843%  progress=90.843% clears= 8.953 time=0.072ms Linked to 20,3 20,6 20,9 
+20,3	prob=90.843%  progress=90.843% clears= 8.953 time=0.062ms Linked to 20,0 20,6 20,9 
+20,6	prob=90.843%  progress=90.843% clears= 8.953 time=0.070ms Linked to 20,0 20,3 20,9 
+20,9	prob=90.843%  progress=90.843% clears= 8.953 time=0.089ms Linked to 20,0 20,3 20,6 
+2,13	prob=92.067%  progress=57.967% clears= 2.660 time=0.047ms 
+1,13	prob=92.067%  progress=41.769% clears= 3.009 time=0.042ms 
+7,14	prob=89.190%  progress=39.939% clears= 3.688 time=0.046ms 
+3,15	prob=89.190%  progress=39.939% clears= 3.688 time=0.033ms 
+7,15	prob=89.190%  progress=39.939% clears= 3.688 time=0.029ms 
+3,14	prob=89.190%  progress=36.697% clears= 3.828 time=0.053ms 
+20,10	prob=90.843%  progress=30.050% clears= 3.913 time=0.032ms 
+19,10	prob=90.843%  progress=28.580% clears= 3.766 time=0.030ms 
+
+9,12=7 for 2 clears missed
+12,12=7 for 2 clears missed
+20,9=1-4 missed
+20,6=3-6 missed
+20,3=3 missed
+20,0=3 missed
+(9,12) Fixed clears is 1 expected clears is 3.93921154880826725887, progress probability is 0.91404427889754581621
+(20,6) Fixed clears is 3 expected clears is 8.56014220784533240600, progress probability is 0.90843414919057117353
+(2,13) Fixed clears is 0 expected clears is 2.65967319606420738873, progress probability is 0.57966688217600914936
+(1,13) Fixed clears is 0 expected clears is 3.00909863347459472210, progress probability is 0.41768521678768295629
+(7,14) Fixed clears is 0 expected clears is 3.68766070006624533890, progress probability is 0.39939445137226059277
+(3,15) Fixed clears is 0 expected clears is 3.68766070006624533890, progress probability is 0.39939445137226059277
+(7,15) Fixed clears is 0 expected clears is 3.68766070006624533890, progress probability is 0.39939445137226059277
+(3,14) Fixed clears is 0 expected clears is 3.82769381657870645047, progress probability is 0.36697428451478565762
+(20,10) Fixed clears is 0 expected clears is 3.91342852041160193693, progress probability is 0.30049943712210307634
+(19,10) Fixed clears is 0 expected clears is 3.76641400173975510783, progress probability is 0.28579798525491839343
+
+
+super17.txt
+(NOTE 24,11 24,12 are not linked to 21,12)
+Perimeter mask=0x0000000000000000 0x00000000000FFFFF
+25,12=0	solutions=0 conflicts=2
+25,12=1	progress=39.924% clears=9 solutions=2 conflicts=4 0x0000000000000000 0x00000000000006B5
+29,13=0	solutions=0 conflicts=2
+29,13=1	progress=52.340% clears=3 solutions=3 conflicts=3 0x0000000000000000 0x0000000000001000
+24,11=3	progress=39.398% clears=5 solutions=2 conflicts=1 0x0000000000000000 0x000000000000003C
+24,11=4	clears=0 solutions=9 conflicts=2
+21,12=2	solutions=0 conflicts=2
+21,12=3	progress=28.462% clears=5 solutions=3 conflicts=6 0x0000000000000000 0x0000000000020013
+21,12=4	progress=45.081% clears=2 solutions=12 conflicts=7 0x0000000000000000 0x0000000000000011
+21,12=5	progress=17.813% clears=2 solutions=21 conflicts=8 0x0000000000000000 0x0000000000000011
+21,12=6	progress= 1.194% clears=5 solutions=24 conflicts=12 0x0000000000000000 0x00000000000C0019
+21,12=7	solutions=0 conflicts=14
+24,12=0	progress=29.943% clears=8 solutions=2 conflicts=1 0x0000000000000000 0x000000000000002D
+24,12=1	clears=0 solutions=9 conflicts=2
+25,11=3	progress=72.206% clears=6 solutions=2 conflicts=2 0x0000000000000000 0x0000000000000295
+25,11=4	clears=0 solutions=8 conflicts=2
+29,12=1	progress=57.116% clears=2 solutions=2 conflicts=1 0x0000000000000000 0x0000000000001000
+29,12=2	clears=0 solutions=6 conflicts=1
+19,15=2	progress=85.673% clears=2 solutions=1 conflicts=1 0x0000000000000000 0x0000000000012000
+19,15=3	progress= 7.163% clears=1 solutions=2 conflicts=2 0x0000000000000000 0x0000000000004000
+20,15=0	progress=28.558% clears=4 solutions=1 conflicts=2 0x0000000000000000 0x00000000000CA000
+20,15=1	clears=0 solutions=4 conflicts=3
+// new method
+19,15	prob=92.837%  progress=92.837% clears= 2.713 time=0.010ms 
+21,12	prob=92.550%  progress=92.550% clears=10.133 time=0.029ms merges Linked to 24,11 24,12 
+25,11	prob=92.837%  progress=72.206% clears= 5.261 time=0.009ms merges 
+29,15	prob=92.550%  progress=71.920% clears= 3.083 time=0.033ms Open 
+29,12	prob=92.837%  progress=57.116% clears= 2.071 time=0.007ms 
+29,13	prob=92.550%  progress=52.340% clears= 2.496 time=0.008ms Adjacent 
+25,12	prob=92.550%  progress=39.924% clears= 4.519 time=0.014ms Adjacent 
+24,11	prob=96.275%  progress=39.398% clears= 2.933 time=0.010ms merges 
+24,12	prob=96.275%  progress=29.943% clears= 3.358 time=0.010ms merges 
+20,15	prob=92.837%  progress=28.558% clears= 2.071 time=0.008ms 
+21,12	prob=92.550%  progress=92.550% clears=10.133 diff=0.287%,0.287%,7.419 Threshold selection
+// jar method
+19,15	prob=92.837%  progress=92.837% clears= 2.713 time=0.012ms 
+21,12	prob=92.550%  progress=92.550% clears=11.996 time=0.042ms merges Linked to 24,11 24,12 
+25,11	prob=92.837%  progress=72.206% clears= 5.261 time=0.015ms merges 
+29,15	prob=92.550%  progress=71.920% clears= 3.083 time=0.085ms Open 
+29,12	prob=92.837%  progress=57.116% clears= 2.071 time=0.011ms 
+29,13	prob=92.550%  progress=52.340% clears= 2.496 time=0.012ms Adjacent 
+25,12	prob=92.550%  progress=39.924% clears= 4.519 time=0.020ms Adjacent 
+24,11	prob=96.275%  progress=39.398% clears= 2.933 time=0.017ms merges 
+24,12	prob=96.275%  progress=29.943% clears= 3.358 time=0.016ms merges 
+20,15	prob=92.837%  progress=28.558% clears= 2.071 time=0.010ms 
+21,12	prob=92.550%  progress=92.550% clears=11.996 diff=0.287%,0.287%,9.282 Threshold selection
+// old method
+19,15	prob=92.837%  progress=92.837% clears= 2.713 time=0.027ms 
+21,12	prob=92.550%  progress=92.550% clears= 8.638 time=0.101ms merges Linked to 24,11 24,12 
+25,11	prob=92.837%  progress=72.206% clears= 5.261 time=0.027ms merges 
+29,15	prob=92.550%  progress=71.920% clears= 3.083 time=0.028ms Open 
+29,12	prob=92.837%  progress=57.116% clears= 2.071 time=0.023ms 
+29,13	prob=92.550%  progress=52.340% clears= 2.496 time=0.027ms Adjacent 
+25,12	prob=92.550%  progress=39.924% clears= 4.519 time=0.037ms Adjacent 
+24,11	prob=96.275%  progress=39.398% clears= 2.933 time=0.036ms merges 
+24,12	prob=96.275%  progress=29.943% clears= 3.358 time=0.033ms merges 
+20,15	prob=92.837%  progress=28.558% clears= 2.071 time=0.024ms 
+21,12	prob=92.550%  progress=92.550% clears= 8.638 diff=0.287%,0.287%,5.925 Threshold selection
+
+19,15 missed val=3
+21,12 missed val=5
+(19,15) Fixed clears is 0 expected clears is 2.64183381088825214900, progress probability is 0.85673352435530085960 
+(21,12) Fixed clears is 0 expected clears is 3.25023877745940783191, progress probability is 0.73543457497612225406 
+(25,11) Fixed clears is 0 expected clears is 5.26074498567335243552, progress probability is 0.72206303724928366762
+(29,12) Fixed clears is 0 expected clears is 2.07067812798471824260, progress probability is 0.57115568290353390640
+(24,11) Fixed clears is 0 expected clears is 2.93266475644699140400, progress probability is 0.39398280802292263610 
+(24,12) Fixed clears is 0 expected clears is 3.35816618911174785102, progress probability is 0.29942693409742120344 
+(20,15) Fixed clears is 0 expected clears is 2.07067812798471824260, progress probability is 0.28557784145176695320
+
+
+super18.txt (merged list crashed and bad clears from non-superLoc entries)
+ERROR: we missed 20,13=4 for 10 clears
+WHY does jar say 20,13=3 has only linked clears (superset three times) but it is not linked?
+NOTE 22,10 forces a link to 20,13 but not vice versa
+Perimeter mask=0x0000000000000000 0x003FFFFFFFFFFFFF
+22,10=1	progress=16.627% clears=7 solutions=28 conflicts=9 0x0000000000000000 0x000700080A800000
+22,10=2	progress=79.109% clears=10 solutions=52 conflicts=16 0x0000000000000000 0x003F410002800000
+22,12=0	progress= 2.716% clears=12 solutions=18 conflicts=23 0x0000000000000000 0x002E82080D400000
+22,12=1	clears=0 solutions=110 conflicts=129
+20,13=2	progress=78.720% clears=2 solutions=70 conflicts=14 0x0000000000000000 0x0002000000000000
+20,13=3	clears=0 solutions=158 conflicts=37
+21,13=1	progress=64.027% clears=5 solutions=56 conflicts=62 0x0000000000000000 0x000C010000000000
+21,13=2	clears=0 solutions=144 conflicts=158
+22,13=0	progress=35.394% clears=8 solutions=42 conflicts=66 0x0000000000000000 0x002A010000000000
+22,13=1	clears=0 solutions=130 conflicts=131
+20,14=1	progress=49.954% clears=12 solutions=38 conflicts=43 0x0000000000000000 0x0017410402800000
+20,14=2	progress=37.249% clears=3 solutions=94 conflicts=103 0x0000000000000000 0x0006010000000000
+20,14=3	progress= 8.370% clears=3 solutions=150 conflicts=163 0x0000000000000000 0x0006010000000000
+20,14=4	progress= 0.602% clears=3 solutions=206 conflicts=223 0x0000000000000000 0x0006010000000000
+20,14=5	progress= 0.007% clears=11 solutions=224 conflicts=321 0x0000000000000000 0x002683080D400000
+// new method
+20,14	prob=96.182%  progress=96.182% clears=20.347 time=0.210ms Linked to 22,12 21,13 22,13 
+22,10	prob=95.736%  progress=95.736% clears=14.360 time=0.065ms Linked to 20,13 21,13 22,13 
+20,13	prob=96.814%  progress=78.720% clears= 2.543 time=0.137ms 
+21,13	prob=99.461%  progress=64.027% clears= 4.196 time=0.115ms 
+22,13	prob=99.461%  progress=35.394% clears= 3.826 time=0.144ms 
+22,12	prob=97.260%  progress= 2.716% clears= 1.299 time=0.108ms 
+// jar method
+20,14	prob=96.182%  progress=96.182% clears=23.733 time=0.500ms Linked to 22,12 21,13 22,13 
+22,10	prob=95.736%  progress=95.736% clears=15.776 time=0.132ms Linked to 20,13 21,13 22,13 
+20,13	prob=96.814%  progress=78.720% clears= 2.543 time=0.291ms 
+21,13	prob=99.461%  progress=64.027% clears= 4.196 time=0.321ms 
+22,13	prob=99.461%  progress=35.394% clears= 3.826 time=0.259ms 
+22,12	prob=97.260%  progress= 2.716% clears= 1.299 time=0.278ms 
+// old method
+20,14	prob=96.182%  progress=96.182% clears=15.963 time=0.498ms Linked to 22,12 21,13 22,13 
+22,10	prob=95.736%  progress=95.736% clears=10.531 time=0.132ms Linked to 20,13 21,13 22,13 
+20,13	prob=96.814%  progress=78.720% clears= 2.543 time=0.291ms 
+21,13	prob=99.461%  progress=64.027% clears= 4.196 time=0.321ms 
+22,13	prob=99.461%  progress=35.394% clears= 3.826 time=0.260ms 
+22,12	prob=97.260%  progress= 2.716% clears= 1.299 time=0.277ms 
+
+missed 20,14=3 for 3 clears
+missed 20,14=4 for 3 clears
+missed 20,14=5 for 11 clears
+(22,10) Fixed clears is 2 expected clears is 8.11746256755559493226, progress probability is 0.95736422432887392576
+(20,14) Fixed clears is 0 expected clears is 8.07373876555050480792, progress probability is 0.87202678951541417637
+(20,13) Fixed clears is 0 expected clears is 2.54950368682622017988, progress probability is 0.78789916935663169016
+(21,13) Fixed clears is 0 expected clears is 4.19593918559479206140, progress probability is 0.64026589151782436426
+(22,13) Fixed clears is 0 expected clears is 3.82611706798682415290, progress probability is 0.35393841749764423910
+(22,12) Fixed clears is 0 expected clears is 1.29852072262128245721, progress probability is 0.02716003216256471379
+
+
+super19.txt (merged list crashed)
+Note: 6,5 linked to others but not vice versa
+Perimeter mask=0x0000000000000000 0x0000000003FFFFFF
+7,0=1	progress=48.336% clears=2 solutions=15 conflicts=20 0x0000000000000000 0x0000000000000044
+7,0=2	progress=48.336% clears=2 solutions=30 conflicts=40 0x0000000000000000 0x0000000000000048
+7,3=1	progress=81.128% clears=2 solutions=11 conflicts=14 0x0000000000000000 0x0000000000000201
+7,3=2	progress=15.543% clears=5 solutions=15 conflicts=20 0x0000000000000000 0x0000000000004521
+7,4=1	progress=48.913% clears=6 solutions=8 conflicts=21 0x0000000000000000 0x000000000000C241
+7,4=2	clears=0 solutions=29 conflicts=66
+6,5=2	progress=53.343% clears=5 solutions=12 conflicts=5 0x0000000000000000 0x0000000000018141
+6,5=3	progress=40.000% clears=6 solutions=30 conflicts=11 0x0000000000000000 0x0000000003020141
+// new method
+7,3	prob=96.671%  progress=96.671% clears= 5.300 time=0.019ms Linked to 7,0 
+7,0	prob=96.671%  progress=96.671% clears= 5.300 time=0.025ms Linked to 7,3 
+6,5	prob=93.343%  progress=93.343% clears=10.434 time=0.036ms Linked to 7,3 7,0 7,4 
+7,4	prob=96.671%  progress=48.913% clears= 3.902 time=0.032ms 
+// jar method
+7,0	prob=96.671%  progress=96.671% clears= 4.333 time=0.085ms Linked to 7,3 
+7,3	prob=96.671%  progress=96.671% clears= 4.333 time=0.048ms Linked to 7,0 
+6,5	prob=93.343%  progress=93.343% clears= 7.384 time=0.061ms Linked to 7,0 7,3 7,4 
+7,4	prob=96.671%  progress=48.913% clears= 3.902 time=0.075ms 
+// old method
+7,0	prob=96.671%  progress=96.671% clears= 5.300 time=0.074ms Linked to 7,3 
+7,3	prob=96.671%  progress=96.671% clears= 5.300 time=0.040ms Linked to 7,0 
+6,5	prob=93.343%  progress=93.343% clears=10.434 time=0.055ms Linked to 7,0 7,3 7,4 
+7,4	prob=96.671%  progress=48.913% clears= 3.902 time=0.064ms 
+
+(7,0) Fixed clears is 1 expected clears is 3.71141678129298486933, progress probability is 0.96671251719394773040
+(6,5) Fixed clears is 0 expected clears is 6.00055020632737276480, progress probability is 0.93342503438789546080
+(7,4) Fixed clears is 0 expected clears is 3.90151306740027510316, progress probability is 0.48913342503438789546
+
+
+superloc 0,5 vs 16,12.txt
+(4,6 3,5 2,6 are dead so they should not be used)
+Perimeter mask=0x0000000000000000 0x0000000001FFFFFF
+0,5=1	progress=66.037% clears=5 solutions=1 conflicts=1 0x0000000000000000 0x0000000000002D40
+0,5=2	progress=16.981% clears=4 solutions=2 conflicts=2 0x0000000000000000 0x0000000000001540
+0,6=1	progress=16.981% clears=4 solutions=1 conflicts=2 0x0000000000000000 0x00000000000012A0
+0,6=2	progress=66.037% clears=5 solutions=2 conflicts=4 0x0000000000000000 0x0000000000002550
+16,9=3	progress=27.276% clears=8 solutions=1 conflicts=2 0x0000000000000000 0x00000000016A4000
+16,9=4	progress=35.876% clears=1 solutions=5 conflicts=2 0x0000000000000000 0x0000000000200000
+16,9=5	progress=16.479% clears=1 solutions=11 conflicts=2 0x0000000000000000 0x0000000000200000
+16,9=6	progress= 3.171% clears=1 solutions=16 conflicts=2 0x0000000000000000 0x0000000000200000
+16,9=7	progress= 0.217% clears=3 solutions=18 conflicts=3 0x0000000000000000 0x0000000000B00000
+16,10=2	progress=41.626% clears=4 solutions=2 conflicts=2 0x0000000000000000 0x0000000000400000
+16,10=3	progress=32.511% clears=1 solutions=4 conflicts=4 0x0000000000000000 0x0000000000400000
+16,10=4	progress= 8.211% clears=1 solutions=6 conflicts=6 0x0000000000000000 0x0000000000400000
+16,10=5	progress= 0.670% clears=1 solutions=8 conflicts=8 0x0000000000000000 0x0000000000400000
+16,12=1	progress=41.626% clears=4 solutions=2 conflicts=2 0x0000000000000000 0x0000000000040000
+16,12=2	progress=32.511% clears=1 solutions=4 conflicts=4 0x0000000000000000 0x0000000000040000
+16,12=3	progress= 8.211% clears=1 solutions=6 conflicts=6 0x0000000000000000 0x0000000000040000
+16,12=4	progress= 0.670% clears=1 solutions=8 conflicts=8 0x0000000000000000 0x0000000000040000
+16,13=2	progress=41.626% clears=4 solutions=2 conflicts=0 0x0000000000000000 0x0000000000080000
+16,13=3	progress=32.511% clears=1 solutions=4 conflicts=0 0x0000000000000000 0x0000000000080000
+16,13=4	progress= 8.211% clears=1 solutions=6 conflicts=0 0x0000000000000000 0x0000000000080000
+16,13=5	progress= 0.670% clears=1 solutions=8 conflicts=0 0x0000000000000000 0x0000000000080000
+// new method
+16,9	prob=83.019%  progress=83.019% clears= 5.653 time=0.041ms merges Linked to 16,12 
+16,12	prob=83.019%  progress=83.019% clears= 5.653 time=0.019ms Linked to 16,9 
+16,10	prob=83.019%  progress=83.019% clears= 4.988 time=0.023ms Linked to 16,13 
+16,13	prob=83.019%  progress=83.019% clears= 4.988 time=0.024ms Linked to 16,10 
+0,5	prob=83.019%  progress=83.019% clears= 4.811 time=0.016ms 
+0,6	prob=83.019%  progress=83.019% clears= 4.811 time=0.015ms 
+// jar method
+16,9	prob=83.019%  progress=83.019% clears= 4.823 time=0.095ms merges Linked to 16,12 
+16,12	prob=83.019%  progress=83.019% clears= 4.823 time=0.055ms Linked to 16,9 
+0,5	prob=83.019%  progress=83.019% clears= 4.811 time=0.037ms 
+0,6	prob=83.019%  progress=83.019% clears= 4.811 time=0.026ms 
+16,10	prob=83.019%  progress=83.019% clears= 4.158 time=0.067ms Linked to 16,13 
+16,13	prob=83.019%  progress=83.019% clears= 4.158 time=0.056ms Linked to 16,10 
+// old method
+16,9	prob=83.019%  progress=83.019% clears= 4.834 time=0.103ms merges Linked to 16,12 
+16,12	prob=83.019%  progress=83.019% clears= 4.834 time=0.059ms Linked to 16,9 
+0,5	prob=83.019%  progress=83.019% clears= 4.811 time=0.044ms 
+0,6	prob=83.019%  progress=83.019% clears= 4.811 time=0.033ms 
+16,10	prob=83.019%  progress=83.019% clears= 4.362 time=0.057ms Linked to 16,13 
+16,13	prob=83.019%  progress=83.019% clears= 4.362 time=0.053ms Linked to 16,10 
+
+(16,9) with value 3 has 8 clears with probability 0.27275703758165430234
+Linked with (16,12)
+(4,6) is a superset 5 times
+(4,6) with value 4 only has linked clears
+Linked with (0,5)
+Linked with (3,5)
+Linked with (2,6)
+(16,10) with value 2 has 4 clears with probability 0.41625964865299402105
+Linked with (16,13)
+(16,13) with value 2 has 4 clears with probability 0.41625964865299402105
+Linked with (16,10)
+Found link in evaluated(16,10)
+(0,5) with value 1 has 5 clears with probability 0.66037238008925191295
+(0,5) with value 2 has 4 clears with probability 0.16981380995537404352
+Linked with (3,5)
+Linked with (2,6)
+Linked with (4,6)
+Found link in evaluated(4,6)
+(0,6) with value 1 has 4 clears with probability 0.16981380995537404352
+(0,6) with value 2 has 5 clears with probability 0.66037238008925191295
+(3,5) with value 2 only has linked clears
+Linked with (0,5)
+Linked with (2,6)
+Linked with (4,6)
+Found link in evaluated(4,6)
+(16,12) with value 1 has 4 clears with probability 0.41625964865299402105
+Linked with (16,9)
+Found link in evaluated(16,9)
+(16,9) Fixed clears is 1 expected clears is 4.81845058911981409249, progress probability is 0.83018619004462595648
+(16,10) Fixed clears is 1 expected clears is 4.15793027200721603926, progress probability is 0.83018619004462595648
+(4,6) Fixed clears is 3 expected clears is 3.98111714026775573886, progress probability is 0.83018619004462595648
+(0,6) Fixed clears is 0 expected clears is 4.81130333031238169531, progress probability is 0.83018619004462595647
+
+
+superloc 1,0 vs 1,4.txt (jar found no clears for 4,4)
+Notice jar does not find any clears for 4,4
+So I have no idea how it calculates to clears!
+Perimeter mask=0x0000000000000000 0x000000000003FFFF
+0,0=0	progress=70.065% clears=7 solutions=5 conflicts=5 0x0000000000000000 0x00000000000025CA
+0,0=1	progress=23.854% clears=3 solutions=12 conflicts=12 0x0000000000000000 0x0000000000004014
+1,0=0	progress=58.372% clears=10 solutions=2 conflicts=2 0x0000000000000000 0x00000000000065ED
+1,0=1	progress=35.547% clears=2 solutions=12 conflicts=4 0x0000000000000000 0x0000000000002010
+0,4=0	progress=52.346% clears=10 solutions=3 conflicts=5 0x0000000000000000 0x00000000000064A7
+0,4=1	clears=0 solutions=15 conflicts=12
+1,4=0	progress=42.828% clears=13 solutions=2 conflicts=11 0x0000000000000000 0x000000000000656F
+1,4=1	progress=42.051% clears=1 solutions=14 conflicts=15 0x0000000000000000 0x0000000000000400
+1,4=2	progress= 8.538% clears=1 solutions=26 conflicts=19 0x0000000000000000 0x0000000000000400
+1,4=3	progress= 0.495% clears=1 solutions=38 conflicts=23 0x0000000000000000 0x0000000000000400
+1,4=4	progress= 0.007% clears=2 solutions=48 conflicts=29 0x0000000000000000 0x0000000000000410
+2,4=1	progress=70.992% clears=3 solutions=13 conflicts=5 0x0000000000000000 0x0000000000000000
+2,4=2	clears=0 solutions=26 conflicts=10
+4,4=2	progress=64.680% clears=4 solutions=7 conflicts=3 0x0000000000000000 0x0000000000000080
+4,4=3	progress=26.027% clears=1 solutions=19 conflicts=6 0x0000000000000000 0x0000000000000080
+4,4=4	progress= 3.091% clears=1 solutions=31 conflicts=9 0x0000000000000000 0x0000000000000080
+4,4=5	progress= 0.121% clears=1 solutions=43 conflicts=12 0x0000000000000000 0x0000000000000080
+4,4=6	progress= 0.001% clears=3 solutions=48 conflicts=20 0x0000000000000000 0x0000000000000980
+4,0=1	progress=86.436% clears=1 solutions=7 conflicts=3 0x0000000000000000 0x0000000000000002
+4,0=2	progress= 7.484% clears=3 solutions=12 conflicts=6 0x0000000000000000 0x0000000000000902
+5,0=0	progress=61.863% clears=6 solutions=5 conflicts=5 0x0000000000000000 0x000000000000A006
+5,0=1	clears=0 solutions=16 conflicts=9
+// new method
+1,4	prob=93.920%  progress=93.920% clears= 9.897 time=0.046ms Linked to 4,4 
+4,4	prob=93.920%  progress=93.920% clears= 9.897 time=0.049ms Linked to 1,4 
+1,0	prob=93.920%  progress=93.920% clears= 8.530 time=0.018ms Linked to 4,0 
+4,0	prob=93.920%  progress=93.920% clears= 8.530 time=0.016ms Linked to 1,0 
+0,0	prob=93.920%  progress=93.920% clears= 6.559 time=0.098ms 
+2,4	prob=94.387%  progress=70.992% clears= 3.074 time=0.019ms 
+0,8	prob=91.168%  progress=68.321% clears= 2.961 time=0.041ms Open 
+8,0	prob=91.168%  progress=68.321% clears= 2.961 time=0.019ms Open 
+8,8	prob=91.168%  progress=68.321% clears= 2.961 time=0.023ms Open 
+5,0	prob=93.920%  progress=61.863% clears= 4.651 time=0.016ms 
+0,4	prob=93.920%  progress=52.346% clears= 6.174 time=0.018ms 
+// jar method 
+1,4	prob=93.920%  progress=93.920% clears= 8.958 time=0.142ms Linked to 4,4 
+4,4	prob=93.920%  progress=93.920% clears= 8.958 time=0.138ms Linked to 1,4 
+1,0	prob=93.920%  progress=93.920% clears= 7.637 time=0.049ms Linked to 4,0 
+4,0	prob=93.920%  progress=93.920% clears= 7.637 time=0.047ms Linked to 1,0 
+0,0	prob=93.920%  progress=93.920% clears= 6.559 time=0.071ms 
+2,4	prob=94.387%  progress=70.992% clears= 3.074 time=0.054ms 
+8,0	prob=91.168%  progress=68.321% clears= 2.961 time=0.095ms Open 
+0,8	prob=91.168%  progress=68.321% clears= 2.961 time=0.055ms Open 
+8,8	prob=91.168%  progress=68.321% clears= 2.961 time=0.037ms Open 
+5,0	prob=93.920%  progress=61.863% clears= 4.651 time=0.048ms 
+0,4	prob=93.920%  progress=52.346% clears= 6.174 time=0.053ms 
+// old method
+1,4	prob=93.920%  progress=93.920% clears= 9.013 time=0.150ms Linked to 4,4 
+4,4	prob=93.920%  progress=93.920% clears= 9.013 time=0.136ms Linked to 1,4 
+1,0	prob=93.920%  progress=93.920% clears= 8.530 time=0.049ms Linked to 4,0 
+4,0	prob=93.920%  progress=93.920% clears= 8.530 time=0.048ms Linked to 1,0 
+0,0	prob=93.920%  progress=93.920% clears= 6.559 time=0.066ms 
+2,4	prob=94.387%  progress=70.992% clears= 3.074 time=0.056ms 
+8,0	prob=91.168%  progress=68.321% clears= 2.961 time=0.039ms Open 
+0,8	prob=91.168%  progress=68.321% clears= 2.961 time=0.040ms Open 
+8,8	prob=91.168%  progress=68.321% clears= 2.961 time=0.014ms Open 
+5,0	prob=93.920%  progress=61.863% clears= 4.651 time=0.052ms 
+0,4	prob=93.920%  progress=52.346% clears= 6.174 time=0.051ms 
+
+(0,0) with value 0 has 7 clears with probability 0.70065481758652946679
+(1,0) with value 0 has 10 clears with probability 0.58372310570626753976
+Linked with (4,0)
+(4,0) with value 0 with probability zero
+(4,0) with value 1 only has linked clears
+Linked with (1,0)
+(0,4) with value 0 has 10 clears with probability 0.52345787707037913388
+(5,0) with value 0 has 6 clears with probability 0.61863203653772079459
+(1,4) with value 0 has 13 clears with probability 0.42828371760303747317
+Linked with (4,4)
+(4,4) with value 0 with probability zero
+(4,4) with value 1 with probability zero
+Linked with (1,4)
+Found link in evaluated(1,4)
+(1,0) Fixed clears is 1 expected clears is 7.13189897100093545372, progress probability is 0.93919550982226379794
+(1,4) Fixed clears is 1 expected clears is 7.01779563088097727392, progress probability is 0.93919550982226379794
+(2,4) Fixed clears is 0 expected clears is 3.07363738760237490692, progress probability is 0.70992153643496687730
+(0,0) Fixed clears is 0 expected clears is 5.84377923292797006547, progress probability is 0.70065481758652946679
+(5,0) Fixed clears is 0 expected clears is 4.65098772904858856548, progress probability is 0.61863203653772079459
+(0,4) Fixed clears is 0 expected clears is 6.17377428052605513674, progress probability is 0.52345787707037913388
+
+
+superloc 7,0 best.txt (merged lists)
+(8,0) is shred between 7,0 and 8,1 so our clears is less than the jar version
+Perimeter mask=0x0000000000000000 0x0000000001FFFFFF
+7,0=1	progress=75.000% clears=2 solutions=2 conflicts=1 0x0000000000000000 0x000000000000000C
+7,0=2	progress=12.500% clears=8 solutions=3 conflicts=2 0x0000000000000000 0x0000000000000DF4
+8,1=1	progress=37.500% clears=6 solutions=1 conflicts=1 0x0000000000000000 0x0000000000000C99
+8,1=2	progress=50.000% clears=4 solutions=4 conflicts=1 0x0000000000000000 0x0000000000000161
+8,0=1	progress=62.500% clears=3 solutions=2 conflicts=3 0x0000000000000000 0x0000000000000015
+8,0=2	progress=25.000% clears=6 solutions=4 conflicts=5 0x0000000000000000 0x0000000000000DE0
+9,0=0	progress=37.500% clears=5 solutions=2 conflicts=2 0x0000000000000000 0x000000000000006D
+9,0=1	progress=50.000% clears=4 solutions=6 conflicts=3 0x0000000000000000 0x0000000000000D80
+10,0=0	progress=38.853% clears=4 solutions=3 conflicts=2 0x0000000000000000 0x0000000000000050
+10,0=1	clears=0 solutions=8 conflicts=3
+10,1=0	progress=12.237% clears=9 solutions=2 conflicts=2 0x0000000000000000 0x0000000000000DB0
+10,1=1	clears=0 solutions=8 conflicts=4
+10,2=1	progress=30.592% clears=5 solutions=3 conflicts=1 0x0000000000000000 0x0000000000000440
+10,2=2	clears=0 solutions=8 conflicts=4
+10,3=1	progress=30.592% clears=6 solutions=2 conflicts=1 0x0000000000000000 0x0000000000000980
+10,3=2	clears=0 solutions=6 conflicts=2
+10,4=3	progress=42.829% clears=3 solutions=3 conflicts=0 0x0000000000000000 0x0000000000000000
+10,4=4	clears=0 solutions=6 conflicts=0
+11,8=1	progress=13.110% clears=6 solutions=4 conflicts=5 0x0000000000000000 0x000000000000A000
+11,8=2	clears=0 solutions=16 conflicts=17
+11,9=3	progress=28.289% clears=3 solutions=6 conflicts=6 0x0000000000000000 0x0000000000020000
+11,9=4	clears=0 solutions=20 conflicts=20
+// new method
+7,0	prob=87.500%  progress=87.500% clears= 6.875 time=0.022ms Linked to 8,1 
+8,1	prob=87.500%  progress=87.500% clears= 6.875 time=0.016ms Linked to 7,0 
+9,0	prob=87.500%  progress=87.500% clears= 4.750 time=0.017ms 
+8,0	prob=87.500%  progress=87.500% clears= 4.250 time=0.016ms 
+10,4	prob=87.500%  progress=42.829% clears= 2.160 time=0.011ms 
+10,0	prob=87.500%  progress=38.853% clears= 2.429 time=0.014ms 
+10,3	prob=87.500%  progress=30.592% clears= 2.711 time=0.013ms 
+10,2	prob=87.500%  progress=30.592% clears= 2.405 time=0.016ms 
+11,9	prob=84.210%  progress=28.289% clears= 1.691 time=0.017ms 
+11,8	prob=84.210%  progress=13.110% clears= 1.629 time=0.015ms merges 
+10,1	prob=87.500%  progress=12.237% clears= 1.976 time=0.082ms 
+// jar method
+7,0	prob=87.500%  progress=87.500% clears= 6.750 time=0.037ms Linked to 8,1 
+8,1	prob=87.500%  progress=87.500% clears= 6.750 time=0.027ms Linked to 7,0 
+9,0	prob=87.500%  progress=87.500% clears= 4.750 time=0.027ms 
+8,0	prob=87.500%  progress=87.500% clears= 4.250 time=0.029ms 
+10,4	prob=87.500%  progress=42.829% clears= 2.160 time=0.020ms 
+10,0	prob=87.500%  progress=38.853% clears= 2.429 time=0.027ms 
+10,3	prob=87.500%  progress=30.592% clears= 2.711 time=0.021ms 
+10,2	prob=87.500%  progress=30.592% clears= 2.405 time=0.025ms 
+11,9	prob=84.210%  progress=28.289% clears= 1.691 time=0.030ms 
+11,8	prob=84.210%  progress=13.110% clears= 1.629 time=0.030ms merges 
+10,1	prob=87.500%  progress=12.237% clears= 1.976 time=0.027ms 
+// old method
+7,0	prob=87.500%  progress=87.500% clears= 6.875 time=0.046ms Linked to 8,1 
+8,1	prob=87.500%  progress=87.500% clears= 6.875 time=0.036ms Linked to 7,0 
+9,0	prob=87.500%  progress=87.500% clears= 4.750 time=0.037ms 
+8,0	prob=87.500%  progress=87.500% clears= 4.250 time=0.037ms 
+10,4	prob=87.500%  progress=42.829% clears= 2.160 time=0.028ms 
+10,0	prob=87.500%  progress=38.853% clears= 2.429 time=0.036ms 
+10,3	prob=87.500%  progress=30.592% clears= 2.711 time=0.025ms 
+10,2	prob=87.500%  progress=30.592% clears= 2.405 time=0.029ms 
+11,9	prob=84.210%  progress=28.289% clears= 1.691 time=0.036ms 
+11,8	prob=84.210%  progress=13.110% clears= 1.629 time=0.037ms merges 
+10,1	prob=87.500%  progress=12.237% clears= 1.976 time=0.035ms 
+
+9,0 missed val=2
+(7,0) Fixed clears is 1 expected clears is 6.75000000000000000000, progress probability is 0.87500000000000000000
+(8,0) Fixed clears is 0 expected clears is 4.25000000000000000000, progress probability is 0.87500000000000000000
+(10,4) Fixed clears is 0 expected clears is 2.15987372577497102900, progress probability is 0.42829124192499034300
+(10,0) Fixed clears is 0 expected clears is 2.42913250264396250020, progress probability is 0.38853312566099062505
+(9,0) Fixed clears is 0 expected clears is 2.75000000000000000000, progress probability is 0.37500000000000000000
+(10,3) Fixed clears is 0 expected clears is 2.71053389396424432716, progress probability is 0.30592231566070738786
+(10,2) Fixed clears is 0 expected clears is 2.40461157830353693930, progress probability is 0.30592231566070738786
+(11,9) Fixed clears is 0 expected clears is 1.69077331014513027864, progress probability is 0.28289038089643918541
+(11,8) Fixed clears is 0 expected clears is 1.62871551714460391013, progress probability is 0.13110222494813186462
+(10,1) Fixed clears is 0 expected clears is 1.97632033637854659626, progress probability is 0.12236892626428295514
+
+
+superloc 12, 0 vs 11,7.txt
+(12,3 is adjacent to another list so 12,3=5 was not tested)
+Perimeter mask=0x0000000000000000 0x0000000000007FFF
+13,0=0	solutions=0 conflicts=2
+13,0=1	progress=37.294% clears=3 solutions=2 conflicts=4 0x0000000000000000 0x0000000000000008
+12,0=1	progress=45.298% clears=3 solutions=1 conflicts=1 0x0000000000000000 0x000000000000000C
+12,0=2	progress=32.326% clears=1 solutions=3 conflicts=1 0x0000000000000000 0x0000000000000004
+12,0=3	progress= 4.839% clears=3 solutions=4 conflicts=2 0x0000000000000000 0x0000000000000034
+12,3=1	progress=15.340% clears=7 solutions=1 conflicts=2 0x0000000000000000 0x0000000000000171
+12,3=2	progress=40.601% clears=1 solutions=5 conflicts=4 0x0000000000000000 0x0000000000000001
+12,3=3	progress=21.927% clears=1 solutions=11 conflicts=6 0x0000000000000000 0x0000000000000001
+12,3=4	progress= 4.310% clears=1 solutions=16 conflicts=8 0x0000000000000000 0x0000000000000001
+12,3=5	progress= 0.284% clears=3 solutions=18 conflicts=10 0x0000000000000000 0x0000000000000089
+11,4=4	progress=46.020% clears=5 solutions=1 conflicts=1 0x0000000000000000 0x0000000000000105
+11,4=5	progress=29.765% clears=1 solutions=3 conflicts=1 0x0000000000000000 0x0000000000000100
+11,4=6	progress= 6.252% clears=1 solutions=5 conflicts=1 0x0000000000000000 0x0000000000000100
+11,4=7	progress= 0.426% clears=2 solutions=6 conflicts=2 0x0000000000000000 0x0000000000000102
+11,7=4	progress=55.941% clears=3 solutions=1 conflicts=0 0x0000000000000000 0x0000000000000040
+11,7=5	progress=24.011% clears=1 solutions=2 conflicts=0 0x0000000000000000 0x0000000000000040
+11,7=6	progress= 2.510% clears=1 solutions=3 conflicts=0 0x0000000000000000 0x0000000000000040
+13,14=4	progress=65.970% clears=1 solutions=2 conflicts=0 0x0000000000000000 0x0000000000000000
+13,14=5	clears=0 solutions=4 conflicts=0
+// new method
+11,4	prob=82.463%  progress=82.463% clears= 5.438 time=0.161ms merges Linked to 11,7 
+11,7	prob=82.463%  progress=82.463% clears= 5.438 time=0.085ms Linked to 11,4 
+12,0	prob=82.463%  progress=82.463% clears= 4.383 time=0.022ms Linked to 12,3 
+12,3	prob=82.463%  progress=82.463% clears= 4.383 time=0.103ms Linked to 12,0 
+13,14	prob=80.000%  progress=65.970% clears= 1.460 time=0.010ms 
+29,0	prob=82.463%  progress=46.020% clears= 2.205 time=0.016ms Open 
+29,15	prob=82.463%  progress=46.020% clears= 2.205 time=0.017ms Open 
+13,0	prob=82.463%  progress=37.294% clears= 1.943 time=0.019ms Adjacent 
+// jar method
+11,4	prob=82.463%  progress=82.463% clears= 4.613 time=0.041ms merges Linked to 11,7 
+11,7	prob=82.463%  progress=82.463% clears= 4.613 time=0.027ms Linked to 11,4 
+12,0	prob=82.463%  progress=82.463% clears= 3.578 time=0.035ms Linked to 12,3 
+12,3	prob=82.463%  progress=82.463% clears= 3.578 time=0.063ms Linked to 12,0 
+13,14	prob=80.000%  progress=65.970% clears= 1.460 time=0.017ms 
+29,0	prob=82.463%  progress=46.020% clears= 2.205 time=0.027ms Open 
+29,15	prob=82.463%  progress=46.020% clears= 2.205 time=0.027ms Open 
+13,0	prob=82.463%  progress=37.294% clears= 1.943 time=0.030ms Adjacent 
+// old method
+12,0	prob=82.463%  progress=82.463% clears= 3.837 time=0.045ms Linked to 12,3 
+12,3	prob=82.463%  progress=82.463% clears= 3.837 time=0.083ms Linked to 12,0 
+11,4	prob=82.463%  progress=82.463% clears= 3.183 time=0.070ms merges Linked to 11,7 
+11,7	prob=82.463%  progress=82.463% clears= 3.183 time=0.040ms Linked to 11,4 
+13,14	prob=80.000%  progress=65.970% clears= 1.460 time=0.021ms 
+29,0	prob=82.463%  progress=46.020% clears= 2.205 time=0.041ms Open 
+29,15	prob=82.463%  progress=46.020% clears= 2.205 time=0.036ms Open 
+13,0	prob=82.463%  progress=37.294% clears= 1.943 time=0.034ms Adjacent 
+
+(11,4) Fixed clears is 1 expected clears is 4.60885712758349729702, progress probability is 0.82462686567164179104
+(12,3) Fixed clears is 1 expected clears is 3.47560105172240316784, progress probability is 0.82462686567164179104
+(13,14) Fixed clears is 0 expected clears is 1.45970149253731343284, progress probability is 0.65970149253731343284
+(29,0) Fixed clears is 0 expected clears is 2.20521218745559312455, progress probability is 0.46019510726131711117
+(29,15) Fixed clears is 0 expected clears is 2.20521218745559312455, progress probability is 0.46019510726131711117
+(12,7) Fixed clears is 0 expected clears is 2.33769259712172986868, progress probability is 0.37826643286252201941
+(13,0) Fixed clears is 0 expected clears is 1.94344983286658706132, progress probability is 0.37294098906498175676
+(14,2) Fixed clears is 0 expected clears is 2.37796430860519228899, progress probability is 0.31066748858671009959
+(12,5) Fixed clears is 0 expected clears is 2.37796430860519228899, progress probability is 0.31066748858671009959
+(12,6) Fixed clears is 0 expected clears is 2.37796430860519228899, progress probability is 0.31066748858671009959
+(14,12) Fixed clears is 0 expected clears is 2.37796430860519228899, progress probability is 0.31066748858671009959
+(12,4) Fixed clears is 0 expected clears is 2.48152013813409565552, progress probability is 0.20711165905780673306
+(15,15) Fixed clears is 0 expected clears is 1.37686099438522232442, progress probability is 0.09203902145226342223
+
+
+superLoc 17,9=2 missed.txt
+16,9=0	solutions=0 conflicts=2
+16,9=1	solutions=0 conflicts=4
+16,9=2	progress=65.692% clears=12 solutions=54 conflicts=58
+16,9=3	clears=0 solutions=99 conflicts=127
+17,9=0	solutions=0 conflicts=2
+17,9=1	solutions=0 conflicts=6
+17,9=2	progress=24.183% clears=8 solutions=48 conflicts=46
+17,9=3	progress=53.520% clears=1 solutions=192 conflicts=143
+17,9=4	clears=0 solutions=324 conflicts=240
+17,9	prob=98.449%  progress=77.703% clears= 3.454 time=0.628ms 
+16,9	prob=96.897%  progress=65.692% clears= 8.852 time=0.260ms 
+
+(17,9) Fixed clears is 0 expected clears is 2.91913215291098509024, progress probability is 0.24183068688255353971
+(16,9) Fixed clears is 0 expected clears is 0.96897331570111354513, progress probability is 0
+
+
+
+superloc at 0,6 best.txt
+0,5=0	progress=36.291% clears=6 solutions=2 conflicts=7
+0,5=1	progress=54.570% clears=6 solutions=8 conflicts=10
+2,6=1	progress=34.830% clears=8 solutions=3 conflicts=8
+2,6=2	clears=0 solutions=11 conflicts=26
+0,6=0	progress=46.220% clears=4 solutions=4 conflicts=9
+0,6=1	clears=0 solutions=12 conflicts=24
+1,6=0	progress=18.422% clears=14 solutions=1 conflicts=4
+1,6=1	clears=0 solutions=7 conflicts=14
+0,5	prob=90.86%  progress=90.861% clears= 6.360 time=0.034ms 
+0,6	prob=90.86%  progress=46.220% clears= 2.757 time=0.039ms 
+2,6	prob=92.68%  progress=34.830% clears= 3.713 time=0.045ms 
+1,6	prob=90.86%  progress=18.422% clears= 3.488 time=0.025ms 
+
+0,5=1 missed
+(1,6) with value 0 has 14 clears with probability 0.18422099739124636032
+(0,6) Fixed clears is 0 expected clears is 2.75740088567910725358, progress probability is 0.46219839427448507376
+(0,5) Fixed clears is 0 expected clears is 3.08607308581166958540, progress probability is 0.36291096287175043781
+(2,6) Fixed clears is 0 expected clears is 3.71322900535764480406, progress probability is 0.34830474937185576158
+(1,6) Fixed clears is 0 expected clears is 3.48770127205861600302, progress probability is 0.18422099739124636032
+
+
+superloc at 0,10 best.txt
+(note better pruning)
+8,0=0	solutions=0 conflicts=2
+8,0=1	progress=37.202% clears=3 solutions=4 conflicts=2
+7,4=2	progress=38.055% clears=3 solutions=6 conflicts=0
+7,4=3	clears=0 solutions=17 conflicts=0
+6,5=3	progress=26.286% clears=4 solutions=12 conflicts=10
+6,5=4	clears=0 solutions=60 conflicts=14
+7,5=0	progress=13.791% clears=7 solutions=12 conflicts=10
+7,5=1	clears=0 solutions=60 conflicts=14
+6,6=2	progress=12.112% clears=6 solutions=8 conflicts=9
+6,6=3	clears=0 solutions=40 conflicts=41
+0,10=1	progress=54.224% clears=2 solutions=6 conflicts=0
+0,10=2	clears=0 solutions=12 conflicts=0
+0,10	prob=82.96%  progress=54.224% clears= 1.914 time=0.020ms 
+0,11	prob=80.91%  progress=42.711% clears= 2.090 time=0.063ms Adjacent 
+29,0	prob=80.91%  progress=42.711% clears= 2.090 time=0.050ms Open 
+0,15	prob=80.91%  progress=42.711% clears= 2.090 time=0.041ms Open 
+29,15	prob=80.91%  progress=42.711% clears= 2.090 time=0.022ms Open 
+7,4	prob=79.76%  progress=38.055% clears= 1.939 time=0.037ms 
+8,0	prob=80.91%  progress=37.202% clears= 1.925 time=0.045ms Adjacent 
+6,5	prob=79.76%  progress=26.286% clears= 1.849 time=0.127ms 
+7,5	prob=79.76%  progress=13.791% clears= 1.763 time=0.082ms 
+6,6	prob=82.96%  progress=12.112% clears= 1.556 time=0.049ms 
+
+(0,10) Fixed clears is 0 expected clears is 1.91411857310999397881, progress probability is 0.54223704224791854902
+(0,11) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(0,15) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(29,0) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(29,15) Fixed clears is 0 expected clears is 2.09047958675782900236, progress probability is 0.42711443452444087064
+(7,4) Fixed clears is 0 expected clears is 1.93928375580111121192, progress probability is 0.38054907025130536396
+(8,0) Fixed clears is 0 expected clears is 1.92518694678609280068, progress probability is 0.37201688786719547008
+(1,11) Fixed clears is 0 expected clears is 2.19982326732639629789, progress probability is 0.27813739682837798149
+(6,5) Fixed clears is 0 expected clears is 1.84907684210827650616, progress probability is 0.26286007426527034653
+(5,10) Fixed clears is 0 expected clears is 2.18893143107844833484, progress probability is 0.22996585798232365740
+(7,7) Fixed clears is 0 expected clears is 1.97077824811492513488, progress probability is 0.19360699415506979074
+(7,5) Fixed clears is 0 expected clears is 1.76299064658373626521, progress probability is 0.13790772879093444931
+(6,6) Fixed clears is 0 expected clears is 1.55635104900897737029, progress probability is 0.12111776006580341492
+(9,2) Fixed clears is 0 expected clears is 1.56087045203913602436, progress probability is 0.06264451407121913616
+(8,4) Fixed clears is 0 expected clears is 1.14701202103575330212, progress probability is 0.04223446723140586396
+(2,11) Fixed clears is 0 expected clears is 0.91869182386043477892, progress probability is 0.01369444258449104856
+(7,8) Fixed clears is 0 expected clears is 0.87148424421572307132, progress probability is 0.00692755122569074232
+
+
+superloc at 0,11 is best.txt
+2,15=0	progress= 8.578% clears=5 solutions=1 conflicts=1
+0,11	prob=88.24%  progress=57.353% clears= 2.603 time=0.020ms Adjacent 
+2,15	prob=88.24%  progress= 8.578% clears= 1.311 time=0.033ms Adjacent 
+
+missed 0,11
+(2,11) Fixed clears is 0 expected clears is 2.90441176470588235294, progress probability is 0.40441176470588235294
+(1,11) Fixed clears is 0 expected clears is 2.90441176470588235294, progress probability is 0.40441176470588235294
+(3,11) Fixed clears is 0 expected clears is 2.90441176470588235294, progress probability is 0.40441176470588235294
+(4,12) Fixed clears is 0 expected clears is 2.90441176470588235294, progress probability is 0.40441176470588235294
+(4,11) Fixed clears is 0 expected clears is 2.02941176470588235296, progress probability is 0.28676470588235294118
+(0,13) Fixed clears is 0 expected clears is 1.83823529411764705884, progress probability is 0.19117647058823529412
+(4,13) Fixed clears is 0 expected clears is 1.83823529411764705884, progress probability is 0.19117647058823529412
+(2,15) Fixed clears is 0 expected clears is 1.31127450980392156864, progress probability is 0.08578431372549019608
+
+
+superloc at 1,12 is best.txt (note the pruning too)
+7,15=3	progress=20.468% clears=5 solutions=1 conflicts=2
+0,11=0	solutions=0 conflicts=2
+0,11=1	progress=26.667% clears=4 solutions=2 conflicts=4
+0,11=2	clears=0 solutions=7 conflicts=6
+1,11=0	solutions=0 conflicts=2
+1,11=1	solutions=0 conflicts=4
+1,12=1	progress=37.564% clears=3 solutions=4 conflicts=0
+1,12=2	clears=0 solutions=8 conflicts=0
+0,13=0	progress=13.333% clears=4 solutions=1 conflicts=1
+0,13=1	clears=0 solutions=5 conflicts=1
+1,13=0	progress= 6.261% clears=7 solutions=1 conflicts=1
+1,13=1	clears=0 solutions=6 conflicts=1
+6,15	prob=78.95%  progress=46.956% clears= 1.729 time=0.020ms Adjacent 
+1,12	prob=80.00%  progress=37.564% clears= 1.927 time=0.019ms 
+0,11	prob=80.00%  progress=26.667% clears= 1.867 time=0.041ms 
+7,15	prob=78.95%  progress=20.468% clears= 1.813 time=0.036ms Adjacent 
+0,13	prob=80.00%  progress=13.333% clears= 1.333 time=0.018ms 
+1,13	prob=80.00%  progress= 6.261% clears= 1.238 time=0.019ms 
+1,11	prob=80.00%  progress= 0.000% clears= 0.800 time=0.010ms 
+
+missed 6,15
+(1,12) Fixed clears is 0 expected clears is 1.92693498452012383901, progress probability is 0.37564499484004127967
+(0,11) Fixed clears is 0 expected clears is 1.86666666666666666668, progress probability is 0.26666666666666666667
+(1,11) Fixed clears is 0 expected clears is 1.78245614035087719300, progress probability is 0.24561403508771929825
+(2,11) Fixed clears is 0 expected clears is 1.84597523219814241484, progress probability is 0.21130030959752321981
+(7,15) Fixed clears is 0 expected clears is 1.81286549707602339179, progress probability is 0.20467836257309941520
+(3,11) Fixed clears is 0 expected clears is 1.71181630546955624354, progress probability is 0.18446852425180598555
+(0,13) Fixed clears is 0 expected clears is 1.33333333333333333332, progress probability is 0.13333333333333333333
+(2,15) Fixed clears is 0 expected clears is 1.37641898864809081529, progress probability is 0.11738906088751289990
+(4,11) Fixed clears is 0 expected clears is 1.21990024079807361539, progress probability is 0.08608531131750945992
+(2,12) Fixed clears is 0 expected clears is 1.37977296181630546955, progress probability is 0.07378740970072239422
+(1,13) Fixed clears is 0 expected clears is 1.23825249398004815958, progress probability is 0.06260749914000687994
+(6,15) Fixed clears is 0 expected clears is 1.15468409586056644882, progress probability is 0.05217291595000573329
+(4,13) Fixed clears is 0 expected clears is 0.78947368421052631579, progress probability is 0
+
+
+superloc at 2,1 best.txt
+2,1=1	progress=13.330% clears=8 solutions=4 conflicts=2
+2,1=2	clears=0 solutions=20 conflicts=5
+1,4=0	progress= 7.342% clears=7 solutions=5 conflicts=6
+1,4=1	clears=0 solutions=32 conflicts=20
+4,1=2	progress=36.006% clears=3 solutions=9 conflicts=3
+4,1=3	clears=0 solutions=22 conflicts=5
+5,5=0	progress= 8.068% clears=10 solutions=3 conflicts=5
+5,5=1	clears=0 solutions=15 conflicts=6
+4,1	prob=84.41%  progress=36.006% clears= 1.924 time=0.049ms 
+2,1	prob=87.12%  progress=13.330% clears= 1.938 time=0.081ms 
+5,5	prob=84.64%  progress= 8.068% clears= 1.653 time=0.042ms 
+1,4	prob=87.33%  progress= 7.342% clears= 1.387 time=0.071ms 
+
+4,1=2 missed
+(2,1) Fixed clears is 0 expected clears is 1.93755208400855642703, progress probability is 0.13329565048291955662
+(5,5) Fixed clears is 0 expected clears is 1.65321404658159588579, progress probability is 0.08068226548657729779
+(1,4) Fixed clears is 0 expected clears is 1.38724708627730602188, progress probability is 0.07342285603163285149
+(4,1) Fixed clears is 0 expected clears is 0.84405263499060089454, progress probability is 0
+
+
+superloc at 10,4 best.txt (good pruning example)
+Perimeter mask=0x0000000000000000 0x0000000001FFFFFF
+7,0=2	progress=40.584% clears=6 solutions=18 conflicts=11 0x0000000000000000 0x0000000000000815
+7,1=4	progress=40.584% clears=6 solutions=18 conflicts=0 0x0000000000000000 0x0000000000000814
+7,1=5	progress=29.999% clears=3 solutions=36 conflicts=0 0x0000000000000000 0x0000000000000814
+7,1=6	progress= 7.271% clears=3 solutions=54 conflicts=0 0x0000000000000000 0x0000000000000814
+7,1=7	progress= 0.578% clears=3 solutions=72 conflicts=0 0x0000000000000000 0x0000000000000814
+6,7=1	progress=42.051% clears=5 solutions=6 conflicts=1 0x0000000000000000 0x00000000000008A5
+6,7=2	progress=36.381% clears=3 solutions=18 conflicts=1 0x0000000000000000 0x0000000000000805
+5,8=2	progress=17.298% clears=4 solutions=10 conflicts=30 0x0000000000000000 0x0000000000680000
+5,8=3	clears=0 solutions=60 conflicts=30
+10,4=1	progress=18.808% clears=6 solutions=10 conflicts=2 0x0000000000000000 0x000000000000E000
+10,4=2	progress=31.927% clears=1 solutions=36 conflicts=3 0x0000000000000000 0x0000000000008000
+10,4=3	progress=20.934% clears=1 solutions=68 conflicts=4 0x0000000000000000 0x0000000000008000
+10,4=4	progress= 6.608% clears=1 solutions=100 conflicts=5 0x0000000000000000 0x0000000000008000
+10,4=5	progress= 1.005% clears=1 solutions=122 conflicts=6 0x0000000000000000 0x0000000000008000
+10,4=6	progress= 0.059% clears=7 solutions=128 conflicts=9 0x0000000000000000 0x0000000000009A15
+9,2=1	progress=10.672% clears=10 solutions=6 conflicts=1 0x0000000000000000 0x0000000000007215
+9,2=2	progress=37.824% clears=3 solutions=36 conflicts=1 0x0000000000000000 0x0000000000000015
+9,2=3	progress=24.011% clears=3 solutions=66 conflicts=1 0x0000000000000000 0x0000000000000015
+9,2=4	progress= 5.501% clears=3 solutions=96 conflicts=1 0x0000000000000000 0x0000000000000015
+9,2=5	progress= 0.424% clears=5 solutions=120 conflicts=1 0x0000000000000000 0x0000000000008415
+10,5=2	progress=40.151% clears=3 solutions=16 conflicts=10 0x0000000000000000 0x0000000000000000
+10,5=3	clears=0 solutions=32 conflicts=20
+10,7=1	progress=31.989% clears=4 solutions=18 conflicts=23 0x0000000000000000 0x0000000000000400
+10,7=2	progress=32.775% clears=1 solutions=48 conflicts=53 0x0000000000000000 0x0000000000000400
+10,7=3	progress=12.400% clears=1 solutions=78 conflicts=83 0x0000000000000000 0x0000000000000400
+10,7=4	progress= 2.053% clears=1 solutions=108 conflicts=113 0x0000000000000000 0x0000000000000400
+10,7=5	progress= 0.125% clears=3 solutions=120 conflicts=132 0x0000000000000000 0x0000000000000520
+9,8=2	progress=25.429% clears=6 solutions=10 conflicts=14 0x0000000000000000 0x000000000000C400
+9,8=3	clears=0 solutions=32 conflicts=38
+10,8=0	progress=13.696% clears=9 solutions=6 conflicts=30 0x0000000000000000 0x000000000001C400
+10,8=1	clears=0 solutions=26 conflicts=58
+// new method
+10,4	prob=79.341%  progress=79.341% clears= 4.286 time=0.166ms Linked to 10,7 
+10,7	prob=79.341%  progress=79.341% clears= 4.286 time=0.077ms Linked to 10,4 
+6,7	prob=78.432%  progress=78.432% clears= 6.680 time=0.023ms Linked to 7,1 9,2 
+7,1	prob=78.432%  progress=78.432% clears= 6.680 time=0.039ms Linked to 6,7 9,2 
+9,2	prob=78.432%  progress=78.432% clears= 6.680 time=0.064ms Linked to 6,7 7,1 
+0,10	prob=80.337%  progress=41.495% clears= 2.048 time=0.088ms Adjacent 
+0,15	prob=80.337%  progress=41.495% clears= 2.048 time=0.074ms Open 
+29,0	prob=80.337%  progress=41.495% clears= 2.048 time=0.037ms Open 
+29,15	prob=80.337%  progress=41.495% clears= 2.048 time=0.053ms Open 
+7,0	prob=80.337%  progress=40.584% clears= 3.238 time=0.029ms Adjacent 
+10,5	prob=77.725%  progress=40.151% clears= 1.982 time=0.021ms 
+9,8	prob=77.536%  progress=25.429% clears= 2.301 time=0.031ms 
+5,8	prob=80.453%  progress=17.298% clears= 1.496 time=0.035ms 
+10,8	prob=77.536%  progress=13.696% clears= 2.008 time=0.025ms 
+// jar method
+10,4	prob=79.341%  progress=79.341% clears= 3.493 time=0.169ms Linked to 10,7 
+10,7	prob=79.341%  progress=79.341% clears= 3.493 time=0.212ms Linked to 10,4 
+7,1	prob=78.432%  progress=78.432% clears= 7.520 time=0.113ms Linked to 6,7 9,2 
+6,7	prob=78.432%  progress=78.432% clears= 7.520 time=0.048ms Linked to 7,1 9,2 
+9,2	prob=78.432%  progress=78.432% clears= 7.520 time=0.133ms Linked to 7,1 6,7 
+29,0	prob=80.337%  progress=41.495% clears= 2.048 time=0.027ms Open 
+0,10	prob=80.337%  progress=41.495% clears= 2.048 time=0.035ms Adjacent 
+0,15	prob=80.337%  progress=41.495% clears= 2.048 time=0.063ms Open 
+29,15	prob=80.337%  progress=41.495% clears= 2.048 time=0.017ms Open 
+7,0	prob=80.337%  progress=40.584% clears= 3.238 time=0.052ms Adjacent 
+10,5	prob=77.725%  progress=40.151% clears= 1.982 time=0.052ms 
+9,8	prob=77.536%  progress=25.429% clears= 2.301 time=0.068ms 
+5,8	prob=80.453%  progress=17.298% clears= 1.496 time=0.088ms 
+10,8	prob=77.536%  progress=13.696% clears= 2.008 time=0.067ms 
+// old method
+10,4	prob=79.341%  progress=79.341% clears= 4.059 time=0.187ms Linked to 10,7 
+10,7	prob=79.341%  progress=79.341% clears= 4.059 time=0.214ms Linked to 10,4 
+7,1	prob=78.432%  progress=78.432% clears= 6.570 time=0.114ms Linked to 6,7 9,2 
+6,7	prob=78.432%  progress=78.432% clears= 6.570 time=0.048ms Linked to 7,1 9,2 
+9,2	prob=78.432%  progress=78.432% clears= 6.570 time=0.133ms Linked to 7,1 6,7 
+29,0	prob=80.337%  progress=41.495% clears= 2.048 time=0.102ms Open 
+0,10	prob=80.337%  progress=41.495% clears= 2.048 time=0.054ms Adjacent 
+0,15	prob=80.337%  progress=41.495% clears= 2.048 time=0.016ms Open 
+29,15	prob=80.337%  progress=41.495% clears= 2.048 time=0.067ms Open 
+7,0	prob=80.337%  progress=40.584% clears= 3.238 time=0.051ms Adjacent 
+10,5	prob=77.725%  progress=40.151% clears= 1.982 time=0.052ms 
+9,8	prob=77.536%  progress=25.429% clears= 2.301 time=0.068ms 
+5,8	prob=80.453%  progress=17.298% clears= 1.496 time=0.087ms 
+10,8	prob=77.536%  progress=13.696% clears= 2.008 time=0.067ms 
+
+7,1 missed clears
+(10,4) Fixed clears is 1 expected clears is 3.48687696954541796558, progress probability is 0.79340957681630006908
+(7,1) Fixed clears is 3 expected clears is 5.15849642731865864435, progress probability is 0.78431743013073820518
+(0,10) Fixed clears is 0 expected clears is 2.04822170396291601760, progress probability is 0.41495081395383246658
+(0,15) Fixed clears is 0 expected clears is 2.04822170396291601760, progress probability is 0.41495081395383246658
+(29,0) Fixed clears is 0 expected clears is 2.04822170396291601760, progress probability is 0.41495081395383246658
+(29,15) Fixed clears is 0 expected clears is 2.04822170396291601760, progress probability is 0.41495081395383246658
+(7,0) Fixed clears is 0 expected clears is 3.23840132936116081156, progress probability is 0.40583867787662369895
+(10,5) Fixed clears is 0 expected clears is 1.98178151926004744089, progress probability is 0.40151070371688230397
+(11,5) Fixed clears is 0 expected clears is 2.13469505816967849091, progress probability is 0.26626515921365197461
+(11,6) Fixed clears is 0 expected clears is 2.13469505816967849091, progress probability is 0.26626515921365197461
+(8,1) Fixed clears is 0 expected clears is 2.88924800909221520442, progress probability is 0.26073484337384957332
+(9,8) Fixed clears is 0 expected clears is 2.30109984011778376326, progress probability is 0.25429057863595152600
+(9,9) Fixed clears is 0 expected clears is 2.04061940582843702356, progress probability is 0.20620835728783640095
+(5,8) Fixed clears is 0 expected clears is 1.49643087576458446736, progress probability is 0.17297625689962458667
+(10,8) Fixed clears is 0 expected clears is 2.00800919931543879216, progress probability is 0.13696142566815157610
+(2,9) Fixed clears is 0 expected clears is 1.47836130968538476266, progress probability is 0.13499840951679322896
+(9,1) Fixed clears is 0 expected clears is 2.12131296080953715446, progress probability is 0.13179436987081185366
+(11,3) Fixed clears is 0 expected clears is 1.55061738916647296636, progress probability is 0.05748062515885033450
+(7,9) Fixed clears is 0 expected clears is 1.55061738916647296636, progress probability is 0.05748062515885033450
+(4,10) Fixed clears is 0 expected clears is 1.21914927131484247244, progress probability is 0.02969857208667313247
+(11,7) Fixed clears is 0 expected clears is 1.05037311967955994835, progress probability is 0.02744487306423792561
+
+
+superloc at 11,1 best.txt
+Perimeter mask=0x0000000000000000 0x0000000000FFFFFF
+11,0=2	progress=45.406% clears=4 solutions=1 conflicts=1 0x0000000000000000 0x0000000000000005
+11,1=3	progress=45.406% clears=4 solutions=1 conflicts=0 0x0000000000000000 0x0000000000000004
+11,1=4	progress=29.998% clears=1 solutions=2 conflicts=0 0x0000000000000000 0x0000000000000004
+11,1=5	progress= 6.382% clears=1 solutions=3 conflicts=0 0x0000000000000000 0x0000000000000004
+11,1=6	progress= 0.437% clears=1 solutions=4 conflicts=0 0x0000000000000000 0x0000000000000004
+12,2=3	progress=45.406% clears=4 solutions=1 conflicts=0 0x0000000000000000 0x0000000000000001
+12,2=4	progress=29.998% clears=1 solutions=2 conflicts=0 0x0000000000000000 0x0000000000000001
+12,2=5	progress= 6.382% clears=1 solutions=3 conflicts=0 0x0000000000000000 0x0000000000000001
+12,2=6	progress= 0.437% clears=1 solutions=4 conflicts=0 0x0000000000000000 0x0000000000000001
+16,6=3	progress=25.324% clears=5 solutions=2 conflicts=1 0x0000000000000000 0x00000000000002C0
+16,6=4	clears=0 solutions=8 conflicts=1
+17,6=0	progress=13.776% clears=8 solutions=2 conflicts=1 0x0000000000000000 0x00000000000002A0
+17,6=1	clears=0 solutions=8 conflicts=3
+17,7=2	progress=39.862% clears=3 solutions=6 conflicts=2 0x0000000000000000 0x0000000000000800
+17,7=3	clears=0 solutions=17 conflicts=3
+// new method
+11,1	prob=82.222%  progress=82.222% clears= 4.940 time=0.019ms Linked to 12,2 
+12,2	prob=82.222%  progress=82.222% clears= 4.940 time=0.019ms Linked to 11,1 
+11,0	prob=82.222%  progress=45.406% clears= 2.638 time=0.013ms Adjacent 
+20,15	prob=82.222%  progress=45.406% clears= 2.184 time=0.077ms Adjacent 
+29,0	prob=82.222%  progress=45.406% clears= 2.184 time=0.023ms Open 
+29,15	prob=82.222%  progress=45.406% clears= 2.184 time=0.039ms Open 
+17,7	prob=79.263%  progress=39.862% clears= 1.988 time=0.014ms 
+16,6	prob=79.263%  progress=25.324% clears= 2.059 time=0.013ms 
+17,6	prob=79.263%  progress=13.776% clears= 1.895 time=0.011ms 
+// jar method
+11,1	prob=82.222%  progress=82.222% clears= 4.369 time=0.041ms Linked to 12,2 
+12,2	prob=82.222%  progress=82.222% clears= 4.369 time=0.048ms Linked to 11,1 
+11,0	prob=82.222%  progress=45.406% clears= 2.638 time=0.023ms Adjacent 
+29,0	prob=82.222%  progress=45.406% clears= 2.184 time=0.212ms Open 
+20,15	prob=82.222%  progress=45.406% clears= 2.184 time=0.113ms Adjacent 
+29,15	prob=82.222%  progress=45.406% clears= 2.184 time=0.048ms Open 
+17,7	prob=79.263%  progress=39.862% clears= 1.988 time=0.040ms 
+16,6	prob=79.263%  progress=25.324% clears= 2.059 time=0.037ms 
+17,6	prob=79.263%  progress=13.776% clears= 1.895 time=0.039ms 
+// old method
+11,1	prob=82.222%  progress=82.222% clears= 4.439 time=0.062ms Linked to 12,2 
+12,2	prob=82.222%  progress=82.222% clears= 4.439 time=0.057ms Linked to 11,1 
+11,0	prob=82.222%  progress=45.406% clears= 2.638 time=0.028ms Adjacent 
+29,0	prob=82.222%  progress=45.406% clears= 2.184 time=0.214ms Open 
+20,15	prob=82.222%  progress=45.406% clears= 2.184 time=0.114ms Adjacent 
+29,15	prob=82.222%  progress=45.406% clears= 2.184 time=0.048ms Open 
+17,7	prob=79.263%  progress=39.862% clears= 1.988 time=0.044ms 
+16,6	prob=79.263%  progress=25.324% clears= 2.059 time=0.034ms 
+17,6	prob=79.263%  progress=13.776% clears= 1.895 time=0.033ms 
+
+(11,1) Fixed clears is 1 expected clears is 4.36878622765435951346, progress probability is 0.82222170761642312947
+(11,0) Fixed clears is 0 expected clears is 2.63845024923076529915, progress probability is 0.45405713540358554242
+(20,15) Fixed clears is 0 expected clears is 2.18439311382717975673, progress probability is 0.45405713540358554242
+(29,0) Fixed clears is 0 expected clears is 2.18439311382717975673, progress probability is 0.45405713540358554242
+(29,15) Fixed clears is 0 expected clears is 2.18439311382717975673, progress probability is 0.45405713540358554242
+(17,7) Fixed clears is 0 expected clears is 1.98849926212545761904, progress probability is 0.39862417800495284690
+(16,4) Fixed clears is 0 expected clears is 2.34184726274910622617, progress probability is 0.30392511102653661934
+(20,13) Fixed clears is 0 expected clears is 2.34184726274910622617, progress probability is 0.30392511102653661934
+(20,12) Fixed clears is 0 expected clears is 2.34184726274910622617, progress probability is 0.30392511102653661934
+(20,11) Fixed clears is 0 expected clears is 2.17599969033432874192, progress probability is 0.27075559654358112249
+(16,6) Fixed clears is 0 expected clears is 2.05884470530280223909, progress probability is 0.25324359543844063215
+(14,2) Fixed clears is 0 expected clears is 1.73399704069603298749, progress probability is 0.15196255551326830967
+(17,6) Fixed clears is 0 expected clears is 1.89471030828159167930, progress probability is 0.13776044752137407512
+(16,5) Fixed clears is 0 expected clears is 1.61418182750639791273, progress probability is 0.13199335331499579721
+(19,7) Fixed clears is 0 expected clears is 1.57777385278519640747, progress probability is 0.09444401814609665975
+(21,9) Fixed clears is 0 expected clears is 1.57777385278519640747, progress probability is 0.09444401814609665975
+(18,7) Fixed clears is 0 expected clears is 1.16434847940889223587, progress probability is 0.03801408575471878960
+
+
+superloc at 16,6 best.txt
+(guess1 should be included here too)
+Perimeter mask=0x0000000000000000 0x000000FFFFFFFFFF
+15,0=0	solutions=0 conflicts=2
+15,0=1	progress=33.258% clears=4 solutions=4 conflicts=2 0x0000000000000000 0x0000000000002120
+16,0=0	progress=17.539% clears=6 solutions=2 conflicts=2 0x0000000000000000 0x0000000000002580
+16,1=0	progress= 8.769% clears=7 solutions=2 conflicts=3 0x0000000000000000 0x0000000000002C80
+16,1=1	progress=37.642% clears=1 solutions=10 conflicts=4 0x0000000000000000 0x0000000000002000
+16,1=2	progress=26.104% clears=1 solutions=18 conflicts=5 0x0000000000000000 0x0000000000002000
+16,1=3	progress= 6.380% clears=1 solutions=26 conflicts=6 0x0000000000000000 0x0000000000002000
+16,1=4	progress= 0.516% clears=2 solutions=32 conflicts=7 0x0000000000000000 0x0000000000003000
+17,1=0	progress=13.664% clears=8 solutions=4 conflicts=2 0x0000000000000000 0x0000000000002900
+17,1=1	clears=0 solutions=14 conflicts=3
+17,2=1	progress=16.629% clears=6 solutions=4 conflicts=3 0x0000000000000000 0x0000000000001440
+17,2=2	clears=0 solutions=16 conflicts=5
+17,3=1	progress=21.924% clears=5 solutions=8 conflicts=0 0x0000000000000000 0x0000000000000800
+17,3=2	clears=0 solutions=20 conflicts=0
+16,4=3	progress=38.801% clears=4 solutions=4 conflicts=2 0x0000000000000000 0x0000000000001100
+16,4=4	progress=31.456% clears=1 solutions=10 conflicts=2 0x0000000000000000 0x0000000000000100
+16,4=5	progress= 8.414% clears=1 solutions=16 conflicts=2 0x0000000000000000 0x0000000000000100
+16,4=6	progress= 0.741% clears=4 solutions=18 conflicts=6 0x0000000000000000 0x0000000000000D80
+16,6=3	progress=33.258% clears=5 solutions=8 conflicts=10 0x0000000000000000 0x0000000000230000
+16,6=4	progress=34.089% clears=2 solutions=24 conflicts=28 0x0000000000000000 0x0000000000210000
+16,6=5	progress=10.953% clears=2 solutions=40 conflicts=46 0x0000000000000000 0x0000000000210000
+16,6=6	progress= 1.112% clears=4 solutions=48 conflicts=56 0x0000000000000000 0x00000000002D0000
+16,9=1	progress=17.647% clears=5 solutions=8 conflicts=10 0x0000000000000000 0x00000000006C4000
+16,9=2	progress=44.118% clears=2 solutions=32 conflicts=37 0x0000000000000000 0x0000000000204000
+16,9=3	progress=17.647% clears=5 solutions=48 conflicts=55 0x0000000000000000 0x0000000001A24000
+16,12=1	progress=20.994% clears=5 solutions=8 conflicts=10 0x0000000000000000 0x0000000001814000
+16,12=2	progress=47.465% clears=2 solutions=32 conflicts=37 0x0000000000000000 0x0000000000014000
+16,12=3	progress=10.953% clears=3 solutions=48 conflicts=55 0x0000000000000000 0x0000000000414000
+// new method
+16,12	prob=79.412%  progress=79.412% clears= 5.798 time=0.042ms Linked to 16,9 16,6 
+16,9	prob=79.412%  progress=79.412% clears= 5.798 time=0.033ms Linked to 16,12 16,6 
+16,6	prob=79.412%  progress=79.412% clears= 5.798 time=0.035ms Linked to 16,12 16,9 
+16,1	prob=79.412%  progress=79.412% clears= 4.095 time=0.034ms Linked to 16,4 
+16,4	prob=79.412%  progress=79.412% clears= 4.095 time=0.035ms Linked to 16,1 
+29,0	prob=79.412%  progress=39.462% clears= 1.978 time=0.013ms Open 
+29,15	prob=79.412%  progress=39.462% clears= 1.978 time=0.077ms Open 
+15,0	prob=79.412%  progress=33.258% clears= 2.124 time=0.022ms Adjacent 
+17,3	prob=77.778%  progress=21.924% clears= 1.874 time=0.086ms 
+16,0	prob=79.412%  progress=17.539% clears= 1.846 time=0.009ms Adjacent 
+17,2	prob=77.778%  progress=16.629% clears= 1.776 time=0.015ms 
+17,1	prob=77.778%  progress=13.664% clears= 1.871 time=0.013ms 
+// jar method
+16,6	prob=79.412%  progress=79.412% clears= 5.200 time=0.130ms Linked to 16,9 16,12 
+16,9	prob=79.412%  progress=79.412% clears= 5.200 time=1.256ms Linked to 16,6 16,12 
+16,12	prob=79.412%  progress=79.412% clears= 5.200 time=0.100ms Linked to 16,6 16,9 
+16,1	prob=79.412%  progress=79.412% clears= 3.306 time=0.104ms Linked to 16,4 
+16,4	prob=79.412%  progress=79.412% clears= 3.306 time=0.077ms Linked to 16,1 
+29,0	prob=79.412%  progress=39.462% clears= 1.978 time=0.023ms Open 
+29,15	prob=79.412%  progress=39.462% clears= 1.978 time=0.212ms Open 
+15,0	prob=79.412%  progress=33.258% clears= 2.124 time=0.039ms Adjacent 
+17,3	prob=77.778%  progress=21.924% clears= 1.874 time=0.045ms 
+16,0	prob=79.412%  progress=17.539% clears= 1.846 time=0.019ms Adjacent 
+17,2	prob=77.778%  progress=16.629% clears= 1.776 time=0.044ms 
+17,1	prob=77.778%  progress=13.664% clears= 1.871 time=0.042ms 
+// old method
+16,6	prob=79.412%  progress=79.412% clears= 5.710 time=0.120ms Linked to 16,9 16,12 
+16,9	prob=79.412%  progress=79.412% clears= 5.710 time=0.094ms Linked to 16,6 16,12 
+16,12	prob=79.412%  progress=79.412% clears= 5.710 time=0.087ms Linked to 16,6 16,9 
+16,1	prob=79.412%  progress=79.412% clears= 4.009 time=0.113ms Linked to 16,4 
+16,4	prob=79.412%  progress=79.412% clears= 4.009 time=0.072ms Linked to 16,1 
+29,0	prob=79.412%  progress=39.462% clears= 1.978 time=0.078ms Open 
+29,15	prob=79.412%  progress=39.462% clears= 1.978 time=0.100ms Open 
+15,0	prob=79.412%  progress=33.258% clears= 2.124 time=0.036ms Adjacent 
+17,3	prob=77.778%  progress=21.924% clears= 1.874 time=0.042ms 
+16,0	prob=79.412%  progress=17.539% clears= 1.846 time=0.021ms Adjacent 
+17,2	prob=77.778%  progress=16.629% clears= 1.776 time=0.046ms 
+17,1	prob=77.778%  progress=13.664% clears= 1.871 time=0.039ms 
+
+16,9=3 missed
+16,6=4,5,6 missed
+16,12=2,3 missed
+16,1=2,3,4 missed
+16,4=5,6 missed
+(16,6) Fixed clears is 2 expected clears is 4.53931275480489225393, progress probability is 0.79411764705882352941
+(16,4) Fixed clears is 1 expected clears is 3.27842072148845473992, progress probability is 0.79411764705882352941
+(29,0) Fixed clears is 0 expected clears is 1.97799202129652582586, progress probability is 0.39462479141256743215
+(29,15) Fixed clears is 0 expected clears is 1.97799202129652582586, progress probability is 0.39462479141256743215
+(15,0) Fixed clears is 0 expected clears is 2.12442511999678669693, progress probability is 0.33257686823449079188
+(18,11) Fixed clears is 0 expected clears is 2.02389937768447022816, progress probability is 0.24595634612512933975
+(18,8) Fixed clears is 0 expected clears is 2.02389937768447022816, progress probability is 0.24595634612512933975
+(17,4) Fixed clears is 0 expected clears is 2.00649270067632236266, progress probability is 0.24247501072349976665
+(17,3) Fixed clears is 0 expected clears is 1.87395775392379842263, progress probability is 0.21923599522920412897
+(17,6) Fixed clears is 0 expected clears is 1.83329626444525110076, progress probability is 0.20783572347728551427
+(16,0) Fixed clears is 0 expected clears is 1.84645042415900334849, progress probability is 0.17538879618336330318
+(17,2) Fixed clears is 0 expected clears is 1.77550838248125015342, progress probability is 0.16628843411724539594
+(17,13) Fixed clears is 0 expected clears is 1.80849174970864039242, progress probability is 0.14491058609283098043
+(17,1) Fixed clears is 0 expected clears is 1.87091709388946373226, progress probability is 0.13664241451396074431
+(18,2) Fixed clears is 0 expected clears is 1.53198668543421154863, progress probability is 0.08198544870837644658
+(17,14) Fixed clears is 0 expected clears is 0.92763878814480039880, progress probability is 0.01213828555327062449
+
+
+superloc at 20,5 best.txt
+(be sure 22,4 has the right progress)
+20,0=0	solutions=0 conflicts=2
+20,0=1	progress=37.216% clears=3 solutions=22 conflicts=4
+24,0=1	progress=38.841% clears=5 solutions=2 conflicts=2
+24,2=1	solutions=0 conflicts=2
+24,2=2	progress=23.876% clears=5 solutions=3 conflicts=2
+20,4=0	solutions=0 conflicts=4
+20,4=1	progress=14.096% clears=6 solutions=3 conflicts=10
+22,4=1	solutions=0 conflicts=4
+22,4=2	progress=23.876% clears=5 solutions=33 conflicts=8
+20,5=3	progress=44.764% clears=3 solutions=5 conflicts=3
+20,5=4	clears=0 solutions=12 conflicts=6
+20,5	prob=84.12%  progress=44.764% clears= 2.184 time=0.034ms 
+21,0	prob=87.34%  progress=39.705% clears= 2.859 time=0.031ms Open 
+24,1	prob=87.34%  progress=39.705% clears= 2.859 time=0.031ms Adjacent 
+24,0	prob=87.34%  progress=38.841% clears= 2.815 time=0.017ms Adjacent 
+20,0	prob=87.34%  progress=37.216% clears= 1.990 time=0.067ms Adjacent 
+24,2	prob=87.34%  progress=23.876% clears= 2.067 time=0.023ms Adjacent 
+22,4	prob=87.34%  progress=23.876% clears= 2.067 time=0.064ms Adjacent 
+20,4	prob=87.34%  progress=14.096% clears= 1.719 time=0.028ms Adjacent 
+
+missed 21,0 
+(20,5) Fixed clears is 0 expected clears is 2.18413266610658582021, progress probability is 0.44763852869196771012
+(24,1) Fixed clears is 0 expected clears is 2.85860393761186397343, progress probability is 0.39704861745260620229
+(24,2) Fixed clears is 0 expected clears is 2.06715491105672644923, progress probability is 0.23875881214157869745
+(22,4) Fixed clears is 0 expected clears is 2.06715491105672644923, progress probability is 0.23875881214157869745
+(20,4) Fixed clears is 0 expected clears is 1.71910727983343682656, progress probability is 0.14095773824743397743
+(20,1) Fixed clears is 0 expected clears is 0.87336085034883296198, progress probability is 0
+
+
+superLoc at 26,11 crash.txt (overflowed recoverSimilar array)
+23,8=4	progress=14.885% clears=5 solutions=32 conflicts=2
+29,10=0	solutions=0 conflicts=2
+29,10=1	progress=35.821% clears=3 solutions=8 conflicts=2
+26,11=0	progress= 6.491% clears=8 solutions=224 conflicts=5
+27,11=0	progress= 5.057% clears=8 solutions=16 conflicts=9
+28,11=0	progress= 6.567% clears=8 solutions=28 conflicts=5
+29,11=0	progress=20.982% clears=5 solutions=32 conflicts=4
+29,12=0	solutions=0 conflicts=2
+29,12=1	progress=40.392% clears=3 solutions=4 conflicts=2
+25,15=0	solutions=0 conflicts=7
+25,15=1	progress=37.801% clears=3 solutions=32 conflicts=14
+26,15=0	solutions=0 conflicts=2
+26,15=1	progress=37.801% clears=3 solutions=32 conflicts=2
+26,12=0	progress= 9.876% clears=7 solutions=24 conflicts=4
+26,12=1	clears=0 solutions=152 conflicts=8
+27,12=0	progress= 3.404% clears=8 solutions=1 conflicts=1
+27,12=1	clears=0 solutions=10 conflicts=4
+28,12=1	progress=23.024% clears=5 solutions=4 conflicts=0
+28,12=2	clears=0 solutions=11 conflicts=1
+26,13=0	progress= 2.059% clears=10 solutions=2 conflicts=8
+26,13=1	clears=0 solutions=30 conflicts=24
+26,14=1	progress=19.436% clears=5 solutions=24 conflicts=11
+26,14=2	clears=0 solutions=114 conflicts=15
+29,12	prob=81.19%  progress=40.392% clears= 2.024 time=0.017ms Adjacent 
+25,15	prob=81.19%  progress=37.801% clears= 1.946 time=0.049ms Adjacent 
+26,15	prob=81.19%  progress=37.801% clears= 1.946 time=0.038ms Adjacent 
+29,10	prob=81.19%  progress=35.821% clears= 1.887 time=0.025ms Adjacent 
+28,12	prob=81.46%  progress=23.024% clears= 1.966 time=0.023ms 
+29,11	prob=81.19%  progress=20.982% clears= 1.861 time=0.032ms Adjacent 
+26,14	prob=81.46%  progress=19.436% clears= 1.786 time=0.129ms 
+23,8	prob=81.19%  progress=14.885% clears= 1.556 time=0.061ms Adjacent 
+26,12	prob=81.46%  progress= 9.876% clears= 1.506 time=0.131ms 
+28,11	prob=81.19%  progress= 6.567% clears= 1.337 time=0.032ms Adjacent 
+26,11	prob=81.19%  progress= 6.491% clears= 1.331 time=0.210ms Adjacent 
+27,11	prob=81.19%  progress= 5.057% clears= 1.216 time=0.034ms Adjacent 
+27,12	prob=81.46%  progress= 3.404% clears= 1.087 time=0.024ms 
+26,13	prob=81.46%  progress= 2.059% clears= 1.021 time=0.072ms 
+
+(29,12) Fixed clears is 0 expected clears is 2.02363065402500150974, progress probability is 0.40391931879944441089
+(25,15) Fixed clears is 0 expected clears is 1.94590856935805302252, progress probability is 0.37801195724379491515
+(26,15) Fixed clears is 0 expected clears is 1.94590856935805302252, progress probability is 0.37801195724379491515
+(29,10) Fixed clears is 0 expected clears is 1.88650280814058819978, progress probability is 0.35821003683797330757
+(28,12) Fixed clears is 0 expected clears is 1.96581919198019204059, progress probability is 0.23024337218431064678
+(26,14) Fixed clears is 0 expected clears is 1.78640014493628842319, progress probability is 0.19435956277552992330
+(26,12) Fixed clears is 0 expected clears is 1.50590816675725184691, progress probability is 0.09875797652837329146
+(27,11) Fixed clears is 0 expected clears is 1.21643819071199951691, progress probability is 0.05057068663566640498
+(27,12) Fixed clears is 0 expected clears is 1.08693761700585784165, progress probability is 0.03404191074340237937
+(26,13) Fixed clears is 0 expected clears is 1.02053264085995531129, progress probability is 0.02059303098013165046
+
+
+superLoc guess1 with progress=0.txt:
+(open area is 75% chance of success but progress=0%)
+(So we look at the perimeter which has 66% chance of success)
+25,13=2	progress= 7.407% clears=7 solutions=4 conflicts=14
+25,13=3	progress=18.519% clears=4 solutions=14 conflicts=36
+25,13=4	clears=0 solutions=22 conflicts=72
+26,13=2	progress=22.222% clears=5 solutions=1 conflicts=6
+26,13=3	progress=33.333% clears=1 solutions=3 conflicts=13
+26,13=4	progress=11.111% clears=6 solutions=4 conflicts=21
+26,15=1	progress=44.444% clears=3 solutions=2 conflicts=2
+26,15=2	progress=22.222% clears=4 solutions=4 conflicts=4
+24,14=1	progress= 7.407% clears=6 solutions=8 conflicts=24
+24,14=2	clears=0 solutions=36 conflicts=86
+25,14=2	progress=14.815% clears=6 solutions=8 conflicts=48
+25,14=3	clears=0 solutions=28 conflicts=102
+24,15=1	progress=33.333% clears=2 solutions=6 conflicts=5
+24,15=2	clears=0 solutions=12 conflicts=10
+22,13=2	progress=10.000% clears=4 solutions=2 conflicts=1
+22,13=3	clears=0 solutions=8 conflicts=1
+23,13=3	progress=22.222% clears=3 solutions=12 conflicts=11
+23,13=4	clears=0 solutions=36 conflicts=16
+24,13=2	progress= 5.556% clears=6 solutions=4 conflicts=14
+24,13=3	clears=0 solutions=22 conflicts=32
+26,15	prob=66.667%  progress=66.667% clears= 2.889 time=0.025ms 
+26,13	prob=66.667%  progress=66.667% clears= 2.778 time=0.052ms 
+24,15	prob=66.667%  progress=33.333% clears= 1.333 time=0.041ms 
+25,13	prob=66.667%  progress=25.926% clears= 1.926 time=0.091ms merges 
+23,13	prob=66.667%  progress=22.222% clears= 1.333 time=0.071ms merges 
+25,14	prob=66.667%  progress=14.815% clears= 1.556 time=0.092ms merges 
+22,13	prob=66.667%  progress=10.000% clears= 1.067 time=0.042ms 
+24,14	prob=66.667%  progress= 7.407% clears= 1.111 time=0.113ms merges 
+24,13	prob=66.667%  progress= 5.556% clears= 1.000 time=0.071ms merges 
+
+
+superLoc ignore 27,0 is wrong.txt
+12,0=0	progress=26.041% clears=5 solutions=1 conflicts=1
+27,0=0	solutions=0 conflicts=2
+27,0=1	progress=28.935% clears=3 solutions=2 conflicts=2
+9,2=0	solutions=0 conflicts=2
+9,2=1	progress= 6.802% clears=7 solutions=2 conflicts=7
+29,2=0	solutions=0 conflicts=2
+29,2=1	progress=28.935% clears=3 solutions=2 conflicts=2
+8,9=0	progress= 7.485% clears=8 solutions=32 conflicts=9
+0,13=0	solutions=0 conflicts=2
+0,13=1	progress= 9.028% clears=3 solutions=10 conflicts=7
+29,13=0	solutions=0 conflicts=2
+29,13=1	progress=28.935% clears=3 solutions=2 conflicts=2
+2,14=0	solutions=0 conflicts=3
+2,14=1	solutions=0 conflicts=19
+2,14=2	progress=14.467% clears=5 solutions=30 conflicts=73
+2,15=0	progress=14.467% clears=5 solutions=1 conflicts=1
+27,15=0	solutions=0 conflicts=2
+27,15=1	progress=28.935% clears=3 solutions=2 conflicts=2
+6,8=4	progress=21.460% clears=5 solutions=32 conflicts=8
+6,8=5	clears=0 solutions=124 conflicts=46
+7,8=2	progress=16.430% clears=5 solutions=28 conflicts=53
+7,8=3	clears=0 solutions=143 conflicts=167
+8,8=0	progress= 2.089% clears=9 solutions=20 conflicts=44
+8,8=1	clears=0 solutions=132 conflicts=80
+9,0=0	solutions=0 conflicts=6
+9,0=1	progress=25.234% clears=2 solutions=5 conflicts=11
+9,0=2	clears=0 solutions=18 conflicts=15
+11,0=0	progress=26.388% clears=4 solutions=1 conflicts=1
+11,0=1	clears=0 solutions=4 conflicts=1
+9,1=0	solutions=0 conflicts=6
+9,1=1	progress= 8.107% clears=9 solutions=2 conflicts=10
+9,1=2	clears=0 solutions=12 conflicts=17
+10,1=1	progress=42.822% clears=3 solutions=4 conflicts=0
+10,1=2	clears=0 solutions=8 conflicts=0
+11,1=0	progress=14.067% clears=7 solutions=1 conflicts=1
+11,1=1	clears=0 solutions=4 conflicts=1
+7,12=1	progress=17.879% clears=5 solutions=3 conflicts=12
+7,12=2	clears=0 solutions=12 conflicts=20
+7,13=0	progress=13.516% clears=7 solutions=3 conflicts=4
+7,13=1	clears=0 solutions=11 conflicts=5
+10,1	prob=80.00%  progress=42.822% clears= 2.085 time=0.024ms 
+27,0	prob=81.25%  progress=28.935% clears= 1.681 time=0.019ms Adjacent 
+29,2	prob=81.25%  progress=28.935% clears= 1.681 time=0.018ms Adjacent 
+29,13	prob=81.25%  progress=28.935% clears= 1.681 time=0.022ms Adjacent 
+27,15	prob=81.25%  progress=28.935% clears= 1.681 time=0.017ms Adjacent 
+13,0	prob=81.25%  progress=28.477% clears= 2.236 time=0.039ms Open 
+9,3	prob=81.25%  progress=28.477% clears= 2.236 time=0.019ms Adjacent 
+9,4	prob=81.25%  progress=28.477% clears= 2.236 time=0.032ms Adjacent 
+9,5	prob=81.25%  progress=28.477% clears= 2.236 time=0.129ms Adjacent 
+9,6	prob=81.25%  progress=28.477% clears= 2.236 time=0.061ms Adjacent 
+11,0	prob=80.00%  progress=26.388% clears= 1.856 time=0.023ms 
+12,0	prob=81.25%  progress=26.041% clears= 2.115 time=0.038ms Adjacent 
+9,0	prob=80.00%  progress=25.234% clears= 1.305 time=0.053ms 
+6,8	prob=82.09%  progress=21.460% clears= 1.894 time=0.259ms 
+7,12	prob=83.32%  progress=17.879% clears= 1.727 time=0.048ms 
+7,8	prob=82.09%  progress=16.430% clears= 1.642 time=0.351ms 
+2,14	prob=81.25%  progress=14.467% clears= 1.536 time=0.085ms Adjacent 
+2,15	prob=81.25%  progress=14.467% clears= 1.536 time=0.012ms Adjacent 
+11,1	prob=80.00%  progress=14.067% clears= 1.785 time=0.022ms 
+7,13	prob=83.32%  progress=13.516% clears= 1.779 time=0.037ms 
+0,13	prob=81.25%  progress= 9.028% clears= 1.083 time=0.036ms Adjacent 
+9,1	prob=80.00%  progress= 8.107% clears= 1.530 time=0.047ms 
+8,9	prob=81.25%  progress= 7.485% clears= 1.411 time=0.078ms Adjacent 
+9,2	prob=81.25%  progress= 6.802% clears= 1.289 time=0.030ms Adjacent 
+8,8	prob=82.09%  progress= 2.089% clears= 1.009 time=0.266ms 
+
+2,14=2 missed
+(10,1) Fixed clears is 0 expected clears is 2.08465470050778880556, progress probability is 0.42821823350259626852
+(27,0) Fixed clears is 0 expected clears is 1.68053372739140148311, progress probability is 0.28934857448356376044
+(29,2) Fixed clears is 0 expected clears is 1.68053372739140148311, progress probability is 0.28934857448356376044
+(29,13) Fixed clears is 0 expected clears is 1.68053372739140148311, progress probability is 0.28934857448356376044
+(27,15) Fixed clears is 0 expected clears is 1.68053372739140148311, progress probability is 0.28934857448356376044
+(8,10) Fixed clears is 0 expected clears is 2.23633875211764087164, progress probability is 0.28477014963538613397
+(9,3) Fixed clears is 0 expected clears is 2.23633875211764087164, progress probability is 0.28477014963538613397
+(9,5) Fixed clears is 0 expected clears is 2.23633875211764087164, progress probability is 0.28477014963538613397
+(9,4) Fixed clears is 0 expected clears is 2.23633875211764087164, progress probability is 0.28477014963538613397
+(9,6) Fixed clears is 0 expected clears is 2.23633875211764087164, progress probability is 0.28477014963538613397
+(5,14) Fixed clears is 0 expected clears is 2.23633875211764087164, progress probability is 0.28477014963538613397
+(11,0) Fixed clears is 0 expected clears is 1.85551067331441444284, progress probability is 0.26387766832860361071
+(12,0) Fixed clears is 0 expected clears is 2.11455658911674712379, progress probability is 0.26041371703520738440
+(9,0) Fixed clears is 0 expected clears is 1.30467266020810577928, progress probability is 0.25233633010405288964
+(6,8) Fixed clears is 0 expected clears is 1.89387539891984485819, progress probability is 0.21460092119050341420
+(7,12) Fixed clears is 0 expected clears is 1.72718180323407835664, progress probability is 0.17878733330930290867
+(7,8) Fixed clears is 0 expected clears is 1.64239172812131729609, progress probability is 0.16430418703079790178
+(2,15) Fixed clears is 0 expected clears is 1.53585944014961960289, progress probability is 0.14467428724178188022
+(11,1) Fixed clears is 0 expected clears is 1.78471613547080511031, progress probability is 0.14067373363868644433
+(7,13) Fixed clears is 0 expected clears is 1.77936946645664294690, progress probability is 0.13516061853843987623
+(10,2) Fixed clears is 0 expected clears is 1.72375248277394583051, progress probability is 0.11390805985415445359
+(8,12) Fixed clears is 0 expected clears is 2.12419643481395550815, progress probability is 0.10930903590610377553
+(9,7) Fixed clears is 0 expected clears is 1.43075294077568993531, progress probability is 0.10304415613916328892
+(0,13) Fixed clears is 0 expected clears is 1.08331733858761360238, progress probability is 0.09027644488230113353
+(9,1) Fixed clears is 0 expected clears is 1.52961391543399953848, progress probability is 0.08106821282599994872
+(9,2) Fixed clears is 0 expected clears is 1.28863634190507154827, progress probability is 0.06802119113776590664
+(6,14) Fixed clears is 0 expected clears is 1.18621557154693435707, progress probability is 0.04671594595077801941
+(8,8) Fixed clears is 0 expected clears is 1.00884930197438010934, progress probability is 0.02088650100078359135
+(2,14) Fixed clears is 0 expected clears is 0.81248800394071020179, progress probability is 0
+
+
+superloc jar picks wrong entry.txt
+jar picks an inferior entry with fewer clears and nearly equal progress (note last digit of progress)
+Perimeter mask=0x0000000000000000 0x00003FFFFFFFFFFF
+1,1=0	progress=11.561% clears=7 solutions=2 conflicts=3 0x0000000000000000 0x0000000000000072
+1,1=1	clears=0 solutions=7 conflicts=8
+0,1=0	progress=42.373% clears=4 solutions=3 conflicts=4 0x0000000000000000 0x0000000000000048
+0,1=1	clears=0 solutions=8 conflicts=9
+0,2=0	progress=44.145% clears=8 solutions=1 conflicts=2 0x0000000000000000 0x0000000000000D9D
+0,2=1	progress=44.684% clears=2 solutions=5 conflicts=6 0x0000000000000000 0x0000000000000022
+0,3=1	progress=66.487% clears=3 solutions=3 conflicts=2 0x0000000000000000 0x0000000000000540
+0,3=2	progress=22.342% clears=4 solutions=5 conflicts=4 0x0000000000000000 0x000000000000003A
+1,3=1	progress=66.487% clears=3 solutions=3 conflicts=2 0x0000000000000000 0x00000000000004C0
+1,3=2	progress=22.342% clears=6 solutions=5 conflicts=4 0x0000000000000000 0x0000000000000C3A
+0,4=1	progress=77.658% clears=2 solutions=3 conflicts=2 0x0000000000000000 0x0000000000000180
+0,4=2	progress=11.171% clears=7 solutions=4 conflicts=5 0x0000000000000000 0x000000000000097A
+14,14=1	progress=34.371% clears=7 solutions=2 conflicts=3 0x0000000000000000 0x00003D0800000000
+14,14=2	clears=0 solutions=9 conflicts=4
+// new method
+1,3	prob=88.829%  progress=88.829% clears= 5.753 time=0.015ms Linked to 0,4 
+0,4	prob=88.829%  progress=88.829% clears= 5.753 time=0.014ms Linked to 1,3 
+0,2	prob=88.829%  progress=88.829% clears= 5.314 time=0.017ms 
+0,3	prob=88.829%  progress=88.829% clears= 3.777 time=0.015ms 
+0,1	prob=88.829%  progress=42.373% clears= 2.583 time=0.022ms 
+14,14	prob=91.204%  progress=34.371% clears= 3.318 time=0.023ms 
+1,1	prob=88.829%  progress=11.561% clears= 1.698 time=0.015ms 
+// jar method
+1,3	prob=88.829%  progress=88.829% clears= 5.670 time=0.013ms Linked to 0,4 
+0,4	prob=88.829%  progress=88.829% clears= 5.670 time=0.011ms Linked to 1,3 
+0,2	prob=88.829%  progress=88.829% clears= 5.314 time=0.013ms 
+0,3	prob=88.829%  progress=88.829% clears= 3.777 time=0.013ms 
+0,1	prob=88.829%  progress=42.373% clears= 2.583 time=0.013ms 
+14,14	prob=91.204%  progress=34.371% clears= 3.318 time=0.013ms 
+1,1	prob=88.829%  progress=11.561% clears= 1.698 time=0.019ms 
+// old method
+1,3	prob=88.829%  progress=88.829% clears= 5.753 time=0.034ms Linked to 0,4 
+0,4	prob=88.829%  progress=88.829% clears= 5.753 time=0.034ms Linked to 1,3 
+0,2	prob=88.829%  progress=88.829% clears= 5.314 time=0.041ms 
+0,3	prob=88.829%  progress=88.829% clears= 3.777 time=0.035ms 
+0,1	prob=88.829%  progress=42.373% clears= 2.583 time=0.036ms 
+14,14	prob=91.204%  progress=34.371% clears= 3.318 time=0.039ms 
+1,1	prob=88.829%  progress=11.561% clears= 1.698 time=0.050ms 
+
+(0,3) Fixed clears is 0 expected clears is 3.77658049601818828235, progress probability is 0.88829024800909414117
+(0,4) Fixed clears is 1 expected clears is 5.67025851194543515306, progress probability is 0.88829024800909414116
+(0,2) Fixed clears is 0 expected clears is 4.41990016837285978764, progress probability is 0.44145124004547070581
+(0,1) Fixed clears is 0 expected clears is 2.58322696702939803496, progress probability is 0.42373417975507597345
+(14,14) Fixed clears is 0 expected clears is 3.31797282739581542815, progress probability is 0.34370535430121966797
+(1,1) Fixed clears is 0 expected clears is 1.69754559653626130075, progress probability is 0.11560790693245245137
+
+
+superloc open and adjacent equal.txt
+Perimeter mask=0x0000000000000000 0x0000000001FFFFFF
+11,0=2	progress=45.570% clears=4 solutions=1 conflicts=1 0x0000000000000000 0x0000000000000005
+11,1=3	progress=45.570% clears=4 solutions=1 conflicts=0 0x0000000000000000 0x0000000000000004
+11,1=4	progress=29.956% clears=1 solutions=2 conflicts=0 0x0000000000000000 0x0000000000000004
+11,1=5	progress= 6.339% clears=1 solutions=3 conflicts=0 0x0000000000000000 0x0000000000000004
+11,1=6	progress= 0.431% clears=1 solutions=4 conflicts=0 0x0000000000000000 0x0000000000000004
+12,2=3	progress=45.570% clears=4 solutions=1 conflicts=0 0x0000000000000000 0x0000000000000001
+12,2=4	progress=29.956% clears=1 solutions=2 conflicts=0 0x0000000000000000 0x0000000000000001
+12,2=5	progress= 6.339% clears=1 solutions=3 conflicts=0 0x0000000000000000 0x0000000000000001
+12,2=6	progress= 0.431% clears=1 solutions=4 conflicts=0 0x0000000000000000 0x0000000000000001
+// new method
+11,1	prob=82.296%  progress=82.296% clears= 4.951 time=0.018ms Linked to 12,2 
+12,2	prob=82.296%  progress=82.296% clears= 4.951 time=0.021ms Linked to 11,1 
+11,0	prob=82.296%  progress=45.570% clears= 2.646 time=0.011ms Adjacent 
+20,15	prob=82.296%  progress=45.570% clears= 2.190 time=0.014ms Adjacent 
+29,0	prob=82.296%  progress=45.570% clears= 2.190 time=0.017ms Open 
+29,15	prob=82.296%  progress=45.570% clears= 2.190 time=0.015ms Open 
+// jar method
+11,1	prob=82.296%  progress=82.296% clears= 4.380 time=0.054ms Linked to 12,2 
+12,2	prob=82.296%  progress=82.296% clears= 4.380 time=0.046ms Linked to 11,1 
+11,0	prob=82.296%  progress=45.570% clears= 2.646 time=0.027ms Adjacent 
+29,0	prob=82.296%  progress=45.570% clears= 2.190 time=0.011ms Open 
+20,15	prob=82.296%  progress=45.570% clears= 2.190 time=0.013ms Adjacent 
+29,15	prob=82.296%  progress=45.570% clears= 2.190 time=0.013ms Open 
+// old method
+11,1	prob=82.296%  progress=82.296% clears= 4.446 time=0.050ms Linked to 12,2 
+12,2	prob=82.296%  progress=82.296% clears= 4.446 time=0.036ms Linked to 11,1 
+11,0	prob=82.296%  progress=45.570% clears= 2.646 time=0.022ms Adjacent 
+29,0	prob=82.296%  progress=45.570% clears= 2.190 time=0.047ms Open 
+20,15	prob=82.296%  progress=45.570% clears= 2.190 time=0.030ms Adjacent 
+29,15	prob=82.296%  progress=45.570% clears= 2.190 time=0.036ms Open 
+
+(11,1) Fixed clears is 1 expected clears is 4.38009816683122099180, progress probability is 0.82296230798587696508
+(11,0) Fixed clears is 0 expected clears is 2.64574467522552167284, progress probability is 0.45569559180991117694
+(20,15) Fixed clears is 0 expected clears is 2.19004908341561049590, progress probability is 0.45569559180991117694
+(29,0) Fixed clears is 0 expected clears is 2.19004908341561049590, progress probability is 0.45569559180991117694
+(29,15) Fixed clears is 0 expected clears is 2.19004908341561049590, progress probability is 0.45569559180991117694
+(16,4) Fixed clears is 0 expected clears is 2.35082057521531063078, progress probability is 0.30557165344588673314
+(20,13) Fixed clears is 0 expected clears is 2.35082057521531063078, progress probability is 0.30557165344588673314
+(20,12) Fixed clears is 0 expected clears is 2.35082057521531063078, progress probability is 0.30557165344588673314
+(20,11) Fixed clears is 0 expected clears is 2.26587459020545299558, progress probability is 0.28858245644391520610
+(19,7) Fixed clears is 0 expected clears is 2.12923594762792348313, progress probability is 0.26125472792840930361
+(14,2) Fixed clears is 0 expected clears is 1.73967726832353716450, progress probability is 0.15278582672294336657
+(21,9) Fixed clears is 0 expected clears is 1.79526590510709704588, progress probability is 0.12153794964015251010
+(16,5) Fixed clears is 0 expected clears is 1.51433398388543415524, progress probability is 0.09876738227136531288
+(17,5) Fixed clears is 0 expected clears is 1.59492047776641861059, progress probability is 0.08577312997561573839

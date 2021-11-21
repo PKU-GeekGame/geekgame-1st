@@ -1,0 +1,308 @@
+All times are using Release Build.
+The non-perimeter to perimeter area is flagged as NP/P
+
+
+gametree 0 entries.txt
+All entries are dead but the area is not enclosed
+#############################################
+mines=2 entries=1 solutions=2
+hash table entries=0 hits=0
+perimeter P=3 non-perimeter NP=1 NP mines=0.50
+best=7,1 wins=1 (50.00%) time=0.001 seconds nodes=1
+picked entry 1 of 1  depth=1
+
+
+gametree 4 dead entries.txt
+(jar 1.05 picks 1,6 in 4 steps in 3 ms)
+#############################################
+mines=3 entries=4 solutions=7
+hash table entries=2 hits=0
+perimeter P=5 non-perimeter NP=3 NP mines=0.86
+best=1,6 wins=3 (42.86%) time=0.000 seconds nodes=4
+picked entry 1 of 4  depth=2
+
+
+gametree crash.txt
+This is an early gametree
+jar 1.05 picks 26,14 using all 1620 solutions so there is no comparison
+#############################################
+mines=12 entries=11 solutions=27
+hash table entries=33 hits=26
+perimeter P=30 non-perimeter NP=0 NP mines=0.00
+best=26,14 wins=11 (40.74%) time=0.001 seconds nodes=62
+picked entry 1 of 11  depth=4
+
+
+gametree0_1 (.jar 1.04 picks 1,0 in 144 steps)
+#############################################
+mines=1 entries=18 solutions=18
+hash table entries=68 hits=68
+perimeter P=0 non-perimeter NP=18 NP mines=1.00
+best=0,0 wins=9 (50.00%) time=0.001 seconds nodes=86
+picked entry 1 of 18  depth=8
+
+
+gametree0_2 (.jar 1.04 picks 1,0 in 14270 steps)
+#############################################
+mines=2 entries=18 solutions=153
+hash table entries=3354 hits=8135
+perimeter P=0 non-perimeter NP=18 NP mines=2.00
+best=0,0 wins=44 (28.76%) time=0.032 seconds nodes=6168
+picked entry 1 of 18  depth=10
+
+
+gametree4x9_1: (.jar 1.04 picks 4,1 in 2097 steps)
+#############################################
+mines=2 entries=35 solutions=216
+hash table entries=0 hits=0
+perimeter P=8 non-perimeter NP=27 NP mines=1.00
+best=8,0 wins=208 (96.30%) time=0.003 seconds nodes=122
+picked entry 1 of 35  depth=10
+
+
+gametree4x9_2: (.jar 1.04 picks 0,0 in 67715 steps in .42 seconds)
+#############################################
+mines=2 entries=36 solutions=630
+hash table entries=232 hits=174
+perimeter P=0 non-perimeter NP=36 NP mines=2.00
+best=0,0 wins=592 (93.97%) time=0.232 seconds nodes=32058
+picked entry 1 of 36  depth=13
+
+
+gametree1: (.jar 1.04 picks 3,1 in 1201 steps)
+#############################################
+mines=6 entries=14 solutions=90
+hash table entries=308 hits=368
+perimeter P=8 non-perimeter NP=6 NP mines=3.00
+best=3,1 wins=35 (38.89%) time=0.002 seconds nodes=659
+picked entry 3 of 14  depth=6
+
+
+gametree2:  (.jar 1.04 picks 0,0 in 12 steps)
+#############################################
+mines=3 entries=4 solutions=20
+hash table entries=8 hits=0
+perimeter P=0 non-perimeter NP=6 NP mines=3.00
+best=0,0 wins=4 (20.00%) time=0.000 seconds nodes=16
+picked entry 1 of 4  depth=2
+
+
+gametree3:  (.jar 1.04 picks 3,1 in 9 steps)
+#############################################
+mines=4 entries=6 solutions=10
+hash table entries=8 hits=3
+perimeter P=7 non-perimeter NP=0 NP mines=0.00
+best=2,1 wins=3 (30.00%) time=0.000 seconds nodes=15
+picked entry 1 of 6  depth=3
+
+
+gametree4: (.jar 1.04 picks 0,0 in 2 steps)
+#############################################
+mines=3 entries=2 solutions=3
+hash table entries=0 hits=0
+perimeter P=9 non-perimeter NP=0 NP mines=0.00
+best=0,0 wins=2 (66.67%) time=0.001 seconds nodes=1
+picked entry 1 of 2  depth=1
+
+
+gametree5: (.jar 1.04 picks 7,5 in 9 steps)
+#############################################
+mines=3 entries=6 solutions=5
+hash table entries=4 hits=4
+perimeter P=8 non-perimeter NP=1 NP mines=0.20
+best=7,5 wins=3 (60.00%) time=0.001 seconds nodes=10
+picked entry 1 of 6  depth=2
+
+
+gametree6: (.jar 1.04 picks 14,2 in 92985 steps in .24 seconds)
+(Use more than 1000 max solutions)
+// this example is used on Github at https://github.com/DavidNHill/Minesweeper
+#############################################
+mines=7 entries=18 solutions=1008
+hash table entries=8604 hits=15017
+perimeter P=12 non-perimeter NP=8 NP mines=2.00
+best=14,2 wins=466 (46.23%) time=0.095 seconds nodes=29174
+picked entry 12 of 18  depth=10
+
+
+gametree7: (.jar 1.04 picks 5,7 in 56 steps)
+#############################################
+mines=5 entries=18 solutions=48
+hash table entries=0 hits=0
+perimeter P=12 non-perimeter NP=7 NP mines=0.88
+best=5,7 wins=45 (93.75%) time=0.002 seconds nodes=24
+picked entry 1 of 18  depth=5
+
+
+gametree8: (.jar 1.05 picks 7,2 in 1363 steps)
+#############################################
+mines=4 entries=18 solutions=42
+hash table entries=177 hits=218
+perimeter P=9 non-perimeter NP=9 NP mines=0.86
+best=7,2 wins=34 (80.95%) time=0.003 seconds nodes=363
+picked entry 5 of 18  depth=7
+
+
+gametree9: (.jar 1.04 picks 7,2 in 3940 steps)
+#############################################
+mines=7 entries=18 solutions=186
+hash table entries=527 hits=566
+perimeter P=13 non-perimeter NP=6 NP mines=1.81
+best=7,2 wins=104 (55.91%) time=0.005 seconds nodes=1402
+picked entry 9 of 18  depth=7
+
+
+gametree10: (.jar 1.04 picks 7,7 in 84 steps)
+#############################################
+mines=4 entries=20 solutions=34
+hash table entries=9 hits=2
+perimeter P=10 non-perimeter NP=10 NP mines=0.88
+best=7,7 wins=31 (91.18%) time=0.001 seconds nodes=35
+picked entry 1 of 20  depth=5
+
+
+gametree11: (.jar 1.04 picks 0,7 in 148 steps)
+#############################################
+mines=4 entries=15 solutions=27
+hash table entries=0 hits=0
+perimeter P=10 non-perimeter NP=7 NP mines=0.78
+best=0,7 wins=24 (88.89%) time=0.001 seconds nodes=10
+picked entry 1 of 15  depth=5
+
+
+gametree12: (.jar 1.04 picks 0,7 in 434 steps)
+#############################################
+mines=3 entries=18 solutions=23
+hash table entries=60 hits=44
+perimeter P=8 non-perimeter NP=10 NP mines=0.87
+best=0,7 wins=20 (86.96%) time=0.002 seconds nodes=137
+picked entry 5 of 18  depth=7
+
+
+gametree13: (.jar 1.04 picks 8,2 in 71 steps)
+#############################################
+mines=3 entries=20 solutions=15
+hash table entries=9 hits=7
+perimeter P=10 non-perimeter NP=10 NP mines=0.67
+best=8,2 wins=14 (93.33%) time=0.001 seconds nodes=49
+picked entry 9 of 20  depth=6
+
+
+gametree14: (.jar 1.04 picks 7,5 in 45 steps)
+#############################################
+mines=5 entries=16 solutions=38
+hash table entries=0 hits=0
+perimeter P=11 non-perimeter NP=8 NP mines=0.84
+best=7,5 wins=36 (94.74%) time=0.001 seconds nodes=18
+picked entry 1 of 16  depth=6
+
+
+gametree15: (.jar 1.04 picks 8,3 in 1354 steps)
+#############################################
+mines=5 entries=16 solutions=37
+hash table entries=186 hits=317
+perimeter P=14 non-perimeter NP=4 NP mines=0.43
+best=8,3 wins=21 (56.76%) time=0.001 seconds nodes=476
+picked entry 4 of 16  depth=6
+
+
+gametree16: (.jar 1.04 picks 7,3 in 148 steps)
+#############################################
+mines=5 entries=17 solutions=56
+hash table entries=7 hits=0
+perimeter P=10 non-perimeter NP=8 NP mines=1.43
+best=7,3 wins=48 (85.71%) time=0.001 seconds nodes=47
+picked entry 1 of 17  depth=6
+
+
+gametree18: (.jar 1.04 picks 7,6 in 588 steps)
+#############################################
+mines=4 entries=22 solutions=27
+hash table entries=75 hits=54
+perimeter P=11 non-perimeter NP=11 NP mines=0.81
+best=7,6 wins=24 (88.89%) time=0.001 seconds nodes=189
+picked entry 11 of 22  depth=6
+
+
+gametree19: (.jar 1.04 picks 4,7 in 1250 steps)
+#############################################
+mines=6 entries=28 solutions=57
+hash table entries=88 hits=44
+perimeter P=12 non-perimeter NP=16 NP mines=0.84
+best=0,8 wins=53 (92.98%) time=0.006 seconds nodes=425
+picked entry 1 of 28  depth=8
+
+
+gametree20: (.jar 1.05 picks 8,0 in 4211 steps)
+#############################################
+mines=5 entries=30 solutions=126
+hash table entries=181 hits=123
+perimeter P=11 non-perimeter NP=19 NP mines=0.90
+best=8,8 wins=117 (92.86%) time=0.024 seconds nodes=1816
+picked entry 1 of 30  depth=10
+
+
+gametree21: (.jar 1.05 picks 3,9 in 2897 steps)
+#############################################
+mines=6 entries=24 solutions=93
+hash table entries=566 hits=603
+perimeter P=14 non-perimeter NP=11 NP mines=1.54
+best=1,12 wins=68 (73.12%) time=0.017 seconds nodes=1232
+picked entry 1 of 24  depth=8
+
+
+gametree65seed2003: (.jar 1.05 picks 0,15 in 259 steps)
+#############################################
+mines=4 entries=24 solutions=19
+hash table entries=39 hits=23
+perimeter P=13 non-perimeter NP=12 NP mines=0.63
+best=26,0 wins=16 (84.21%) time=0.002 seconds nodes=102
+picked entry 1 of 24  depth=7
+
+
+gameTreeTimeCheck42.txt (.jar 1.05 picks 1,10 in 13584 steps in .043 seconds)
+#############################################
+mines=6 entries=20 solutions=121
+hash table entries=1472 hits=4147
+perimeter P=10 non-perimeter NP=10 NP mines=1.74
+best=1,10 wins=48 (39.67%) time=0.012 seconds nodes=4295
+picked entry 15 of 20  depth=8
+
+
+gameTreeTimeCheck75.txt (.jar 1.05 picks 2,14 in 6455 steps)
+#############################################
+mines=7 entries=18 solutions=192
+hash table entries=1685 hits=2645
+perimeter P=14 non-perimeter NP=6 NP mines=1.63
+best=2,14 wins=94 (48.96%) time=0.023 seconds nodes=3555
+picked entry 8 of 18  depth=8
+
+
+gameTreeTimeCheck89.txt (.jar 1.05 picks 15,11 in 16475 steps in .055 seconds)
+#############################################
+mines=7 entries=20 solutions=102
+hash table entries=1007 hits=2351
+perimeter P=17 non-perimeter NP=5 NP mines=0.59
+best=12,1 wins=51 (50.00%) time=0.016 seconds nodes=2640
+picked entry 1 of 20  depth=9
+
+
+gametree solutions=0 1.txt
+(jar 1.5 picks 26,14 0.005 seconds using 3 nodes and 0 cache entries and hits)
+#############################################
+mines=4 entries=4 solutions=6
+hash table entries=0 hits=0
+perimeter P=4 non-perimeter NP=3 NP mines=2.00
+best=26,14 wins=2 (33.33%) time=0.000 seconds nodes=3
+picked entry 1 of 4  depth=1
+
+
+gametree solutions=0 2.txt 
+(jar 1.05 picks 28,8 in 0.004 seconds using 1 node using 0 cache entries & hits)
+#############################################
+mines=5 entries=1 solutions=3
+hash table entries=0 hits=0
+perimeter P=10 non-perimeter NP=0 NP mines=0.00
+best=28,8 wins=2 (66.67%) time=0.000 seconds nodes=1
+picked entry 1 of 1  depth=1
+

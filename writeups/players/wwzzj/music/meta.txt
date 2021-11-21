@@ -1,0 +1,35 @@
+General
+Complete name                  : C:\Users\luoyuchu\Desktop\geekgame\music\LeafsNewSong.mp3
+Format                         : MPEG Audio
+File size                      : 4.30 MiB
+Duration                       : 58 s 70 ms
+Overall bit rate mode          : Constant
+Overall bit rate               : 320 kb/s
+Album                          : Secret in Album Cover!!
+Track name                     : 叶子的新歌
+Track name/Total               : aHR0cDovL2xhYi5tYXh4c29mdC5uZXQvY3RmL2xlZ2FjeS50Ynoy
+Performer                      : 叶子
+Writing library                : Lavf58.45.100
+Cover                          : Yes
+Cover type                     : Cover (front)
+Cover MIME                     : image/png
+TSS                            : Logic Pro X 10.7.0
+iTunNORM                       :  0000072C 00000736 00003208 00003140 00009E92 0000501A 00006703 00007E86 00007678 00007E1F
+iTunSMPB                       :  00000000 00000210 000007A5 00000000002709CB 00000000 002350D1 00000000 00000000 00000000 00000000 00000000 00000000
+USLT                           : 空无一人的房间 / 我望向窗外 / 想回到昨天 /  / 琥珀色的风 / 能否将 回忆传到那边 / 闪烁的星 / 照亮夜空 连成我的思念 /  / 你 在梦的另一边 / 站在 日落的地平线 / 背离这世界而去 / 想 在回不去的时间里 / 遇见你 遇见你 遇见你 / 遇见你 遇见你 遇见你
+comment                        : 你还记得吗？小时候，我家和你家都在一个大院里。放学以后，我们经常一起在院子里玩。你虽然是个女孩子，但总是能和男孩子们玩到一块去。 /  / 夏天的时候我们挖蚯蚓、捉蚂蚱；冬天，院子里的大坡上积了一层雪，我们就坐在纸箱子压成的雪橇上，一次次从坡顶滑到坡底。那个时候你还发现，坐在铁簸箕上滑得更快。 /  / ——当然，那次你也摔得挺惨的。
+
+Audio
+Format                         : MPEG Audio
+Format version                 : Version 1
+Format profile                 : Layer 3
+Format settings                : Joint stereo / MS Stereo
+Duration                       : 58 s 70 ms
+Bit rate mode                  : Constant
+Bit rate                       : 320 kb/s
+Channel(s)                     : 2 channels
+Sampling rate                  : 44.1 kHz
+Frame rate                     : 38.281 FPS (1152 SPF)
+Compression mode               : Lossy
+Stream size                    : 2.22 MiB (52%)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPGWClientConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\workspace\ipgwclient\doc\config.xsd">
+	<Style ConPrompt="true" AutoLogon="true"/>
+	<Locale/>
+	<Log>
+	</Log>
+	<HBSCam>162.105.129.30:7777</HBSCam>
+	<HBSDom>202.112.7.13:7777</HBSDom>
+	<HBSInt>www.google.com:80</HBSInt>
+	<CA/>
+</IPGWClientConfig>

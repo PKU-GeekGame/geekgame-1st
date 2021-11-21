@@ -17,15 +17,23 @@
 
 目前仅包括选手要求无条件公开的Writeup。其他优秀Writeup将在明天（周一）补完。
 
-| 作者                          | 包含题目 | 公开理由     |
-| ----------------------------- | -------- | ------------ |
-| [DF4D0155](players/DF4D0155/) | TODO     | 作者要求公开 |
-| [fIa9{pp}](players/fIa9pp)    | TODO     | 作者要求公开 |
-| [intlsy](players/intlsy/)     | TODO     | 作者要求公开 |
-| [Rainshaw](players/Rainshaw/) | TODO     | 作者要求公开 |
-| [RannRu](players/RannRu-v2/)  | TODO     | 作者要求公开 |
-| [thezzisu](players/thezzisu/) | TODO     | 作者要求公开 |
-| TODO                          |          |              |
+| 作者                                                         | 包含题目 | 公开理由                                 |
+| ------------------------------------------------------------ | -------- | ---------------------------------------- |
+| [欢迎参加明年十月份…](players/欢迎参加明年十月份中科大第九届信安大赛/) | TODO     | 毕竟是第一名                             |
+| [taoky # 好吃就是高兴](players/taoky-v2/)                    | TODO     | 写得贼棒                                 |
+| [thezzisu](players/thezzisu/)                                | TODO     | 作者要求公开                             |
+| [Ferric](players/Ferric/)                                    | TODO     | “Flag即服务” 通过 in_path 回显的非预期解 |
+| [genuine](players/genuine/)                                  | TODO     | “射水鱼” 通过修改文件路径的非预期解      |
+| [DF4D0155](players/DF4D0155/)                                | TODO     | 作者要求公开                             |
+| [RannRu](players/RannRu-v2/)                                 | TODO     | 作者要求公开                             |
+| [intlsy](players/intlsy/)                                    | TODO     | 作者要求公开                             |
+| [Rainshaw](players/Rainshaw/)                                | TODO     | 作者要求公开                             |
+| [fIa9{pp}](players/fIa9pp)                                   | TODO     | 作者要求公开                             |
+| [feifeiobama](players/feifeiobama/)                          | TODO     | “扫雷” 一个几乎就要成功的非预期解        |
+| [wwzzj](players/wwzzj/)                                      | TODO     | “小北问答” 组合数学大师                  |
+| [Lysithea](Lysithea)                                         | TODO     | 写得挺好                                 |
+| [shisanli](players/shisanli/)                                | TODO     | “小北问答” 组合数学大师                  |
+| TODO                                                         |          |                                          |
 
-转载前请向相应作者获得许可。
+列表按选手成绩排序。转载前请向相应作者获得许可。
 

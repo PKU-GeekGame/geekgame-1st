@@ -1,0 +1,525 @@
+//////////////////////////////////////////////
+//  这是由IPGWClient生成的网络配置状态报告  //
+//////////////////////////////////////////////
+
+报告时间:	2021年11月17日 5时12分28秒
+
+一、公共配置信息
+主机名:		DESKTOP-PT1PHJ6
+域名:		
+域名服务器:
+		162.105.129.122
+		162.105.129.88
+
+二、接口配置
+	接口1
+		标识: 	{C3D8AC94-E389-4366-8254-A7A32DA4CD01}
+		描述: 	Realtek PCIe GbE Family Controller
+		MAC地址: 	80-FA-5B-66-AD-58
+		IP地址: 	0.0.0.0
+		子网掩码: 	0.0.0.0
+		网关Gateway: 	0.0.0.0
+		动态分配IP地址
+		DHCP服务器: 	
+		接口号:	22
+		接口类型:	以太网
+		MTU:	1500
+		传输速率:	0bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口2
+		标识: 	{47A27A5D-2C70-45C4-851E-421DCD9A6C7D}
+		描述: 	Netease UU TAP-Win32 Adapter V9.21
+		MAC地址: 	00-FF-47-A2-7A-5D
+		IP地址: 	0.0.0.0
+		子网掩码: 	0.0.0.0
+		网关Gateway: 	0.0.0.0
+		动态分配IP地址
+		DHCP服务器: 	
+		接口号:	9
+		接口类型:	以太网
+		MTU:	1500
+		传输速率:	100000000bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口3
+		标识: 	{89BDF018-56AA-4093-9420-EE5074414745}
+		描述: 	TAP-Windows Adapter V9
+		MAC地址: 	00-FF-89-BD-F0-18
+		IP地址: 	0.0.0.0
+		子网掩码: 	0.0.0.0
+		网关Gateway: 	0.0.0.0
+		动态分配IP地址
+		DHCP服务器: 	
+		接口号:	14
+		接口类型:	以太网
+		MTU:	1500
+		传输速率:	100000000bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口4
+		标识: 	{57033494-D80F-43EE-BF36-2A60363AAA49}
+		描述: 	Bluetooth Device (Personal Area Network)
+		MAC地址: 	50-76-AF-63-92-EA
+		IP地址: 	0.0.0.0
+		子网掩码: 	0.0.0.0
+		网关Gateway: 	0.0.0.0
+		动态分配IP地址
+		DHCP服务器: 	
+		接口号:	13
+		接口类型:	以太网
+		MTU:	1500
+		传输速率:	3000000bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口5
+		标识: 	{A100180D-8DF0-40A5-A0C9-E8EE8919E909}
+		描述: 	VirtualBox Host-Only Ethernet Adapter
+		MAC地址: 	0A-00-27-00-00-11
+		IP地址: 	192.168.56.1
+		子网掩码: 	255.255.255.0
+		网关Gateway: 	0.0.0.0
+		静态IP地址
+		接口号:	17
+		接口类型:	以太网
+		MTU:	1500
+		传输速率:	1000000000bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口6
+		标识: 	{42E773F9-1BBA-49B1-9D34-859AE478FF15}
+		描述: 	Intel(R) Wireless-AC 9462
+		MAC地址: 	50-76-AF-63-92-E6
+		IP地址: 	10.1.13.237
+		子网掩码: 	255.255.224.0
+		网关Gateway: 	10.1.0.1
+		动态分配IP地址
+		DHCP服务器: 	115.27.254.2
+		接口号:	8
+		接口类型:	802.11
+		MTU:	1500
+		传输速率:	86700000bps
+		传输统计:
+		================================
+				收到		发出
+		字节		3280614121		733363212
+		单播分组	3216636		1915896
+		非单播分组	20832		132442
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口7
+		标识: 	{AFD6E885-44C6-4CC2-9288-C55A31B66EC6}
+		描述: 	Microsoft Wi-Fi Direct Virtual Adapter
+		MAC地址: 	50-76-AF-63-92-E7
+		IP地址: 	0.0.0.0
+		子网掩码: 	0.0.0.0
+		网关Gateway: 	0.0.0.0
+		动态分配IP地址
+		DHCP服务器: 	
+		接口号:	20
+		接口类型:	802.11
+		MTU:	1500
+		传输速率:	0bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+	接口8
+		标识: 	{C6C3CB3F-43FC-4BF9-A21D-6F68A75B8656}
+		描述: 	Microsoft Wi-Fi Direct Virtual Adapter #2
+		MAC地址: 	52-76-AF-63-92-E6
+		IP地址: 	0.0.0.0
+		子网掩码: 	0.0.0.0
+		网关Gateway: 	0.0.0.0
+		动态分配IP地址
+		DHCP服务器: 	
+		接口号:	23
+		接口类型:	802.11
+		MTU:	1500
+		传输速率:	0bps
+		传输统计:
+		================================
+				收到		发出
+		字节		0		0
+		单播分组	0		0
+		非单播分组	0		0
+		丢弃		0		0
+		出错		0		0
+		未知协议	0
+		================================
+
+三、ARP表
+	IP地址:MAC地址:类型
+	224.0.0.22:静态
+	224.11.118.123:静态
+	225.7.118.123:静态
+	239.255.255.250:静态
+	10.1.0.1:00-C1-64-C8-48-40:动态
+	10.1.2.52:3C-A6-F6-26-62-53:无效
+	10.1.9.132:80-E6-50-22-85-AC:动态
+	10.1.13.114:C4-9F-4C-5F-00-DE:动态
+	10.1.13.209:3A-57-92-1C-6A-B1:动态
+	10.1.14.67:30-B4-9E-E0-32-DA:动态
+	10.1.22.208:34-E1-2D-92-22-4B:动态
+	10.1.25.209:B4-0E-DE-4F-82-FB:动态
+	10.1.30.82:3C-A6-F6-3E-39-47:动态
+	10.1.31.255:FF-FF-FF-FF-FF-FF:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.0.0.251:01-00-5E-00-00-FB:静态
+	224.0.0.252:01-00-5E-00-00-FC:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	239.255.255.250:01-00-5E-7F-FF-FA:静态
+	255.255.255.255:FF-FF-FF-FF-FF-FF:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	192.168.56.255:FF-FF-FF-FF-FF-FF:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.0.0.251:01-00-5E-00-00-FB:静态
+	224.0.0.252:01-00-5E-00-00-FC:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	239.255.255.250:01-00-5E-7F-FF-FA:静态
+	255.255.255.255:FF-FF-FF-FF-FF-FF:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+	224.0.0.22:01-00-5E-00-00-16:静态
+	224.11.118.123:01-00-5E-0B-76-7B:静态
+	225.7.118.123:01-00-5E-07-76-7B:静态
+
+四、接口列表
+	接口标识	接口名
+	1	Software Loopback Interface 1
+	2	Microsoft 6to4 Adapter
+	3	Realtek USB GbE Family Controller
+	4	WAN Miniport (PPTP)
+	5	WAN Miniport (Network Monitor)
+	6	Microsoft IP-HTTPS Platform Adapter
+	7	WAN Miniport (IPv6)
+	8	Intel(R) Wireless-AC 9462
+	9	Netease UU TAP-Win32 Adapter V9.21
+	10	Juniper Networks Virtual Adapter #2
+	11	WAN Miniport (PPPOE)
+	12	WAN Miniport (L2TP)
+	13	Bluetooth Device (Personal Area Network)
+	14	TAP-Windows Adapter V9
+	15	Microsoft Teredo Tunneling Adapter
+	16	Juniper Networks Virtual Adapter Manager
+	17	VirtualBox Host-Only Ethernet Adapter
+	18	Juniper Networks Virtual Adapter
+	19	WAN Miniport (IKEv2)
+	20	Microsoft Wi-Fi Direct Virtual Adapter
+	21	WAN Miniport (IP)
+	22	Realtek PCIe GbE Family Controller
+	23	Microsoft Wi-Fi Direct Virtual Adapter #2
+	24	WAN Miniport (SSTP)
+	25	Microsoft Kernel Debug Network Adapter
+	26	VirtualBox Host-Only Ethernet Adapter
+	27	VirtualBox Host-Only Ethernet Adapter
+	28	TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	29	TAP-Windows Adapter V9-Juniper Network Service-0000
+	30	TAP-Windows Adapter V9-Npcap Packet Driver (NPCAP)-0000
+	31	TAP-Windows Adapter V9-VirtualBox NDIS Light-Weight Filter-0000
+	32	TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	33	TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	34	VirtualBox Host-Only Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	35	VirtualBox Host-Only Ethernet Adapter-Juniper Network Service-0000
+	36	VirtualBox Host-Only Ethernet Adapter-Npcap Packet Driver (NPCAP)-0000
+	37	VirtualBox Host-Only Ethernet Adapter-QoS Packet Scheduler-0000
+	38	VirtualBox Host-Only Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	39	Netease UU TAP-Win32 Adapter V9.21-WFP Native MAC Layer LightWeight Filter-0000
+	40	Netease UU TAP-Win32 Adapter V9.21-Juniper Network Service-0000
+	41	Netease UU TAP-Win32 Adapter V9.21-Npcap Packet Driver (NPCAP)-0000
+	42	Netease UU TAP-Win32 Adapter V9.21-VirtualBox NDIS Light-Weight Filter-0000
+	43	Netease UU TAP-Win32 Adapter V9.21-QoS Packet Scheduler-0000
+	44	Netease UU TAP-Win32 Adapter V9.21-WFP 802.3 MAC Layer LightWeight Filter-0000
+	45	Realtek PCIe GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+	46	Realtek PCIe GbE Family Controller-Juniper Network Service-0000
+	47	Realtek PCIe GbE Family Controller-Npcap Packet Driver (NPCAP)-0000
+	48	Realtek PCIe GbE Family Controller-VirtualBox NDIS Light-Weight Filter-0000
+	49	Realtek PCIe GbE Family Controller-QoS Packet Scheduler-0000
+	50	Realtek PCIe GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+	51	Bluetooth Device (Personal Area Network)-Npcap Packet Driver (NPCAP)-0000
+	52	Intel(R) Wireless-AC 9462-WFP Native MAC Layer LightWeight Filter-0000
+	53	Intel(R) Wireless-AC 9462-Virtual WiFi Filter Driver-0000
+	54	Intel(R) Wireless-AC 9462-Native WiFi Filter Driver-0000
+	55	Intel(R) Wireless-AC 9462-Juniper Network Service-0000
+	56	Intel(R) Wireless-AC 9462-Npcap Packet Driver (NPCAP)-0000
+	57	Intel(R) Wireless-AC 9462-VirtualBox NDIS Light-Weight Filter-0000
+	58	Intel(R) Wireless-AC 9462-QoS Packet Scheduler-0000
+	59	Intel(R) Wireless-AC 9462-WFP 802.3 MAC Layer LightWeight Filter-0000
+	60	WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	61	WAN Miniport (IP)-Juniper Network Service-0000
+	62	WAN Miniport (IP)-Npcap Packet Driver (NPCAP)-0000
+	63	WAN Miniport (IP)-QoS Packet Scheduler-0000
+	64	WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	65	WAN Miniport (IPv6)-Npcap Packet Driver (NPCAP)-0000
+	66	WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	67	WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	68	WAN Miniport (Network Monitor)-Npcap Packet Driver (NPCAP)-0000
+	69	WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	70	Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	71	Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	72	Microsoft Wi-Fi Direct Virtual Adapter-Juniper Network Service-0000
+	73	Microsoft Wi-Fi Direct Virtual Adapter-Npcap Packet Driver (NPCAP)-0000
+	74	Microsoft Wi-Fi Direct Virtual Adapter-VirtualBox NDIS Light-Weight Filter-0000
+	75	Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	76	Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	77	Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+	78	Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+	79	Microsoft Wi-Fi Direct Virtual Adapter #2-Juniper Network Service-0000
+	80	Microsoft Wi-Fi Direct Virtual Adapter #2-Npcap Packet Driver (NPCAP)-0000
+	81	Microsoft Wi-Fi Direct Virtual Adapter #2-VirtualBox NDIS Light-Weight Filter-0000
+	82	Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+	83	Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+
+
+五、路由表
+	目标地址	子网掩码	下一跳		转发接口	路由类型	路由协议
+	缺省路由			10.1.0.1	8	间接路由	网管静态路由
+	10.1.0.0	255.255.224.0	10.1.13.237	8	直接路由	本地接口
+	10.1.13.237	255.255.255.255	10.1.13.237	8	直接路由	本地接口
+	10.1.31.255	255.255.255.255	10.1.13.237	8	直接路由	本地接口
+	127.0.0.0	255.0.0.0	127.0.0.1	1	直接路由	本地接口
+	127.0.0.1	255.255.255.255	127.0.0.1	1	直接路由	本地接口
+	127.255.255.255	255.255.255.255	127.0.0.1	1	直接路由	本地接口
+	192.168.56.0	255.255.255.0	192.168.56.1	17	直接路由	本地接口
+	192.168.56.1	255.255.255.255	192.168.56.1	17	直接路由	本地接口
+	192.168.56.255	255.255.255.255	192.168.56.1	17	直接路由	本地接口
+	224.0.0.0	240.0.0.0	127.0.0.1	1	直接路由	本地接口
+	224.0.0.0	240.0.0.0	192.168.56.1	17	直接路由	本地接口
+	224.0.0.0	240.0.0.0	10.1.13.237	8	直接路由	本地接口
+	255.255.255.255	255.255.255.255	127.0.0.1	1	直接路由	本地接口
+	255.255.255.255	255.255.255.255	192.168.56.1	17	直接路由	本地接口
+	255.255.255.255	255.255.255.255	10.1.13.237	8	直接路由	本地接口
+
+六、IE代理设置
+	没有使用代理
+
+七、网络端口状态
+	本地地址		远程地址		状态
+TCP	0.0.0.0:135             0.0.0.0:0               LISTEN
+TCP	0.0.0.0:445             0.0.0.0:0               LISTEN
+TCP	0.0.0.0:808             0.0.0.0:0               LISTEN
+TCP	0.0.0.0:1536            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:1537            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:1538            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:1539            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:1540            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:1558            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:2936            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:5040            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:5357            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:6800            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:8680            0.0.0.0:0               LISTEN
+TCP	0.0.0.0:23130           0.0.0.0:0               LISTEN
+TCP	0.0.0.0:23131           0.0.0.0:0               LISTEN
+TCP	0.0.0.0:27017           0.0.0.0:0               LISTEN
+TCP	0.0.0.0:34642           0.0.0.0:0               LISTEN
+TCP	10.1.13.237:139         0.0.0.0:0               LISTEN
+TCP	10.1.13.237:1614        39.104.123.34:5938      ESTABLISHED
+TCP	10.1.13.237:1847        223.119.236.86:443      CLOSE_WAIT
+TCP	10.1.13.237:1848        223.119.236.86:443      CLOSE_WAIT
+TCP	10.1.13.237:3283        110.242.70.52:80        ESTABLISHED
+TCP	10.1.13.237:6498        40.90.189.152:443       ESTABLISHED
+TCP	10.1.13.237:9862        140.143.51.110:80       ESTABLISHED
+TCP	10.1.13.237:12816       220.181.111.17:5287     ESTABLISHED
+TCP	10.1.13.237:12832       20.44.229.112:443       TIME_WAIT
+TCP	10.1.13.237:12848       220.181.111.17:5287     ESTABLISHED
+TCP	10.1.13.237:12868       121.194.10.90:80        TIME_WAIT
+TCP	10.1.13.237:12897       20.44.229.112:443       ESTABLISHED
+TCP	10.1.13.237:12903       104.160.19.138:4430     ESTABLISHED
+TCP	10.1.13.237:12925       115.27.243.170:443      ESTABLISHED
+TCP	10.1.13.237:12934       119.28.44.34:7001       ESTABLISHED
+TCP	10.1.13.237:12936       13.227.250.65:443       ESTABLISHED
+TCP	10.1.13.237:12942       104.160.19.138:4430     ESTABLISHED
+TCP	10.1.13.237:12943       111.231.211.192:443     ESTABLISHED
+TCP	10.1.13.237:12971       162.105.129.65:80       TIME_WAIT
+TCP	10.1.13.237:12976       162.105.129.65:80       ESTABLISHED
+TCP	10.1.13.237:12977       162.105.129.65:80       ESTABLISHED
+TCP	10.1.13.237:12978       115.27.243.170:443      ESTABLISHED
+TCP	10.1.13.237:12986       172.217.163.42:443      SYN_SENT
+TCP	10.1.13.237:12987       115.27.243.130:443      ESTABLISHED
+TCP	10.1.13.237:12988       172.217.163.42:443      SYN_SENT
+TCP	10.1.13.237:12993       182.61.200.233:443      ESTABLISHED
+TCP	10.1.13.237:12996       104.160.19.138:4430     ESTABLISHED
+TCP	10.1.13.237:13005       112.80.248.165:443      ESTABLISHED
+TCP	127.0.0.1:1336          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:1337          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:1548          127.0.0.1:5939          ESTABLISHED
+TCP	127.0.0.1:1550          127.0.0.1:1551          ESTABLISHED
+TCP	127.0.0.1:1551          127.0.0.1:1550          ESTABLISHED
+TCP	127.0.0.1:1634          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:1653          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:1653          127.0.0.1:1706          ESTABLISHED
+TCP	127.0.0.1:1653          127.0.0.1:3799          ESTABLISHED
+TCP	127.0.0.1:1653          127.0.0.1:3829          ESTABLISHED
+TCP	127.0.0.1:1653          127.0.0.1:3830          ESTABLISHED
+TCP	127.0.0.1:1653          127.0.0.1:3831          ESTABLISHED
+TCP	127.0.0.1:1653          127.0.0.1:3832          ESTABLISHED
+TCP	127.0.0.1:1653          127.0.0.1:3833          ESTABLISHED
+TCP	127.0.0.1:1670          127.0.0.1:1671          ESTABLISHED
+TCP	127.0.0.1:1671          127.0.0.1:1670          ESTABLISHED
+TCP	127.0.0.1:1706          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:1728          127.0.0.1:65001         ESTABLISHED
+TCP	127.0.0.1:1729          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:3213          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:3799          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:3829          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:3830          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:3831          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:3832          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:3833          127.0.0.1:1653          ESTABLISHED
+TCP	127.0.0.1:4012          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:4013          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:5354          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:5939          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:5939          127.0.0.1:1548          ESTABLISHED
+TCP	127.0.0.1:7475          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:7890          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:7890          127.0.0.1:12295         TIME_WAIT
+TCP	127.0.0.1:7890          127.0.0.1:12902         ESTABLISHED
+TCP	127.0.0.1:7890          127.0.0.1:12941         ESTABLISHED
+TCP	127.0.0.1:7890          127.0.0.1:12995         ESTABLISHED
+TCP	127.0.0.1:7892          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:8139          0.0.0.0:0               LISTEN
+TCP	127.0.0.1:10000         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:10250         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:12902         127.0.0.1:7890          ESTABLISHED
+TCP	127.0.0.1:12941         127.0.0.1:7890          ESTABLISHED
+TCP	127.0.0.1:12995         127.0.0.1:7890          ESTABLISHED
+TCP	127.0.0.1:15292         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:15393         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:16494         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:18564         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:27018         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:37014         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:37114         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:45623         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:52684         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:65001         0.0.0.0:0               LISTEN
+TCP	127.0.0.1:65001         127.0.0.1:1728          ESTABLISHED
+TCP	192.168.56.1:139        0.0.0.0:0               LISTEN
+UDP	0.0.0.0:500             *:*
+UDP	0.0.0.0:3702            *:*
+UDP	0.0.0.0:3702            *:*
+UDP	0.0.0.0:3702            *:*
+UDP	0.0.0.0:3702            *:*
+UDP	0.0.0.0:4500            *:*
+UDP	0.0.0.0:5050            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5353            *:*
+UDP	0.0.0.0:5355            *:*
+UDP	0.0.0.0:6666            *:*
+UDP	0.0.0.0:6688            *:*
+UDP	0.0.0.0:6691            *:*
+UDP	0.0.0.0:8174            *:*
+UDP	0.0.0.0:8190            *:*
+UDP	0.0.0.0:23945           *:*
+UDP	0.0.0.0:51011           *:*
+UDP	0.0.0.0:52311           *:*
+UDP	0.0.0.0:52312           *:*
+UDP	0.0.0.0:54915           *:*
+UDP	0.0.0.0:56860           *:*
+UDP	0.0.0.0:56863           *:*
+UDP	0.0.0.0:56869           *:*
+UDP	0.0.0.0:56871           *:*
+UDP	0.0.0.0:59867           *:*
+UDP	0.0.0.0:60125           *:*
+UDP	0.0.0.0:60126           *:*
+UDP	0.0.0.0:60976           *:*
+UDP	0.0.0.0:61068           *:*
+UDP	0.0.0.0:61070           *:*
+UDP	0.0.0.0:62191           *:*
+UDP	0.0.0.0:62192           *:*
+UDP	0.0.0.0:64505           *:*
+UDP	0.0.0.0:64809           *:*
+UDP	10.1.13.237:137         *:*
+UDP	10.1.13.237:138         *:*
+UDP	10.1.13.237:1900        *:*
+UDP	10.1.13.237:5353        *:*
+UDP	10.1.13.237:5353        *:*
+UDP	10.1.13.237:5353        *:*
+UDP	10.1.13.237:58536       *:*
+UDP	127.0.0.1:1900          *:*
+UDP	127.0.0.1:7890          *:*
+UDP	127.0.0.1:10010         *:*
+UDP	127.0.0.1:49510         *:*
+UDP	127.0.0.1:56862         *:*
+UDP	127.0.0.1:58537         *:*
+UDP	127.0.0.1:59120         *:*
+UDP	127.0.0.1:62677         *:*
+UDP	192.168.56.1:137        *:*
+UDP	192.168.56.1:138        *:*
+UDP	192.168.56.1:1900       *:*
+UDP	192.168.56.1:5353       *:*
+UDP	192.168.56.1:5353       *:*
+UDP	192.168.56.1:5353       *:*
+UDP	192.168.56.1:58535      *:*
+

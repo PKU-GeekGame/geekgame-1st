@@ -1,0 +1,24 @@
+Wakarimasu!` `date` `uname -nom` `nproc`
+Wakarimasu!
+ 
+date
+ 
+uname -nom
+ 
+nproc
+
+
+Wakarimasu! date uname-nom nproc`
+
+
+
+["stdout", "\u001b[01;32mroot@you-kali-vm\u001b[00m:\u001b[01;34m~/course/geekgame\u001b[00m# "]
+
+
+Nov  6, 2021 15:44:15.190826000 中国标准时间
+Sat Nov 06 15:44:15 CST 2021
+you-kali-vm x86_64 GNU/Linux
+8
+
+
+Wakarimasu! Sat 06 Nov 2021 03:44:15 PM CST you-kali-vm x86_64 GNU/Linux 8

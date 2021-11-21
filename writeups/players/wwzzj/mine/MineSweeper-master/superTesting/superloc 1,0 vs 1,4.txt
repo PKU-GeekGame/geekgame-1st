@@ -1,0 +1,11 @@
+9x9x10
+hhhmhhhhh
+m1112hhhh
+h1002mhhh
+h1113mhhm
+hmhhmhhhh
+mhhhhhhhh
+hhhhhhhmh
+hhhhhhhhh
+hhhhhhmhh
+1.000000
