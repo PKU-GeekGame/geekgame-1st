@@ -29,7 +29,7 @@
 | [fIa9{pp}](players/fIa9pp)                                   | TODO     | 作者要求公开                             |
 | [feifeiobama](players/feifeiobama/)                          | TODO     | “扫雷” 一个几乎就要成功的非预期解        |
 | [wwzzj](players/wwzzj/)                                      | TODO     | “小北问答” 组合数学大师                  |
-| [Lysithea](Lysithea)                                         | TODO     | 写得挺好                                 |
+| [Lysithea](players/Lysithea/)                                | TODO     | 写得挺好                                 |
 | [shisanli](players/shisanli/)                                | TODO     | “小北问答” 组合数学大师                  |
 
 列表按选手成绩排序。转载前请向相应作者获得许可。
