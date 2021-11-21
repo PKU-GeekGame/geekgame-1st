@@ -5,6 +5,7 @@
 | [xmcp](xmcp/) | →签到←、小北问答 Remake、翻车的谜语人、早期人类的聊天室、Q小树洞的一大步、Flag即服务、电子游戏概论 |
 | [李睿涵](lrh/) | 早期人类的聊天室、Q小树洞的一大步、Flag即服务、射水鱼、字符串转义、最强大脑 |
 | [liangjs](liangjs/) | 诡异的网关、最强大脑、扫雷 |
+| [Anciety](Anciety/) | 射水鱼 |
 |               |                                                              |
 
 上述作品采用 [知识共享署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](http://creativecommons.org/licenses/by-nc/4.0/) 进行许可。
