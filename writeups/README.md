@@ -15,7 +15,17 @@
 
 ## 来自选手的 Writeup
 
-TODO
+目前仅包括选手要求无条件公开的Writeup。其他优秀Writeup将在明天（周一）补完。
+
+| 作者                          | 包含题目 | 公开理由     |
+| ----------------------------- | -------- | ------------ |
+| [DF4D0155](players/DF4D0155/) | TODO     | 作者要求公开 |
+| [fIa9{pp}](players/fIa9pp)    | TODO     | 作者要求公开 |
+| [intlsy](players/intlsy/)     | TODO     | 作者要求公开 |
+| [Rainshaw](players/Rainshaw/) | TODO     | 作者要求公开 |
+| [RannRu](players/RannRu-v2/)  | TODO     | 作者要求公开 |
+| [thezzisu](players/thezzisu/) | TODO     | 作者要求公开 |
+| TODO                          |          |              |
 
 转载前请向相应作者获得许可。
 
