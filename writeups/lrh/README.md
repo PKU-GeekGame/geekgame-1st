@@ -99,7 +99,7 @@ buffer-size = 65535
 enable-threads = true
 pidfile = /tmp/uwsgi.pid
 ```
-这个权限设置就十分搞笑了，注意flask本身执行在uwsgi里，其用户是nobody，然后`/tmp`文件夹下的文件现在nobody都能写入（`chmod 666 -R /tmp/*`），所以我们离拿到完整的root权限只有一步之遥，即覆写`/tmp/uwsgi-ctf.ini`以删除其中的`uid = nobody`、然后干掉uwsgi让它以root权限重启。
+这个权限设置就十分搞笑了，注意flask本身执行在uwsgi里，其用户是nobody，然后`/tmp`文件夹下的文件现在什么用户都能写入（`chmod 0666 -R /tmp/*`），所以我们离拿到完整的root权限只有一步之遥，即覆写`/tmp/uwsgi-ctf.ini`以删除其中的`uid = nobody`、然后干掉uwsgi让它以root权限重启。
 
 检查下`../app.py`、`../utils.py`和`../chatbot.py`代码，没发现可以直接执行代码或是能写入文件并发送信号的漏洞，唯一感觉很奇怪的一点就是这道题允许直接连接一个内网IP然后发送任意二进制数据（即base64解码后的数据）。看上去是利用uwsgi监听的`127.0.0.1:3031`实现任意代码执行。
 
@@ -495,7 +495,7 @@ while (*from)
 
 最后剩下的就是一个比较简单的ROP了，因为`getflag`函数期望输入是字符串`"./.flag"`，所以需要填充第一个参数的地址，这里因为上述过程也顺便泄漏了`%rbp`，所以把这个字符串放在栈里，利用常用做ROP的经典函数`__libc_csu_init`的最后两个字节`5f c3`（即`popq %rdi; retq`）就可以完成任务。
 
-exploit程序：
+exploit程序（完整构建环境请参考[这里](sol/escape)）：
 ```c
 #include <stdio.h>
 #include <stdlib.h>
