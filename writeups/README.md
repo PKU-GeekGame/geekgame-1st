@@ -7,6 +7,7 @@
 | [liangjs](liangjs/) | 诡异的网关、最强大脑、扫雷 |
 | [Anciety](Anciety/) | 射水鱼 |
 | [MaxXing](MaxXing/) | 叶子的新歌 |
+| [ranwen](ranwen/) | 共享的机器、在线解压网站、密码学实践、龙珠模拟器 |
 
 上述作品采用 [知识共享署名-非商业性使用 4.0 国际许可协议（CC BY-NC 4.0）](http://creativecommons.org/licenses/by-nc/4.0/) 进行许可。
 

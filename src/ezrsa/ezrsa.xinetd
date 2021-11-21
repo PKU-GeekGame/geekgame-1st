@@ -1,0 +1,14 @@
+service sweeper
+{
+    type            = UNLISTED
+    socket_type     = stream
+    protocol        = tcp
+    wait            = no
+    user            = root
+    server          = /bin/python3
+    server_args     = /server.py
+    log_on_failure  += USERID
+    log_type        = FILE /var/log/ezrsa.log
+    port            = 3000    
+    disable         = no
+}

@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+allprojects {
+    archivesBaseName = 'GeekDragon'
+    sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    implementation 'org.json:json:20200518'
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.69'
+}
+
+task projectZip(type: Zip) {
+    archiveName 'source.zip'
+    from project.rootDir
+    include 'gradle/**'
+    include '*.gradle'
+    include 'gradlew*'
+    include 'src/**'
+}
+
+application {
+    mainClassName = 'cn.edu.pku.geekgame.dragon.Instance'
+}
+
+jar {
+    classifier 'pure'
+}
+
+shadowJar {
+    // minimize()
+    classifier null
+}

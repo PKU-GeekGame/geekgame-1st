@@ -1,0 +1,15 @@
+version: "3"
+services:
+  backend:
+    build: "."
+    environment:
+      - "GEEK_DRAGON_PORT=10169"
+      - "GEEK_DRAGON_PREFIX=5umm0n_the_drag0n_"
+      - "GEEK_DRAGON_PREFIX_SUPER=pred1ct_th15_game_"
+      - "GEEK_DRAGON_SECRET=e878042ea2694ad19d9a29c290fb1324"
+      - "GEEK_DRAGON_SECRET_SUPER=cdfc6543a6b34018b03b8fcbc984bcfe"
+      - "GEEK_DRAGON_SOURCE=/var/www/geek_dragon/build/distributions/source.zip"
+    ports:
+      - "9016:10169"
+    restart: "always"
+    command: "java -jar build/libs/GeekDragon.jar"
