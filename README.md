@@ -2,13 +2,38 @@
 
 2021.11.13 ~ 2021.11.20
 
-第一届北京大学信息安全综合能力竞赛 比赛资料汇总
+第一届北京大学信息安全综合能力竞赛
 
 by PKUGGG Team
 
+主页：[geekgame.pku.edu.cn](https://geekgame.pku.edu.cn/?src=github_archive)
 
 
-## Content
+
+## 组织单位
+
+**主办单位：**
+
+- 北京大学计算中心
+
+**联合主办：**
+
+- 共青团北京大学信息科学技术学院委员会
+
+**承办单位：**
+
+- 北京大学信息安全综合能力竞赛组委会
+- 北京大学学生 Linux 俱乐部
+
+**特别鸣谢：**
+
+- 蚂蚁科技集团股份有限公司
+- 北京网御星云信息技术有限公司
+- 北京搜狐新媒体信息技术有限公司
+
+
+
+## 资料存档
 
 - [problemset](problemset/)：题目列表、题面和附件
 - [writeups](writeups/)：命题人和选手 Writeup
@@ -27,5 +52,5 @@ Writeup 的许可方式见 [writeups](writeups/) 目录下的说明。
 
 题目源码采用 [BSD 许可协议](https://opensource.org/licenses/BSD-3-Clause) 进行许可。
 
-排行榜、比赛公告、工作人员名单不允许未授权使用。
+排行榜和比赛公告不允许未授权使用。
 
