@@ -16,6 +16,8 @@
 * **Word 保存图标的手办**: 经典网络烂梗.
 * **叶子和小雨的名字**: 随便起的. 虽然群里有拉拉人说是叶月恋, 但我觉得硬说的话可能更像是不能说的秘密.
 
+本题的源代码及其他相关内容见 [src/newsong](https://github.com/PKU-GeekGame/geekgame-1st/tree/master/src/newsong) 目录.
+
 ## Flag1 - 夢は時空を越えて
 
 拿到附件之后简单检查一下, 通过播放器显示的信息或者文件属性等内容, 我们不难发现, 这个 MP3 的专辑名称叫做 “Secret in Album Cover!!”:
